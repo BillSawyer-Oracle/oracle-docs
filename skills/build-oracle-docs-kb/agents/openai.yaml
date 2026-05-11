@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Oracle Docs KB"
+  short_description: "Acquire Oracle docs libraries for a knowledge base"
+  default_prompt: "Use $build-oracle-docs-kb to collect raw Oracle Database documentation artifacts from a supported bookshelf URL."

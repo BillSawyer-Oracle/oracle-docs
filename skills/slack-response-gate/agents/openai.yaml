@@ -1,4 +1,0 @@
-interface:
-  display_name: "Slack Response Gate"
-  short_description: "Slack gates with replies or buttons"
-  default_prompt: "Use $slack-response-gate to send a Slack response gate with selectable button labels and styles."

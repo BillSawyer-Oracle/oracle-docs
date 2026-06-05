@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 436" width="1440" height="436" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>MOVE TABLE PARTITION</title>
+  <desc>Interactive SQL BNF diagram for MOVE TABLE PARTITION. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="436"/>
+  <rect class="frame" x="12" y="12" width="1416" height="412" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">MOVE TABLE PARTITION</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">7 syntax lines · 5 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="94" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="114" text-anchor="middle">[</text></g>
+<g id="tok-1-2" class="token-group" data-kind="keyword"><title>MAPPING</title><rect class="token token-keyword" x="164" y="94" width="72" height="30" rx="4"/><text class="token-label" x="200.0" y="114" text-anchor="middle">MAPPING</text></g>
+<g id="tok-1-3" class="token-group" data-kind="keyword"><title>TABLE</title><rect class="token token-keyword" x="244" y="94" width="56" height="30" rx="4"/><text class="token-label" x="272.0" y="114" text-anchor="middle">TABLE</text></g>
+<g id="tok-1-4" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="308" y="94" width="38" height="30" rx="4"/><text class="token-label" x="327.0" y="114" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-5" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="140" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="160" text-anchor="middle">[</text></g>
+<a href="components/table-partition-description.html" target="_parent" class="component-link"><g id="tok-2-6" class="token-group" data-kind="reference"><title>TABLE PARTITION DESCRIPTION</title><rect class="token token-reference" x="164" y="140" width="232" height="30" rx="4"/><text class="token-label" x="280.0" y="160" text-anchor="middle">table_partition_description</text></g></a>
+<g id="tok-2-7" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="404" y="140" width="38" height="30" rx="4"/><text class="token-label" x="423.0" y="160" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-8" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="186" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="206" text-anchor="middle">[</text></g>
+<a href="components/filter-condition.html" target="_parent" class="component-link"><g id="tok-3-9" class="token-group" data-kind="reference"><title>FILTER CONDITION</title><rect class="token token-reference" x="164" y="186" width="144" height="30" rx="4"/><text class="token-label" x="236.0" y="206" text-anchor="middle">filter_condition</text></g></a>
+<g id="tok-3-10" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="316" y="186" width="38" height="30" rx="4"/><text class="token-label" x="335.0" y="206" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-11" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="232" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="252" text-anchor="middle">[</text></g>
+<a href="components/update-index-clauses.html" target="_parent" class="component-link"><g id="tok-4-12" class="token-group" data-kind="reference"><title>UPDATE INDEX CLAUSES</title><rect class="token token-reference" x="164" y="232" width="176" height="30" rx="4"/><text class="token-label" x="252.0" y="252" text-anchor="middle">update_index_clauses</text></g></a>
+<g id="tok-4-13" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="348" y="232" width="38" height="30" rx="4"/><text class="token-label" x="367.0" y="252" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-14" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="278" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="298" text-anchor="middle">[</text></g>
+<a href="components/parallel-clause.html" target="_parent" class="component-link"><g id="tok-5-15" class="token-group" data-kind="reference"><title>PARALLEL CLAUSE</title><rect class="token token-reference" x="164" y="278" width="136" height="30" rx="4"/><text class="token-label" x="232.0" y="298" text-anchor="middle">parallel_clause</text></g></a>
+<g id="tok-5-16" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="308" y="278" width="38" height="30" rx="4"/><text class="token-label" x="327.0" y="298" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-17" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="324" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="344" text-anchor="middle">[</text></g>
+<a href="components/allow-disallow-clustering.html" target="_parent" class="component-link"><g id="tok-6-18" class="token-group" data-kind="reference"><title>ALLOW DISALLOW CLUSTERING</title><rect class="token token-reference" x="164" y="324" width="216" height="30" rx="4"/><text class="token-label" x="272.0" y="344" text-anchor="middle">allow_disallow_clustering</text></g></a>
+<g id="tok-6-19" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="388" y="324" width="38" height="30" rx="4"/><text class="token-label" x="407.0" y="344" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-20" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="370" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="390" text-anchor="middle">[</text></g>
+<g id="tok-7-21" class="token-group" data-kind="keyword"><title>ONLINE</title><rect class="token token-keyword" x="164" y="370" width="64" height="30" rx="4"/><text class="token-label" x="196.0" y="390" text-anchor="middle">ONLINE</text></g>
+<g id="tok-7-22" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="236" y="370" width="38" height="30" rx="4"/><text class="token-label" x="255.0" y="390" text-anchor="middle">]</text></g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 252" width="1440" height="252" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>CREATE PROCEDURE</title>
+  <desc>Interactive SQL BNF diagram for CREATE PROCEDURE. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="252"/>
+  <rect class="frame" x="12" y="12" width="1416" height="228" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">CREATE PROCEDURE</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">3 syntax lines · 0 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>CREATE</title><rect class="token token-keyword" x="76" y="94" width="64" height="30" rx="4"/><text class="token-label" x="108.0" y="114" text-anchor="middle">CREATE</text></g>
+<g id="tok-1-2" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="148" y="94" width="38" height="30" rx="4"/><text class="token-label" x="167.0" y="114" text-anchor="middle">[</text></g>
+<g id="tok-1-3" class="token-group" data-kind="keyword"><title>OR</title><rect class="token token-keyword" x="194" y="94" width="54" height="30" rx="4"/><text class="token-label" x="221.0" y="114" text-anchor="middle">OR</text></g>
+<g id="tok-1-4" class="token-group" data-kind="keyword"><title>REPLACE</title><rect class="token token-keyword" x="256" y="94" width="72" height="30" rx="4"/><text class="token-label" x="292.0" y="114" text-anchor="middle">REPLACE</text></g>
+<g id="tok-1-5" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="336" y="94" width="38" height="30" rx="4"/><text class="token-label" x="355.0" y="114" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-6" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="76" y="140" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="160" text-anchor="middle">[</text></g>
+<g id="tok-2-7" class="token-group" data-kind="keyword"><title>EDITIONABLE</title><rect class="token token-keyword" x="122" y="140" width="104" height="30" rx="4"/><text class="token-label" x="174.0" y="160" text-anchor="middle">EDITIONABLE</text></g>
+<g id="tok-2-8" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="234" y="140" width="34" height="30" rx="4"/><text class="token-label" x="251.0" y="160" text-anchor="middle">|</text></g>
+<g id="tok-2-9" class="token-group" data-kind="keyword"><title>NONEDITIONABLE</title><rect class="token token-keyword" x="276" y="140" width="128" height="30" rx="4"/><text class="token-label" x="340.0" y="160" text-anchor="middle">NONEDITIONABLE</text></g>
+<g id="tok-2-10" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="412" y="140" width="38" height="30" rx="4"/><text class="token-label" x="431.0" y="160" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-11" class="token-group" data-kind="keyword"><title>PROCEDURE</title><rect class="token token-keyword" x="76" y="186" width="88" height="30" rx="4"/><text class="token-label" x="120.0" y="206" text-anchor="middle">PROCEDURE</text></g>
+<g id="tok-3-12" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="172" y="186" width="38" height="30" rx="4"/><text class="token-label" x="191.0" y="206" text-anchor="middle">[</text></g>
+<g id="tok-3-13" class="token-group" data-kind="keyword"><title>IF</title><rect class="token token-keyword" x="218" y="186" width="54" height="30" rx="4"/><text class="token-label" x="245.0" y="206" text-anchor="middle">IF</text></g>
+<g id="tok-3-14" class="token-group" data-kind="keyword"><title>NOT</title><rect class="token token-keyword" x="280" y="186" width="54" height="30" rx="4"/><text class="token-label" x="307.0" y="206" text-anchor="middle">NOT</text></g>
+<g id="tok-3-15" class="token-group" data-kind="keyword"><title>EXISTS</title><rect class="token token-keyword" x="342" y="186" width="64" height="30" rx="4"/><text class="token-label" x="374.0" y="206" text-anchor="middle">EXISTS</text></g>
+<g id="tok-3-16" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="414" y="186" width="38" height="30" rx="4"/><text class="token-label" x="433.0" y="206" text-anchor="middle">]</text></g>
+<g id="tok-3-17" class="token-group" data-kind="variable"><title>plsql_procedure_source</title><rect class="token token-variable" x="460" y="186" width="192" height="30" rx="4"/><text class="token-label" x="556.0" y="206" text-anchor="middle">plsql_procedure_source</text></g>
+</svg>

@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 1678" width="1440" height="1678" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ALTER DISKGROUP</title>
+  <desc>Interactive SQL BNF diagram for ALTER DISKGROUP. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="1678"/>
+  <rect class="frame" x="12" y="12" width="1416" height="1654" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ALTER DISKGROUP</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">34 syntax lines · 26 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>ALTER</title><rect class="token token-keyword" x="76" y="94" width="56" height="30" rx="4"/><text class="token-label" x="104.0" y="114" text-anchor="middle">ALTER</text></g>
+<g id="tok-1-2" class="token-group" data-kind="keyword"><title>DISKGROUP</title><rect class="token token-keyword" x="140" y="94" width="88" height="30" rx="4"/><text class="token-label" x="184.0" y="114" text-anchor="middle">DISKGROUP</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-3" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="104" y="140" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-4" class="token-group" data-kind="variable"><title>diskgroup_name</title><rect class="token token-variable" x="150" y="140" width="128" height="30" rx="4"/><text class="token-label" x="214.0" y="160" text-anchor="middle">diskgroup_name</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-5" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="160" y="186" width="38" height="30" rx="4"/><text class="token-label" x="179.0" y="206" text-anchor="middle">{</text></g>
+<g id="tok-3-6" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="206" y="186" width="38" height="30" rx="4"/><text class="token-label" x="225.0" y="206" text-anchor="middle">{</text></g>
+<g id="tok-3-7" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="252" y="186" width="38" height="30" rx="4"/><text class="token-label" x="271.0" y="206" text-anchor="middle">{</text></g>
+<a href="components/add-disk-clause.html" target="_parent" class="component-link"><g id="tok-3-8" class="token-group" data-kind="reference"><title>ADD DISK CLAUSE</title><rect class="token token-reference" x="298" y="186" width="136" height="30" rx="4"/><text class="token-label" x="366.0" y="206" text-anchor="middle">add_disk_clause</text></g></a>
+<g id="tok-3-9" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="442" y="186" width="34" height="30" rx="4"/><text class="token-label" x="459.0" y="206" text-anchor="middle">|</text></g>
+<a href="components/drop-disk-clause.html" target="_parent" class="component-link"><g id="tok-3-10" class="token-group" data-kind="reference"><title>DROP DISK CLAUSE</title><rect class="token token-reference" x="484" y="186" width="144" height="30" rx="4"/><text class="token-label" x="556.0" y="206" text-anchor="middle">drop_disk_clause</text></g></a>
+<g id="tok-3-11" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="636" y="186" width="38" height="30" rx="4"/><text class="token-label" x="655.0" y="206" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-12" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="188" y="232" width="38" height="30" rx="4"/><text class="token-label" x="207.0" y="252" text-anchor="middle">[</text></g>
+<g id="tok-4-13" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="234" y="232" width="34" height="30" rx="4"/><text class="token-label" x="251.0" y="252" text-anchor="middle">,</text></g>
+<g id="tok-4-14" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="276" y="232" width="38" height="30" rx="4"/><text class="token-label" x="295.0" y="252" text-anchor="middle">{</text></g>
+<a href="components/add-disk-clause.html" target="_parent" class="component-link"><g id="tok-4-15" class="token-group" data-kind="reference"><title>ADD DISK CLAUSE</title><rect class="token token-reference" x="322" y="232" width="136" height="30" rx="4"/><text class="token-label" x="390.0" y="252" text-anchor="middle">add_disk_clause</text></g></a>
+<g id="tok-4-16" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="466" y="232" width="34" height="30" rx="4"/><text class="token-label" x="483.0" y="252" text-anchor="middle">|</text></g>
+<a href="components/drop-disk-clause.html" target="_parent" class="component-link"><g id="tok-4-17" class="token-group" data-kind="reference"><title>DROP DISK CLAUSE</title><rect class="token token-reference" x="508" y="232" width="144" height="30" rx="4"/><text class="token-label" x="580.0" y="252" text-anchor="middle">drop_disk_clause</text></g></a>
+<g id="tok-4-18" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="660" y="232" width="38" height="30" rx="4"/><text class="token-label" x="679.0" y="252" text-anchor="middle">}</text></g>
+<g id="tok-4-19" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="706" y="232" width="38" height="30" rx="4"/><text class="token-label" x="725.0" y="252" text-anchor="middle">]</text></g>
+<g id="tok-4-20" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="752" y="232" width="34" height="30" rx="4"/><text class="token-label" x="769.0" y="252" text-anchor="middle">.</text></g>
+<g id="tok-4-21" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="794" y="232" width="34" height="30" rx="4"/><text class="token-label" x="811.0" y="252" text-anchor="middle">.</text></g>
+<g id="tok-4-22" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="836" y="232" width="34" height="30" rx="4"/><text class="token-label" x="853.0" y="252" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-23" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="188" y="278" width="34" height="30" rx="4"/><text class="token-label" x="205.0" y="298" text-anchor="middle">|</text></g>
+<a href="components/resize-disk-clause.html" target="_parent" class="component-link"><g id="tok-5-24" class="token-group" data-kind="reference"><title>RESIZE DISK CLAUSE</title><rect class="token token-reference" x="230" y="278" width="160" height="30" rx="4"/><text class="token-label" x="310.0" y="298" text-anchor="middle">resize_disk_clause</text></g></a>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-25" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="188" y="324" width="38" height="30" rx="4"/><text class="token-label" x="207.0" y="344" text-anchor="middle">}</text></g>
+<g id="tok-6-26" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="234" y="324" width="38" height="30" rx="4"/><text class="token-label" x="253.0" y="344" text-anchor="middle">[</text></g>
+<a href="components/rebalance-diskgroup-clause.html" target="_parent" class="component-link"><g id="tok-6-27" class="token-group" data-kind="reference"><title>REBALANCE DISKGROUP CLAUSE</title><rect class="token token-reference" x="280" y="324" width="224" height="30" rx="4"/><text class="token-label" x="392.0" y="344" text-anchor="middle">rebalance_diskgroup_clause</text></g></a>
+<g id="tok-6-28" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="512" y="324" width="38" height="30" rx="4"/><text class="token-label" x="531.0" y="344" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-29" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="370" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="390" text-anchor="middle">|</text></g>
+<a href="components/replace-disk-clause.html" target="_parent" class="component-link"><g id="tok-7-30" class="token-group" data-kind="reference"><title>REPLACE DISK CLAUSE</title><rect class="token token-reference" x="202" y="370" width="168" height="30" rx="4"/><text class="token-label" x="286.0" y="390" text-anchor="middle">replace_disk_clause</text></g></a>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-31" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="416" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="436" text-anchor="middle">|</text></g>
+<a href="components/rename-disk-clause.html" target="_parent" class="component-link"><g id="tok-8-32" class="token-group" data-kind="reference"><title>RENAME DISK CLAUSE</title><rect class="token token-reference" x="202" y="416" width="160" height="30" rx="4"/><text class="token-label" x="282.0" y="436" text-anchor="middle">rename_disk_clause</text></g></a>
+<text class="line-number" x="28" y="482" text-anchor="start">9</text>
+<line class="rail" x1="48" y1="477" x2="1412" y2="477"/>
+<g id="tok-9-33" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="462" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="482" text-anchor="middle">|</text></g>
+<a href="components/disk-online-clause.html" target="_parent" class="component-link"><g id="tok-9-34" class="token-group" data-kind="reference"><title>DISK ONLINE CLAUSE</title><rect class="token token-reference" x="202" y="462" width="160" height="30" rx="4"/><text class="token-label" x="282.0" y="482" text-anchor="middle">disk_online_clause</text></g></a>
+<text class="line-number" x="28" y="528" text-anchor="start">10</text>
+<line class="rail" x1="48" y1="523" x2="1412" y2="523"/>
+<g id="tok-10-35" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="508" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="528" text-anchor="middle">|</text></g>
+<a href="components/disk-offline-clause.html" target="_parent" class="component-link"><g id="tok-10-36" class="token-group" data-kind="reference"><title>DISK OFFLINE CLAUSE</title><rect class="token token-reference" x="202" y="508" width="168" height="30" rx="4"/><text class="token-label" x="286.0" y="528" text-anchor="middle">disk_offline_clause</text></g></a>
+<text class="line-number" x="28" y="574" text-anchor="start">11</text>
+<line class="rail" x1="48" y1="569" x2="1412" y2="569"/>
+<g id="tok-11-37" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="554" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="574" text-anchor="middle">|</text></g>
+<a href="components/rebalance-diskgroup-clause.html" target="_parent" class="component-link"><g id="tok-11-38" class="token-group" data-kind="reference"><title>REBALANCE DISKGROUP CLAUSE</title><rect class="token token-reference" x="202" y="554" width="224" height="30" rx="4"/><text class="token-label" x="314.0" y="574" text-anchor="middle">rebalance_diskgroup_clause</text></g></a>
+<text class="line-number" x="28" y="620" text-anchor="start">12</text>
+<line class="rail" x1="48" y1="615" x2="1412" y2="615"/>
+<g id="tok-12-39" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="600" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="620" text-anchor="middle">|</text></g>
+<a href="components/check-diskgroup-clause.html" target="_parent" class="component-link"><g id="tok-12-40" class="token-group" data-kind="reference"><title>CHECK DISKGROUP CLAUSE</title><rect class="token token-reference" x="202" y="600" width="192" height="30" rx="4"/><text class="token-label" x="298.0" y="620" text-anchor="middle">check_diskgroup_clause</text></g></a>
+<text class="line-number" x="28" y="666" text-anchor="start">13</text>
+<line class="rail" x1="48" y1="661" x2="1412" y2="661"/>
+<g id="tok-13-41" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="646" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="666" text-anchor="middle">|</text></g>
+<a href="components/diskgroup-template-clauses.html" target="_parent" class="component-link"><g id="tok-13-42" class="token-group" data-kind="reference"><title>DISKGROUP TEMPLATE CLAUSES</title><rect class="token token-reference" x="202" y="646" width="224" height="30" rx="4"/><text class="token-label" x="314.0" y="666" text-anchor="middle">diskgroup_template_clauses</text></g></a>
+<text class="line-number" x="28" y="712" text-anchor="start">14</text>
+<line class="rail" x1="48" y1="707" x2="1412" y2="707"/>
+<g id="tok-14-43" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="692" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="712" text-anchor="middle">|</text></g>
+<a href="components/diskgroup-directory-clauses.html" target="_parent" class="component-link"><g id="tok-14-44" class="token-group" data-kind="reference"><title>DISKGROUP DIRECTORY CLAUSES</title><rect class="token token-reference" x="202" y="692" width="232" height="30" rx="4"/><text class="token-label" x="318.0" y="712" text-anchor="middle">diskgroup_directory_clauses</text></g></a>
+<text class="line-number" x="28" y="758" text-anchor="start">15</text>
+<line class="rail" x1="48" y1="753" x2="1412" y2="753"/>
+<g id="tok-15-45" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="738" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="758" text-anchor="middle">|</text></g>
+<a href="components/diskgroup-alias-clauses.html" target="_parent" class="component-link"><g id="tok-15-46" class="token-group" data-kind="reference"><title>DISKGROUP ALIAS CLAUSES</title><rect class="token token-reference" x="202" y="738" width="200" height="30" rx="4"/><text class="token-label" x="302.0" y="758" text-anchor="middle">diskgroup_alias_clauses</text></g></a>
+<text class="line-number" x="28" y="804" text-anchor="start">16</text>
+<line class="rail" x1="48" y1="799" x2="1412" y2="799"/>
+<g id="tok-16-47" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="784" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="804" text-anchor="middle">|</text></g>
+<a href="components/diskgroup-volume-clauses.html" target="_parent" class="component-link"><g id="tok-16-48" class="token-group" data-kind="reference"><title>DISKGROUP VOLUME CLAUSES</title><rect class="token token-reference" x="202" y="784" width="208" height="30" rx="4"/><text class="token-label" x="306.0" y="804" text-anchor="middle">diskgroup_volume_clauses</text></g></a>
+<text class="line-number" x="28" y="850" text-anchor="start">17</text>
+<line class="rail" x1="48" y1="845" x2="1412" y2="845"/>
+<g id="tok-17-49" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="830" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="850" text-anchor="middle">|</text></g>
+<a href="components/diskgroup-attributes.html" target="_parent" class="component-link"><g id="tok-17-50" class="token-group" data-kind="reference"><title>DISKGROUP ATTRIBUTES</title><rect class="token token-reference" x="202" y="830" width="176" height="30" rx="4"/><text class="token-label" x="290.0" y="850" text-anchor="middle">diskgroup_attributes</text></g></a>
+<text class="line-number" x="28" y="896" text-anchor="start">18</text>
+<line class="rail" x1="48" y1="891" x2="1412" y2="891"/>
+<g id="tok-18-51" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="876" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="896" text-anchor="middle">|</text></g>
+<a href="components/drop-diskgroup-file-clause.html" target="_parent" class="component-link"><g id="tok-18-52" class="token-group" data-kind="reference"><title>DROP DISKGROUP FILE CLAUSE</title><rect class="token token-reference" x="202" y="876" width="224" height="30" rx="4"/><text class="token-label" x="314.0" y="896" text-anchor="middle">drop_diskgroup_file_clause</text></g></a>
+<text class="line-number" x="28" y="942" text-anchor="start">19</text>
+<line class="rail" x1="48" y1="937" x2="1412" y2="937"/>
+<g id="tok-19-53" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="922" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="942" text-anchor="middle">|</text></g>
+<a href="components/convert-redundancy-clause.html" target="_parent" class="component-link"><g id="tok-19-54" class="token-group" data-kind="reference"><title>CONVERT REDUNDANCY CLAUSE</title><rect class="token token-reference" x="202" y="922" width="216" height="30" rx="4"/><text class="token-label" x="310.0" y="942" text-anchor="middle">convert_redundancy_clause</text></g></a>
+<text class="line-number" x="28" y="988" text-anchor="start">20</text>
+<line class="rail" x1="48" y1="983" x2="1412" y2="983"/>
+<g id="tok-20-55" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="968" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="988" text-anchor="middle">|</text></g>
+<a href="components/usergroup-clauses.html" target="_parent" class="component-link"><g id="tok-20-56" class="token-group" data-kind="reference"><title>USERGROUP CLAUSES</title><rect class="token token-reference" x="202" y="968" width="152" height="30" rx="4"/><text class="token-label" x="278.0" y="988" text-anchor="middle">usergroup_clauses</text></g></a>
+<text class="line-number" x="28" y="1034" text-anchor="start">21</text>
+<line class="rail" x1="48" y1="1029" x2="1412" y2="1029"/>
+<g id="tok-21-57" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1014" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1034" text-anchor="middle">|</text></g>
+<a href="components/user-clauses.html" target="_parent" class="component-link"><g id="tok-21-58" class="token-group" data-kind="reference"><title>USER CLAUSES</title><rect class="token token-reference" x="202" y="1014" width="112" height="30" rx="4"/><text class="token-label" x="258.0" y="1034" text-anchor="middle">user_clauses</text></g></a>
+<text class="line-number" x="28" y="1080" text-anchor="start">22</text>
+<line class="rail" x1="48" y1="1075" x2="1412" y2="1075"/>
+<g id="tok-22-59" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1060" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1080" text-anchor="middle">|</text></g>
+<a href="components/file-permissions-clause.html" target="_parent" class="component-link"><g id="tok-22-60" class="token-group" data-kind="reference"><title>FILE PERMISSIONS CLAUSE</title><rect class="token token-reference" x="202" y="1060" width="200" height="30" rx="4"/><text class="token-label" x="302.0" y="1080" text-anchor="middle">file_permissions_clause</text></g></a>
+<text class="line-number" x="28" y="1126" text-anchor="start">23</text>
+<line class="rail" x1="48" y1="1121" x2="1412" y2="1121"/>
+<g id="tok-23-61" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1106" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1126" text-anchor="middle">|</text></g>
+<a href="components/file-owner-clause.html" target="_parent" class="component-link"><g id="tok-23-62" class="token-group" data-kind="reference"><title>FILE OWNER CLAUSE</title><rect class="token token-reference" x="202" y="1106" width="152" height="30" rx="4"/><text class="token-label" x="278.0" y="1126" text-anchor="middle">file_owner_clause</text></g></a>
+<text class="line-number" x="28" y="1172" text-anchor="start">24</text>
+<line class="rail" x1="48" y1="1167" x2="1412" y2="1167"/>
+<g id="tok-24-63" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1152" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1172" text-anchor="middle">|</text></g>
+<a href="components/scrub-clause.html" target="_parent" class="component-link"><g id="tok-24-64" class="token-group" data-kind="reference"><title>SCRUB CLAUSE</title><rect class="token token-reference" x="202" y="1152" width="112" height="30" rx="4"/><text class="token-label" x="258.0" y="1172" text-anchor="middle">scrub_clause</text></g></a>
+<text class="line-number" x="28" y="1218" text-anchor="start">25</text>
+<line class="rail" x1="48" y1="1213" x2="1412" y2="1213"/>
+<g id="tok-25-65" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1198" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1218" text-anchor="middle">|</text></g>
+<a href="components/quotagroup-clauses.html" target="_parent" class="component-link"><g id="tok-25-66" class="token-group" data-kind="reference"><title>QUOTAGROUP CLAUSES</title><rect class="token token-reference" x="202" y="1198" width="160" height="30" rx="4"/><text class="token-label" x="282.0" y="1218" text-anchor="middle">quotagroup_clauses</text></g></a>
+<text class="line-number" x="28" y="1264" text-anchor="start">26</text>
+<line class="rail" x1="48" y1="1259" x2="1412" y2="1259"/>
+<g id="tok-26-67" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1244" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1264" text-anchor="middle">|</text></g>
+<a href="components/filegroup-clauses.html" target="_parent" class="component-link"><g id="tok-26-68" class="token-group" data-kind="reference"><title>FILEGROUP CLAUSES</title><rect class="token token-reference" x="202" y="1244" width="152" height="30" rx="4"/><text class="token-label" x="278.0" y="1264" text-anchor="middle">filegroup_clauses</text></g></a>
+<text class="line-number" x="28" y="1310" text-anchor="start">27</text>
+<line class="rail" x1="48" y1="1305" x2="1412" y2="1305"/>
+<g id="tok-27-69" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="160" y="1290" width="38" height="30" rx="4"/><text class="token-label" x="179.0" y="1310" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="1356" text-anchor="start">28</text>
+<line class="rail" x1="48" y1="1351" x2="1412" y2="1351"/>
+<g id="tok-28-70" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="132" y="1336" width="34" height="30" rx="4"/><text class="token-label" x="149.0" y="1356" text-anchor="middle">|</text></g>
+<g id="tok-28-71" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="174" y="1336" width="38" height="30" rx="4"/><text class="token-label" x="193.0" y="1356" text-anchor="middle">{</text></g>
+<g id="tok-28-72" class="token-group" data-kind="variable"><title>diskgroup_name</title><rect class="token token-variable" x="220" y="1336" width="128" height="30" rx="4"/><text class="token-label" x="284.0" y="1356" text-anchor="middle">diskgroup_name</text></g>
+<g id="tok-28-73" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="356" y="1336" width="38" height="30" rx="4"/><text class="token-label" x="375.0" y="1356" text-anchor="middle">[</text></g>
+<g id="tok-28-74" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="402" y="1336" width="34" height="30" rx="4"/><text class="token-label" x="419.0" y="1356" text-anchor="middle">,</text></g>
+<g id="tok-28-75" class="token-group" data-kind="variable"><title>diskgroup_name</title><rect class="token token-variable" x="444" y="1336" width="128" height="30" rx="4"/><text class="token-label" x="508.0" y="1356" text-anchor="middle">diskgroup_name</text></g>
+<g id="tok-28-76" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="580" y="1336" width="38" height="30" rx="4"/><text class="token-label" x="599.0" y="1356" text-anchor="middle">]</text></g>
+<g id="tok-28-77" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="626" y="1336" width="34" height="30" rx="4"/><text class="token-label" x="643.0" y="1356" text-anchor="middle">.</text></g>
+<g id="tok-28-78" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="668" y="1336" width="34" height="30" rx="4"/><text class="token-label" x="685.0" y="1356" text-anchor="middle">.</text></g>
+<g id="tok-28-79" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="710" y="1336" width="34" height="30" rx="4"/><text class="token-label" x="727.0" y="1356" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="1402" text-anchor="start">29</text>
+<line class="rail" x1="48" y1="1397" x2="1412" y2="1397"/>
+<g id="tok-29-80" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="1382" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="1402" text-anchor="middle">|</text></g>
+<g id="tok-29-81" class="token-group" data-kind="keyword"><title>ALL</title><rect class="token token-keyword" x="202" y="1382" width="54" height="30" rx="4"/><text class="token-label" x="229.0" y="1402" text-anchor="middle">ALL</text></g>
+<text class="line-number" x="28" y="1448" text-anchor="start">30</text>
+<line class="rail" x1="48" y1="1443" x2="1412" y2="1443"/>
+<g id="tok-30-82" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="160" y="1428" width="38" height="30" rx="4"/><text class="token-label" x="179.0" y="1448" text-anchor="middle">}</text></g>
+<g id="tok-30-83" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="206" y="1428" width="38" height="30" rx="4"/><text class="token-label" x="225.0" y="1448" text-anchor="middle">{</text></g>
+<a href="components/undrop-disk-clause.html" target="_parent" class="component-link"><g id="tok-30-84" class="token-group" data-kind="reference"><title>UNDROP DISK CLAUSE</title><rect class="token token-reference" x="252" y="1428" width="160" height="30" rx="4"/><text class="token-label" x="332.0" y="1448" text-anchor="middle">undrop_disk_clause</text></g></a>
+<text class="line-number" x="28" y="1494" text-anchor="start">31</text>
+<line class="rail" x1="48" y1="1489" x2="1412" y2="1489"/>
+<g id="tok-31-85" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="188" y="1474" width="34" height="30" rx="4"/><text class="token-label" x="205.0" y="1494" text-anchor="middle">|</text></g>
+<a href="components/diskgroup-availability.html" target="_parent" class="component-link"><g id="tok-31-86" class="token-group" data-kind="reference"><title>DISKGROUP AVAILABILITY</title><rect class="token token-reference" x="230" y="1474" width="192" height="30" rx="4"/><text class="token-label" x="326.0" y="1494" text-anchor="middle">diskgroup_availability</text></g></a>
+<text class="line-number" x="28" y="1540" text-anchor="start">32</text>
+<line class="rail" x1="48" y1="1535" x2="1412" y2="1535"/>
+<g id="tok-32-87" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="188" y="1520" width="34" height="30" rx="4"/><text class="token-label" x="205.0" y="1540" text-anchor="middle">|</text></g>
+<a href="components/enable-disable-volume.html" target="_parent" class="component-link"><g id="tok-32-88" class="token-group" data-kind="reference"><title>ENABLE DISABLE VOLUME</title><rect class="token token-reference" x="230" y="1520" width="184" height="30" rx="4"/><text class="token-label" x="322.0" y="1540" text-anchor="middle">enable_disable_volume</text></g></a>
+<text class="line-number" x="28" y="1586" text-anchor="start">33</text>
+<line class="rail" x1="48" y1="1581" x2="1412" y2="1581"/>
+<g id="tok-33-89" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="188" y="1566" width="38" height="30" rx="4"/><text class="token-label" x="207.0" y="1586" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="1632" text-anchor="start">34</text>
+<line class="rail" x1="48" y1="1627" x2="1412" y2="1627"/>
+<g id="tok-34-90" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="104" y="1612" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="1632" text-anchor="middle">}</text></g>
+<g id="tok-34-91" class="token-group" data-kind="operator"><title>;</title><rect class="token token-operator" x="150" y="1612" width="34" height="30" rx="4"/><text class="token-label" x="167.0" y="1632" text-anchor="middle">;</text></g>
+</svg>

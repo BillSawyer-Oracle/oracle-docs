@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 758" width="1440" height="758" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ALTER SESSION</title>
+  <desc>Interactive SQL BNF diagram for ALTER SESSION. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="758"/>
+  <rect class="frame" x="12" y="12" width="1416" height="734" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ALTER SESSION</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">14 syntax lines · 1 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>ALTER</title><rect class="token token-keyword" x="76" y="94" width="56" height="30" rx="4"/><text class="token-label" x="104.0" y="114" text-anchor="middle">ALTER</text></g>
+<g id="tok-1-2" class="token-group" data-kind="keyword"><title>SESSION</title><rect class="token token-keyword" x="140" y="94" width="72" height="30" rx="4"/><text class="token-label" x="176.0" y="114" text-anchor="middle">SESSION</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-3" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="104" y="140" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-4" class="token-group" data-kind="keyword"><title>ADVISE</title><rect class="token token-keyword" x="150" y="140" width="64" height="30" rx="4"/><text class="token-label" x="182.0" y="160" text-anchor="middle">ADVISE</text></g>
+<g id="tok-2-5" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="222" y="140" width="38" height="30" rx="4"/><text class="token-label" x="241.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-6" class="token-group" data-kind="keyword"><title>COMMIT</title><rect class="token token-keyword" x="268" y="140" width="64" height="30" rx="4"/><text class="token-label" x="300.0" y="160" text-anchor="middle">COMMIT</text></g>
+<g id="tok-2-7" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="340" y="140" width="34" height="30" rx="4"/><text class="token-label" x="357.0" y="160" text-anchor="middle">|</text></g>
+<g id="tok-2-8" class="token-group" data-kind="keyword"><title>ROLLBACK</title><rect class="token token-keyword" x="382" y="140" width="80" height="30" rx="4"/><text class="token-label" x="422.0" y="160" text-anchor="middle">ROLLBACK</text></g>
+<g id="tok-2-9" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="470" y="140" width="34" height="30" rx="4"/><text class="token-label" x="487.0" y="160" text-anchor="middle">|</text></g>
+<g id="tok-2-10" class="token-group" data-kind="keyword"><title>NOTHING</title><rect class="token token-keyword" x="512" y="140" width="72" height="30" rx="4"/><text class="token-label" x="548.0" y="160" text-anchor="middle">NOTHING</text></g>
+<g id="tok-2-11" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="592" y="140" width="38" height="30" rx="4"/><text class="token-label" x="611.0" y="160" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-12" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="186" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="206" text-anchor="middle">|</text></g>
+<g id="tok-3-13" class="token-group" data-kind="keyword"><title>CLOSE</title><rect class="token token-keyword" x="146" y="186" width="56" height="30" rx="4"/><text class="token-label" x="174.0" y="206" text-anchor="middle">CLOSE</text></g>
+<g id="tok-3-14" class="token-group" data-kind="keyword"><title>DATABASE</title><rect class="token token-keyword" x="210" y="186" width="80" height="30" rx="4"/><text class="token-label" x="250.0" y="206" text-anchor="middle">DATABASE</text></g>
+<g id="tok-3-15" class="token-group" data-kind="keyword"><title>LINK</title><rect class="token token-keyword" x="298" y="186" width="54" height="30" rx="4"/><text class="token-label" x="325.0" y="206" text-anchor="middle">LINK</text></g>
+<g id="tok-3-16" class="token-group" data-kind="variable"><title>dblink</title><rect class="token token-variable" x="360" y="186" width="64" height="30" rx="4"/><text class="token-label" x="392.0" y="206" text-anchor="middle">dblink</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-17" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="232" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="252" text-anchor="middle">|</text></g>
+<g id="tok-4-18" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="232" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="252" text-anchor="middle">{</text></g>
+<g id="tok-4-19" class="token-group" data-kind="keyword"><title>ENABLE</title><rect class="token token-keyword" x="192" y="232" width="64" height="30" rx="4"/><text class="token-label" x="224.0" y="252" text-anchor="middle">ENABLE</text></g>
+<g id="tok-4-20" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="264" y="232" width="34" height="30" rx="4"/><text class="token-label" x="281.0" y="252" text-anchor="middle">|</text></g>
+<g id="tok-4-21" class="token-group" data-kind="keyword"><title>DISABLE</title><rect class="token token-keyword" x="306" y="232" width="72" height="30" rx="4"/><text class="token-label" x="342.0" y="252" text-anchor="middle">DISABLE</text></g>
+<g id="tok-4-22" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="386" y="232" width="38" height="30" rx="4"/><text class="token-label" x="405.0" y="252" text-anchor="middle">}</text></g>
+<g id="tok-4-23" class="token-group" data-kind="keyword"><title>COMMIT</title><rect class="token token-keyword" x="432" y="232" width="64" height="30" rx="4"/><text class="token-label" x="464.0" y="252" text-anchor="middle">COMMIT</text></g>
+<g id="tok-4-24" class="token-group" data-kind="keyword"><title>IN</title><rect class="token token-keyword" x="504" y="232" width="54" height="30" rx="4"/><text class="token-label" x="531.0" y="252" text-anchor="middle">IN</text></g>
+<g id="tok-4-25" class="token-group" data-kind="keyword"><title>PROCEDURE</title><rect class="token token-keyword" x="566" y="232" width="88" height="30" rx="4"/><text class="token-label" x="610.0" y="252" text-anchor="middle">PROCEDURE</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-26" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="278" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="298" text-anchor="middle">|</text></g>
+<g id="tok-5-27" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="278" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="298" text-anchor="middle">{</text></g>
+<g id="tok-5-28" class="token-group" data-kind="keyword"><title>ENABLE</title><rect class="token token-keyword" x="192" y="278" width="64" height="30" rx="4"/><text class="token-label" x="224.0" y="298" text-anchor="middle">ENABLE</text></g>
+<g id="tok-5-29" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="264" y="278" width="34" height="30" rx="4"/><text class="token-label" x="281.0" y="298" text-anchor="middle">|</text></g>
+<g id="tok-5-30" class="token-group" data-kind="keyword"><title>DISABLE</title><rect class="token token-keyword" x="306" y="278" width="72" height="30" rx="4"/><text class="token-label" x="342.0" y="298" text-anchor="middle">DISABLE</text></g>
+<g id="tok-5-31" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="386" y="278" width="38" height="30" rx="4"/><text class="token-label" x="405.0" y="298" text-anchor="middle">}</text></g>
+<g id="tok-5-32" class="token-group" data-kind="keyword"><title>GUARD</title><rect class="token token-keyword" x="432" y="278" width="56" height="30" rx="4"/><text class="token-label" x="460.0" y="298" text-anchor="middle">GUARD</text></g>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-33" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="324" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="344" text-anchor="middle">|</text></g>
+<g id="tok-6-34" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="324" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="344" text-anchor="middle">{</text></g>
+<g id="tok-6-35" class="token-group" data-kind="keyword"><title>ENABLE</title><rect class="token token-keyword" x="192" y="324" width="64" height="30" rx="4"/><text class="token-label" x="224.0" y="344" text-anchor="middle">ENABLE</text></g>
+<g id="tok-6-36" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="264" y="324" width="34" height="30" rx="4"/><text class="token-label" x="281.0" y="344" text-anchor="middle">|</text></g>
+<g id="tok-6-37" class="token-group" data-kind="keyword"><title>DISABLE</title><rect class="token token-keyword" x="306" y="324" width="72" height="30" rx="4"/><text class="token-label" x="342.0" y="344" text-anchor="middle">DISABLE</text></g>
+<g id="tok-6-38" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="386" y="324" width="34" height="30" rx="4"/><text class="token-label" x="403.0" y="344" text-anchor="middle">|</text></g>
+<g id="tok-6-39" class="token-group" data-kind="keyword"><title>FORCE</title><rect class="token token-keyword" x="428" y="324" width="56" height="30" rx="4"/><text class="token-label" x="456.0" y="344" text-anchor="middle">FORCE</text></g>
+<g id="tok-6-40" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="492" y="324" width="38" height="30" rx="4"/><text class="token-label" x="511.0" y="344" text-anchor="middle">}</text></g>
+<g id="tok-6-41" class="token-group" data-kind="keyword"><title>PARALLEL</title><rect class="token token-keyword" x="538" y="324" width="80" height="30" rx="4"/><text class="token-label" x="578.0" y="344" text-anchor="middle">PARALLEL</text></g>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-42" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="132" y="370" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="390" text-anchor="middle">{</text></g>
+<g id="tok-7-43" class="token-group" data-kind="keyword"><title>DML</title><rect class="token token-keyword" x="178" y="370" width="54" height="30" rx="4"/><text class="token-label" x="205.0" y="390" text-anchor="middle">DML</text></g>
+<g id="tok-7-44" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="240" y="370" width="34" height="30" rx="4"/><text class="token-label" x="257.0" y="390" text-anchor="middle">|</text></g>
+<g id="tok-7-45" class="token-group" data-kind="keyword"><title>DDL</title><rect class="token token-keyword" x="282" y="370" width="54" height="30" rx="4"/><text class="token-label" x="309.0" y="390" text-anchor="middle">DDL</text></g>
+<g id="tok-7-46" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="344" y="370" width="34" height="30" rx="4"/><text class="token-label" x="361.0" y="390" text-anchor="middle">|</text></g>
+<g id="tok-7-47" class="token-group" data-kind="keyword"><title>QUERY</title><rect class="token token-keyword" x="386" y="370" width="56" height="30" rx="4"/><text class="token-label" x="414.0" y="390" text-anchor="middle">QUERY</text></g>
+<g id="tok-7-48" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="450" y="370" width="38" height="30" rx="4"/><text class="token-label" x="469.0" y="390" text-anchor="middle">}</text></g>
+<g id="tok-7-49" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="496" y="370" width="38" height="30" rx="4"/><text class="token-label" x="515.0" y="390" text-anchor="middle">[</text></g>
+<g id="tok-7-50" class="token-group" data-kind="keyword"><title>PARALLEL</title><rect class="token token-keyword" x="542" y="370" width="80" height="30" rx="4"/><text class="token-label" x="582.0" y="390" text-anchor="middle">PARALLEL</text></g>
+<g id="tok-7-51" class="token-group" data-kind="variable"><title>integer</title><rect class="token token-variable" x="630" y="370" width="72" height="30" rx="4"/><text class="token-label" x="666.0" y="390" text-anchor="middle">integer</text></g>
+<g id="tok-7-52" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="710" y="370" width="38" height="30" rx="4"/><text class="token-label" x="729.0" y="390" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-53" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="416" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="436" text-anchor="middle">|</text></g>
+<g id="tok-8-54" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="416" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="436" text-anchor="middle">{</text></g>
+<g id="tok-8-55" class="token-group" data-kind="keyword"><title>ENABLE</title><rect class="token token-keyword" x="192" y="416" width="64" height="30" rx="4"/><text class="token-label" x="224.0" y="436" text-anchor="middle">ENABLE</text></g>
+<g id="tok-8-56" class="token-group" data-kind="keyword"><title>RESUMABLE</title><rect class="token token-keyword" x="264" y="416" width="88" height="30" rx="4"/><text class="token-label" x="308.0" y="436" text-anchor="middle">RESUMABLE</text></g>
+<g id="tok-8-57" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="360" y="416" width="38" height="30" rx="4"/><text class="token-label" x="379.0" y="436" text-anchor="middle">[</text></g>
+<g id="tok-8-58" class="token-group" data-kind="keyword"><title>TIMEOUT</title><rect class="token token-keyword" x="406" y="416" width="72" height="30" rx="4"/><text class="token-label" x="442.0" y="436" text-anchor="middle">TIMEOUT</text></g>
+<g id="tok-8-59" class="token-group" data-kind="variable"><title>integer</title><rect class="token token-variable" x="486" y="416" width="72" height="30" rx="4"/><text class="token-label" x="522.0" y="436" text-anchor="middle">integer</text></g>
+<g id="tok-8-60" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="566" y="416" width="38" height="30" rx="4"/><text class="token-label" x="585.0" y="436" text-anchor="middle">]</text></g>
+<g id="tok-8-61" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="612" y="416" width="38" height="30" rx="4"/><text class="token-label" x="631.0" y="436" text-anchor="middle">[</text></g>
+<g id="tok-8-62" class="token-group" data-kind="keyword"><title>NAME</title><rect class="token token-keyword" x="658" y="416" width="54" height="30" rx="4"/><text class="token-label" x="685.0" y="436" text-anchor="middle">NAME</text></g>
+<g id="tok-8-63" class="token-group" data-kind="variable"><title>string</title><rect class="token token-variable" x="720" y="416" width="64" height="30" rx="4"/><text class="token-label" x="752.0" y="436" text-anchor="middle">string</text></g>
+<g id="tok-8-64" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="792" y="416" width="38" height="30" rx="4"/><text class="token-label" x="811.0" y="436" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="482" text-anchor="start">9</text>
+<line class="rail" x1="48" y1="477" x2="1412" y2="477"/>
+<g id="tok-9-65" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="132" y="462" width="34" height="30" rx="4"/><text class="token-label" x="149.0" y="482" text-anchor="middle">|</text></g>
+<g id="tok-9-66" class="token-group" data-kind="keyword"><title>DISABLE</title><rect class="token token-keyword" x="174" y="462" width="72" height="30" rx="4"/><text class="token-label" x="210.0" y="482" text-anchor="middle">DISABLE</text></g>
+<g id="tok-9-67" class="token-group" data-kind="keyword"><title>RESUMABLE</title><rect class="token token-keyword" x="254" y="462" width="88" height="30" rx="4"/><text class="token-label" x="298.0" y="482" text-anchor="middle">RESUMABLE</text></g>
+<text class="line-number" x="28" y="528" text-anchor="start">10</text>
+<line class="rail" x1="48" y1="523" x2="1412" y2="523"/>
+<g id="tok-10-68" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="132" y="508" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="528" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="574" text-anchor="start">11</text>
+<line class="rail" x1="48" y1="569" x2="1412" y2="569"/>
+<g id="tok-11-69" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="554" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="574" text-anchor="middle">|</text></g>
+<g id="tok-11-70" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="554" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="574" text-anchor="middle">{</text></g>
+<g id="tok-11-71" class="token-group" data-kind="keyword"><title>ENABLE</title><rect class="token token-keyword" x="192" y="554" width="64" height="30" rx="4"/><text class="token-label" x="224.0" y="574" text-anchor="middle">ENABLE</text></g>
+<g id="tok-11-72" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="264" y="554" width="34" height="30" rx="4"/><text class="token-label" x="281.0" y="574" text-anchor="middle">|</text></g>
+<g id="tok-11-73" class="token-group" data-kind="keyword"><title>DISABLE</title><rect class="token token-keyword" x="306" y="554" width="72" height="30" rx="4"/><text class="token-label" x="342.0" y="574" text-anchor="middle">DISABLE</text></g>
+<g id="tok-11-74" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="386" y="554" width="38" height="30" rx="4"/><text class="token-label" x="405.0" y="574" text-anchor="middle">}</text></g>
+<g id="tok-11-75" class="token-group" data-kind="keyword"><title>SHARD</title><rect class="token token-keyword" x="432" y="554" width="56" height="30" rx="4"/><text class="token-label" x="460.0" y="574" text-anchor="middle">SHARD</text></g>
+<g id="tok-11-76" class="token-group" data-kind="keyword"><title>DDL</title><rect class="token token-keyword" x="496" y="554" width="54" height="30" rx="4"/><text class="token-label" x="523.0" y="574" text-anchor="middle">DDL</text></g>
+<text class="line-number" x="28" y="620" text-anchor="start">12</text>
+<line class="rail" x1="48" y1="615" x2="1412" y2="615"/>
+<g id="tok-12-77" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="600" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="620" text-anchor="middle">|</text></g>
+<g id="tok-12-78" class="token-group" data-kind="keyword"><title>SYNC</title><rect class="token token-keyword" x="146" y="600" width="54" height="30" rx="4"/><text class="token-label" x="173.0" y="620" text-anchor="middle">SYNC</text></g>
+<g id="tok-12-79" class="token-group" data-kind="keyword"><title>WITH</title><rect class="token token-keyword" x="208" y="600" width="54" height="30" rx="4"/><text class="token-label" x="235.0" y="620" text-anchor="middle">WITH</text></g>
+<g id="tok-12-80" class="token-group" data-kind="keyword"><title>PRIMARY</title><rect class="token token-keyword" x="270" y="600" width="72" height="30" rx="4"/><text class="token-label" x="306.0" y="620" text-anchor="middle">PRIMARY</text></g>
+<text class="line-number" x="28" y="666" text-anchor="start">13</text>
+<line class="rail" x1="48" y1="661" x2="1412" y2="661"/>
+<g id="tok-13-81" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="646" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="666" text-anchor="middle">|</text></g>
+<a href="components/alter-session-set-clause.html" target="_parent" class="component-link"><g id="tok-13-82" class="token-group" data-kind="reference"><title>ALTER SESSION SET CLAUSE</title><rect class="token token-reference" x="146" y="646" width="208" height="30" rx="4"/><text class="token-label" x="250.0" y="666" text-anchor="middle">alter_session_set_clause</text></g></a>
+<text class="line-number" x="28" y="712" text-anchor="start">14</text>
+<line class="rail" x1="48" y1="707" x2="1412" y2="707"/>
+<g id="tok-14-83" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="104" y="692" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="712" text-anchor="middle">}</text></g>
+</svg>

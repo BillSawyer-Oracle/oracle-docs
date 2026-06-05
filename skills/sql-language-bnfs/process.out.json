@@ -1,0 +1,3020 @@
+{
+  "failed": 1,
+  "kind": "sql-diagram-process-confirmed-run",
+  "ok": false,
+  "processed": 215,
+  "rendered": 204,
+  "results": [
+    {
+      "commandId": 1,
+      "item": {
+        "guideEntryTitle": "ADMINISTER KEY MANAGEMENT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ADMINISTER-KEY-MANAGEMENT.html#GUID-E5B2746F-19DC-4E94-83EC-A6A5C84A3EA9",
+        "id": 1079,
+        "itemOrdinal": 478,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ADMINISTER-KEY-MANAGEMENT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\administer-key-management.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 2,
+      "item": {
+        "guideEntryTitle": "ALTER ANALYTIC VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ANALYTIC-VIEW.html#GUID-5256BE3A-F134-40D4-8E70-684E073574C8",
+        "id": 1080,
+        "itemOrdinal": 479,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ANALYTIC-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-analytic-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 3,
+      "item": {
+        "guideEntryTitle": "ALTER ASSERTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-assertion.html#GUID-D50F3CF9-5AC9-4041-988F-ACFEAC0987DD",
+        "id": 1081,
+        "itemOrdinal": 480,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-assertion.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-assertion.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 4,
+      "item": {
+        "guideEntryTitle": "ALTER ATTRIBUTE DIMENSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ATTRIBUTE-DIMENSION.html#GUID-F345D0F9-8133-4257-9A07-EDCE558A1332",
+        "id": 1082,
+        "itemOrdinal": 481,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ATTRIBUTE-DIMENSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-attribute-dimension.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 5,
+      "item": {
+        "guideEntryTitle": "ALTER AUDIT POLICY (Unified Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-AUDIT-POLICY-Unified-Auditing.html#GUID-CC41B5C2-09F4-40BC-B7FD-3B4C0A3F5437",
+        "id": 1083,
+        "itemOrdinal": 482,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-AUDIT-POLICY-Unified-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-audit-policy-unified-auditing.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 6,
+      "item": {
+        "guideEntryTitle": "ALTER CLUSTER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-CLUSTER.html#GUID-A4E03C13-7690-4567-9B0A-DA6A21173B4D",
+        "id": 1084,
+        "itemOrdinal": 483,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-CLUSTER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-cluster.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 7,
+      "item": {
+        "guideEntryTitle": "ALTER DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DATABASE.html#GUID-8069872F-E680-4511-ADD8-A4E30AF67986",
+        "id": 1085,
+        "itemOrdinal": 484,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 8,
+      "item": {
+        "guideEntryTitle": "ALTER DATABASE DICTIONARY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DATABASE-DICTIONARY.html#GUID-27DDB403-7E7F-40EC-9B48-5E3B475E27AE",
+        "id": 1086,
+        "itemOrdinal": 485,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DATABASE-DICTIONARY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-database-dictionary.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 9,
+      "item": {
+        "guideEntryTitle": "ALTER DATABASE LINK",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DATABASE-LINK.html#GUID-0259D771-9D04-4D86-A94D-61B621A3918A",
+        "id": 1087,
+        "itemOrdinal": 486,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DATABASE-LINK.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-database-link.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 10,
+      "item": {
+        "guideEntryTitle": "ALTER DIMENSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DIMENSION.html#GUID-16B451F9-FF21-4E44-ACCA-2CFFA6F3F0F9",
+        "id": 1088,
+        "itemOrdinal": 487,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DIMENSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-dimension.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 11,
+      "item": {
+        "guideEntryTitle": "ALTER DIRECTIVE (VALIDATE)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-directive-validate.html#GUID-80608F72-7303-467B-B7D8-3534B888C9CD",
+        "id": 1089,
+        "itemOrdinal": 488,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-directive-validate.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-directive-validate.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 12,
+      "item": {
+        "guideEntryTitle": "ALTER DISKGROUP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DISKGROUP.html#GUID-22D73AB6-7063-4627-A2ED-18D521ED2557",
+        "id": 1090,
+        "itemOrdinal": 489,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-DISKGROUP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-diskgroup.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 13,
+      "item": {
+        "guideEntryTitle": "ALTER DOMAIN",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-domain.html#GUID-089B335C-EDC9-4AB6-894E-2EFEFE3F2BDA",
+        "id": 1091,
+        "itemOrdinal": 490,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-domain.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-domain.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 14,
+      "item": {
+        "guideEntryTitle": "ALTER END USER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-end-user.html#GUID-B09E7730-D204-4B1C-A7F1-33CE27E690DC",
+        "id": 1092,
+        "itemOrdinal": 491,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-end-user.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-end-user.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 15,
+      "item": {
+        "guideEntryTitle": "ALTER FLASHBACK ARCHIVE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-FLASHBACK-ARCHIVE.html#GUID-285814C9-06ED-4BDB-BB19-E2BA6505C850",
+        "id": 1093,
+        "itemOrdinal": 492,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-FLASHBACK-ARCHIVE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-flashback-archive.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 16,
+      "item": {
+        "guideEntryTitle": "ALTER FUNCTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-FUNCTION.html#GUID-6FB32876-2DB3-41EB-B0CA-91B163826AB2",
+        "id": 1094,
+        "itemOrdinal": 493,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-FUNCTION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-function.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 17,
+      "item": {
+        "guideEntryTitle": "ALTER HIERARCHY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-HIERARCHY.html#GUID-37A4E442-EE3A-4239-8228-F08A2F666D91",
+        "id": 1095,
+        "itemOrdinal": 494,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-HIERARCHY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-hierarchy.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 18,
+      "item": {
+        "guideEntryTitle": "ALTER INDEX",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-INDEX.html#GUID-D8F648E7-8C07-4C89-BB71-862512536558",
+        "id": 1096,
+        "itemOrdinal": 495,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-INDEX.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-index.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 19,
+      "item": {
+        "guideEntryTitle": "ALTER INDEXTYPE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-INDEXTYPE.html#GUID-BFA7E29C-7905-4811-9119-B20FD8EA18F2",
+        "id": 1097,
+        "itemOrdinal": 496,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-INDEXTYPE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-indextype.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 20,
+      "item": {
+        "guideEntryTitle": "ALTER INMEMORY JOIN GROUP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-INMEMORY-JOIN-GROUP.html#GUID-AF24F413-BB14-4B5D-93BF-9EB31ACFEBEC",
+        "id": 1098,
+        "itemOrdinal": 497,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-INMEMORY-JOIN-GROUP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-inmemory-join-group.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 21,
+      "item": {
+        "guideEntryTitle": "ALTER JAVA",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-JAVA.html#GUID-6B211750-3247-4D71-9533-3DD8F66640CD",
+        "id": 1099,
+        "itemOrdinal": 498,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-JAVA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-java.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 22,
+      "item": {
+        "guideEntryTitle": "ALTER JSON RELATIONAL DUALITY VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-json-relational-duality-view.html#GUID-F5360747-E268-4083-8D29-46073EA4D513",
+        "id": 1100,
+        "itemOrdinal": 499,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-json-relational-duality-view.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-json-relational-duality-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "11 SQL Statements: ALTER LIBRARY to ALTER SESSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-ALTER-LIBRARY-to-ALTER-SESSION.html#GUID-B4A1C1D6-D628-40F9-A6B0-A5FB3DB1D0C1",
+        "id": 1101,
+        "itemOrdinal": 500,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-ALTER-LIBRARY-to-ALTER-SESSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 23,
+      "item": {
+        "guideEntryTitle": "ALTER LIBRARY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-LIBRARY.html#GUID-BB90AF66-3B1F-46C4-9716-4578DE0AE1F3",
+        "id": 1102,
+        "itemOrdinal": 501,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-LIBRARY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-library.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 24,
+      "item": {
+        "guideEntryTitle": "ALTER LOCKDOWN PROFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-LOCKDOWN-PROFILE.html#GUID-B4029154-54A8-4B78-97C3-9CED416F1C34",
+        "id": 1103,
+        "itemOrdinal": 502,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-LOCKDOWN-PROFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-lockdown-profile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 25,
+      "item": {
+        "guideEntryTitle": "ALTER MATERIALIZED VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-MATERIALIZED-VIEW.html#GUID-29EE5682-AE42-4879-ABAD-E34E66ADD233",
+        "id": 1104,
+        "itemOrdinal": 503,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-MATERIALIZED-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-materialized-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 26,
+      "item": {
+        "guideEntryTitle": "ALTER MATERIALIZED VIEW LOG",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-MATERIALIZED-VIEW-LOG.html#GUID-4DAD5E6F-E30A-43D0-B023-634752E0E627",
+        "id": 1105,
+        "itemOrdinal": 504,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-MATERIALIZED-VIEW-LOG.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-materialized-view-log.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 27,
+      "item": {
+        "guideEntryTitle": "ALTER MATERIALIZED ZONEMAP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-MATERIALIZED-ZONEMAP.html#GUID-9330FD16-28B6-4B22-8205-FF59AF250C1A",
+        "id": 1106,
+        "itemOrdinal": 505,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-MATERIALIZED-ZONEMAP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-materialized-zonemap.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 28,
+      "item": {
+        "guideEntryTitle": "ALTER MLE ENV",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-mle-env.html#GUID-AF0D1253-6FEF-44A7-BEA3-9F24AEFF17C1",
+        "id": 1107,
+        "itemOrdinal": 506,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-mle-env.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-mle-env.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 29,
+      "item": {
+        "guideEntryTitle": "ALTER MLE MODULE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-mle-module.html#GUID-9CE0DFB6-68BE-427D-AEEB-294C0FD31F8F",
+        "id": 1108,
+        "itemOrdinal": 507,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-mle-module.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-mle-module.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 30,
+      "item": {
+        "guideEntryTitle": "ALTER OPERATOR",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-OPERATOR.html#GUID-F00A0AC8-36C8-4EAC-A9BB-B3D42C5EEEDE",
+        "id": 1109,
+        "itemOrdinal": 508,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-OPERATOR.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-operator.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 31,
+      "item": {
+        "guideEntryTitle": "ALTER OUTLINE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-OUTLINE.html#GUID-49F25C82-0783-4407-88BB-613F986C2FEC",
+        "id": 1110,
+        "itemOrdinal": 509,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-OUTLINE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-outline.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 32,
+      "item": {
+        "guideEntryTitle": "ALTER PACKAGE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PACKAGE.html#GUID-47471C4C-03AB-4D78-A295-3D58C91102E0",
+        "id": 1111,
+        "itemOrdinal": 510,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PACKAGE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-package.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 33,
+      "item": {
+        "guideEntryTitle": "ALTER PLUGGABLE DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PLUGGABLE-DATABASE.html#GUID-A29491AD-8F0F-4E52-9D94-57FC3FF8FBC7",
+        "id": 1112,
+        "itemOrdinal": 511,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PLUGGABLE-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-pluggable-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 34,
+      "item": {
+        "guideEntryTitle": "ALTER PMEM FILESTORE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-pmem-filestore.html#GUID-330BB1D5-5194-4B09-93AF-B80DBD36774A",
+        "id": 1113,
+        "itemOrdinal": 512,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-pmem-filestore.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-pmem-filestore.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 35,
+      "item": {
+        "guideEntryTitle": "ALTER PROCEDURE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PROCEDURE.html#GUID-24A5796F-7D97-49D4-8448-7E541CB73AC6",
+        "id": 1114,
+        "itemOrdinal": 513,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PROCEDURE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-procedure.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 36,
+      "item": {
+        "guideEntryTitle": "ALTER PROFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PROFILE.html#GUID-7D2EA18A-49F9-40FA-ADE8-BB3D5D5FE4A1",
+        "id": 1115,
+        "itemOrdinal": 514,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-PROFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-profile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 37,
+      "item": {
+        "guideEntryTitle": "ALTER PROPERTY GRAPH",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-property-graph.html#GUID-3437140C-6244-49A2-9305-FBEB4D414761",
+        "id": 1116,
+        "itemOrdinal": 515,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/alter-property-graph.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-property-graph.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 38,
+      "item": {
+        "guideEntryTitle": "ALTER RESOURCE COST",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-RESOURCE-COST.html#GUID-92DCB41E-5113-4722-8A54-E90E1AE7DB54",
+        "id": 1117,
+        "itemOrdinal": 516,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-RESOURCE-COST.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-resource-cost.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 39,
+      "item": {
+        "guideEntryTitle": "ALTER ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ROLE.html#GUID-85543272-EAF4-4FED-A921-AD9868102C39",
+        "id": 1118,
+        "itemOrdinal": 517,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ROLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 40,
+      "item": {
+        "guideEntryTitle": "ALTER ROLLBACK SEGMENT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ROLLBACK-SEGMENT.html#GUID-B25701E3-A074-44C4-9018-C6691BEB2483",
+        "id": 1119,
+        "itemOrdinal": 518,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-ROLLBACK-SEGMENT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-rollback-segment.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 41,
+      "item": {
+        "guideEntryTitle": "ALTER SEQUENCE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SEQUENCE.html#GUID-A6468B63-E7C9-4EF0-B048-82FE2449B26D",
+        "id": 1120,
+        "itemOrdinal": 519,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SEQUENCE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-sequence.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 42,
+      "item": {
+        "guideEntryTitle": "ALTER SESSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SESSION.html#GUID-27186B28-7EFC-4998-B1ED-2B905CC0211B",
+        "id": 1121,
+        "itemOrdinal": 520,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SESSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-session.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "12 SQL Statements: ALTER SYNONYM to COMMENT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-ALTER-SYNONYM-to-COMMENT.html#GUID-7B9A6386-C065-4D0D-957E-9859DD917A6C",
+        "id": 1122,
+        "itemOrdinal": 521,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-ALTER-SYNONYM-to-COMMENT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 43,
+      "item": {
+        "guideEntryTitle": "ALTER SYNONYM",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SYNONYM.html#GUID-C31B6804-6783-4A8C-B448-DF78E3FE6837",
+        "id": 1123,
+        "itemOrdinal": 522,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SYNONYM.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-synonym.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 44,
+      "item": {
+        "guideEntryTitle": "ALTER SYSTEM",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SYSTEM.html#GUID-2C638517-D73A-41CA-9D8E-A62D1A0B7ADB",
+        "id": 1124,
+        "itemOrdinal": 523,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-SYSTEM.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-system.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 45,
+      "item": {
+        "guideEntryTitle": "ALTER TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TABLE.html#GUID-552E7373-BF93-477D-9DA3-B2C9386F2877",
+        "id": 1125,
+        "itemOrdinal": 524,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 46,
+      "item": {
+        "guideEntryTitle": "ALTER TABLESPACE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TABLESPACE.html#GUID-CA074861-55D3-4768-8995-43D4DA26365D",
+        "id": 1126,
+        "itemOrdinal": 525,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TABLESPACE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-tablespace.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 47,
+      "item": {
+        "guideEntryTitle": "ALTER TABLESPACE SET",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TABLESPACE-SET.html#GUID-63FEDE73-C1F1-4B7A-98ED-8C34C4073549",
+        "id": 1127,
+        "itemOrdinal": 526,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TABLESPACE-SET.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-tablespace-set.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 48,
+      "item": {
+        "guideEntryTitle": "ALTER TRIGGER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TRIGGER.html#GUID-085BD628-2903-46A3-9850-C0D8ED7F2EEF",
+        "id": 1128,
+        "itemOrdinal": 527,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TRIGGER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-trigger.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 49,
+      "item": {
+        "guideEntryTitle": "ALTER TYPE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TYPE.html#GUID-E0C4E28C-726F-4481-99FE-15AC67342DC9",
+        "id": 1129,
+        "itemOrdinal": 528,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-TYPE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-type.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 50,
+      "item": {
+        "guideEntryTitle": "ALTER USER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-USER.html#GUID-9FCD038D-8193-4241-85CD-2F4723B27D44",
+        "id": 1130,
+        "itemOrdinal": 529,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-USER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-user.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 51,
+      "item": {
+        "guideEntryTitle": "ALTER VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-VIEW.html#GUID-0DEDE960-B481-4B55-8027-EA9E4C863625",
+        "id": 1131,
+        "itemOrdinal": 530,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ALTER-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\alter-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 52,
+      "item": {
+        "guideEntryTitle": "ANALYZE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ANALYZE.html#GUID-535CE98E-2359-4147-839F-DCB3772C1B0E",
+        "id": 1132,
+        "itemOrdinal": 531,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ANALYZE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\analyze.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 53,
+      "item": {
+        "guideEntryTitle": "ASSOCIATE STATISTICS",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ASSOCIATE-STATISTICS.html#GUID-BD02BA6A-32A7-4093-A6B6-BAE860C0F834",
+        "id": 1133,
+        "itemOrdinal": 532,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ASSOCIATE-STATISTICS.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\associate-statistics.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "AUDIT (Traditional Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/AUDIT-Traditional-Auditing.html#GUID-ADF45B07-547A-4096-8144-50241FA2D8DD",
+        "id": 1134,
+        "itemOrdinal": 533,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/AUDIT-Traditional-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 54,
+      "item": {
+        "guideEntryTitle": "AUDIT (Unified Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/AUDIT-Unified-Auditing.html#GUID-B24D6874-4053-4E66-8238-6CD0C87E9DCA",
+        "id": 1135,
+        "itemOrdinal": 534,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/AUDIT-Unified-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\audit-unified-auditing.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 55,
+      "item": {
+        "guideEntryTitle": "CALL",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CALL.html#GUID-6CD7B9C4-E5DC-4F3C-9B6A-876AD2C63545",
+        "id": 1136,
+        "itemOrdinal": 535,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CALL.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\call.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 56,
+      "item": {
+        "guideEntryTitle": "COMMENT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/COMMENT.html#GUID-65F447C4-6914-4823-9691-F15D52DB74D7",
+        "id": 1137,
+        "itemOrdinal": 536,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/COMMENT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\comment.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "13 SQL Statements: COMMIT to CREATE JSON RELATIONAL DUALITY VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-COMMIT-to-CREATE-JAVA.html#GUID-A087EE75-DE65-4AA6-A479-280413DB74C8",
+        "id": 1138,
+        "itemOrdinal": 537,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-COMMIT-to-CREATE-JAVA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 57,
+      "item": {
+        "guideEntryTitle": "COMMIT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/COMMIT.html#GUID-6CD5C9A7-54B9-4FA2-BA3C-D6B4492B9EE2",
+        "id": 1139,
+        "itemOrdinal": 538,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/COMMIT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\commit.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 58,
+      "item": {
+        "guideEntryTitle": "CREATE ANALYTIC VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ANALYTIC-VIEW.html#GUID-EBA7E9BC-3F49-4AA7-9EF6-9255FE7AE466",
+        "id": 1140,
+        "itemOrdinal": 539,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ANALYTIC-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-analytic-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 59,
+      "item": {
+        "guideEntryTitle": "CREATE APPLICATION IDENTITY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-application-identity.html#GUID-E17F974D-09B5-4B38-8266-190D7AA59ABB",
+        "id": 1141,
+        "itemOrdinal": 540,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-application-identity.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-application-identity.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 60,
+      "item": {
+        "guideEntryTitle": "CREATE ASSERTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-assertion.html#GUID-9FB74CAA-0CAD-4FE6-B873-1B3877CB8AB9",
+        "id": 1142,
+        "itemOrdinal": 541,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-assertion.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-assertion.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 61,
+      "item": {
+        "guideEntryTitle": "CREATE ATTRIBUTE DIMENSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ATTRIBUTE-DIMENSION.html#GUID-62722AB0-2136-4BC9-8E76-CBEA13C15196",
+        "id": 1143,
+        "itemOrdinal": 542,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ATTRIBUTE-DIMENSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-attribute-dimension.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 62,
+      "item": {
+        "guideEntryTitle": "CREATE AUDIT POLICY (Unified Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-AUDIT-POLICY-Unified-Auditing.html#GUID-8D6961FB-2E50-46F5-81F7-9AEA314FC693",
+        "id": 1144,
+        "itemOrdinal": 543,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-AUDIT-POLICY-Unified-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-audit-policy-unified-auditing.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 63,
+      "item": {
+        "guideEntryTitle": "CREATE CLUSTER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-CLUSTER.html#GUID-4DBC701F-AFC3-486D-AA32-B5CB1D6946F7",
+        "id": 1145,
+        "itemOrdinal": 544,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-CLUSTER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-cluster.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 64,
+      "item": {
+        "guideEntryTitle": "CREATE CONTEXT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-CONTEXT.html#GUID-FDF62812-A884-479C-9C1B-5BD6DDEFE7FA",
+        "id": 1146,
+        "itemOrdinal": 545,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-CONTEXT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-context.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 65,
+      "item": {
+        "guideEntryTitle": "CREATE CONTROLFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-CONTROLFILE.html#GUID-9B389F28-C4D0-405D-BFE6-48237E8BD791",
+        "id": 1147,
+        "itemOrdinal": 546,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-CONTROLFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-controlfile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 66,
+      "item": {
+        "guideEntryTitle": "CREATE DATA GRANT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-data-grant.html#GUID-58B4AF50-3F80-401B-923C-6C2191210877",
+        "id": 1148,
+        "itemOrdinal": 547,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-data-grant.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-data-grant.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 67,
+      "item": {
+        "guideEntryTitle": "CREATE DATA ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-data-role.html#GUID-27A2E887-A3A1-4FBB-B6F2-23F4667CB58F",
+        "id": 1149,
+        "itemOrdinal": 548,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-data-role.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-data-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 68,
+      "item": {
+        "guideEntryTitle": "CREATE DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DATABASE.html#GUID-ECE717DF-F116-4151-927C-2E51BB9DD39C",
+        "id": 1150,
+        "itemOrdinal": 549,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 69,
+      "item": {
+        "guideEntryTitle": "CREATE DATABASE LINK",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DATABASE-LINK.html#GUID-D966642A-B19E-449D-9968-1121AF06D793",
+        "id": 1151,
+        "itemOrdinal": 550,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DATABASE-LINK.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-database-link.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 70,
+      "item": {
+        "guideEntryTitle": "CREATE DIMENSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DIMENSION.html#GUID-E6CD4CFC-5D06-4A8F-9DF1-C609A7EB8413",
+        "id": 1152,
+        "itemOrdinal": 551,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DIMENSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-dimension.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 71,
+      "item": {
+        "guideEntryTitle": "CREATE DIRECTIVE (VALIDATE)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-directive-validate.html#GUID-999E67CB-44F0-4761-BEBE-7371A7F0F649",
+        "id": 1153,
+        "itemOrdinal": 552,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-directive-validate.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-directive-validate.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 72,
+      "item": {
+        "guideEntryTitle": "CREATE DIRECTORY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DIRECTORY.html#GUID-8E9C569A-1B06-42C4-9586-0EF83437001A",
+        "id": 1154,
+        "itemOrdinal": 553,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DIRECTORY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-directory.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 73,
+      "item": {
+        "guideEntryTitle": "CREATE DISKGROUP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DISKGROUP.html#GUID-039A1373-1F3F-4A53-A152-8EBC348FB880",
+        "id": 1155,
+        "itemOrdinal": 554,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-DISKGROUP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-diskgroup.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 74,
+      "item": {
+        "guideEntryTitle": "CREATE DOMAIN",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-domain.html#GUID-17D3A9C6-D993-4E94-BF6B-CACA56581F41",
+        "id": 1156,
+        "itemOrdinal": 555,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-domain.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-domain.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 75,
+      "item": {
+        "guideEntryTitle": "CREATE EDITION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-EDITION.html#GUID-6CF92CA1-CAF7-4967-9B34-C02D72C23617",
+        "id": 1157,
+        "itemOrdinal": 556,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-EDITION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-edition.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 76,
+      "item": {
+        "guideEntryTitle": "CREATE END USER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-end-user.html#GUID-7CBA526A-976A-4DD1-9423-40B9C33F3039",
+        "id": 1158,
+        "itemOrdinal": 557,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-end-user.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-end-user.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 77,
+      "item": {
+        "guideEntryTitle": "CREATE END USER CONTEXT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-end-user-context.html#GUID-44462C80-CF57-4EC9-9E4C-669FCCA74C6C",
+        "id": 1159,
+        "itemOrdinal": 558,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-end-user-context.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-end-user-context.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 78,
+      "item": {
+        "guideEntryTitle": "CREATE FLASHBACK ARCHIVE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-FLASHBACK-ARCHIVE.html#GUID-9E821EC5-8350-4729-85FE-2188EBB4139B",
+        "id": 1160,
+        "itemOrdinal": 559,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-FLASHBACK-ARCHIVE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-flashback-archive.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 79,
+      "item": {
+        "guideEntryTitle": "CREATE FUNCTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-FUNCTION.html#GUID-156AEDAC-ADD0-4E46-AA56-6D1F7CA63306",
+        "id": 1161,
+        "itemOrdinal": 560,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-FUNCTION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-function.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 80,
+      "item": {
+        "guideEntryTitle": "CREATE HIERARCHY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-HIERARCHY.html#GUID-73925877-992B-4624-AA28-8F565E9C3F0D",
+        "id": 1162,
+        "itemOrdinal": 561,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-HIERARCHY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-hierarchy.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 81,
+      "item": {
+        "guideEntryTitle": "CREATE HYBRID VECTOR INDEX",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-hybrid-vector-index.html#GUID-8CDFC950-44A1-4340-A9C0-07DB9A777867",
+        "id": 1163,
+        "itemOrdinal": 562,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-hybrid-vector-index.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-hybrid-vector-index.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 82,
+      "item": {
+        "guideEntryTitle": "CREATE ICEBERG TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-iceberg-table.html#GUID-2D39FEA3-72D0-47AF-ABCA-5866731D55AE",
+        "id": 1164,
+        "itemOrdinal": 563,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-iceberg-table.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-iceberg-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 83,
+      "item": {
+        "guideEntryTitle": "CREATE INDEX",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-INDEX.html#GUID-1F89BBC0-825F-4215-AF71-7588E31D8BFE",
+        "id": 1165,
+        "itemOrdinal": 564,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-INDEX.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-index.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 84,
+      "item": {
+        "guideEntryTitle": "CREATE INDEXTYPE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-INDEXTYPE.html#GUID-4A7BD0EC-B3E5-4D1D-95C5-C8B52D01D8CE",
+        "id": 1166,
+        "itemOrdinal": 565,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-INDEXTYPE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-indextype.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 85,
+      "item": {
+        "guideEntryTitle": "CREATE INMEMORY JOIN GROUP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-INMEMORY-JOIN-GROUP.html#GUID-87CA7034-4F80-4D46-8EE1-5CC865C2D676",
+        "id": 1167,
+        "itemOrdinal": 566,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-INMEMORY-JOIN-GROUP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-inmemory-join-group.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 86,
+      "item": {
+        "guideEntryTitle": "CREATE JAVA",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-JAVA.html#GUID-69E13452-1F91-4F98-B154-CF5B1C198387",
+        "id": 1168,
+        "itemOrdinal": 567,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-JAVA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-java.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 87,
+      "item": {
+        "guideEntryTitle": "CREATE JSON RELATIONAL DUALITY VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-json-relational-duality-view.html#GUID-64B579AD-BF97-4B27-BF22-94C1FB6FD6DF",
+        "id": 1169,
+        "itemOrdinal": 568,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-json-relational-duality-view.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-json-relational-duality-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "14 SQL Statements: CREATE LIBRARY to CREATE SCHEMA",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-CREATE-LIBRARY-to-CREATE-SCHEMA.html#GUID-B0517B99-DDA2-4F47-8866-46AD944FABF8",
+        "id": 1170,
+        "itemOrdinal": 569,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-CREATE-LIBRARY-to-CREATE-SCHEMA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 88,
+      "item": {
+        "guideEntryTitle": "CREATE LIBRARY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-LIBRARY.html#GUID-F042ABC9-2BF5-4E65-9D52-216D6228B288",
+        "id": 1171,
+        "itemOrdinal": 570,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-LIBRARY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-library.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 89,
+      "item": {
+        "guideEntryTitle": "CREATE LOCKDOWN PROFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-LOCKDOWN-PROFILE.html#GUID-1CDEC3A3-F3F1-4279-9370-36AACF416E0A",
+        "id": 1172,
+        "itemOrdinal": 571,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-LOCKDOWN-PROFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-lockdown-profile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 90,
+      "item": {
+        "guideEntryTitle": "CREATE LOGICAL PARTITION TRACKING",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-logical-partition-tracking.html#GUID-4828A4B0-712A-4BD9-9684-5717E094D450",
+        "id": 1173,
+        "itemOrdinal": 572,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-logical-partition-tracking.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-logical-partition-tracking.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 91,
+      "item": {
+        "guideEntryTitle": "CREATE MATERIALIZED VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-MATERIALIZED-VIEW.html#GUID-EE262CA4-01E5-4618-B659-6165D993CA1B",
+        "id": 1174,
+        "itemOrdinal": 573,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-MATERIALIZED-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-materialized-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 92,
+      "item": {
+        "guideEntryTitle": "CREATE MATERIALIZED VIEW LOG",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-MATERIALIZED-VIEW-LOG.html#GUID-13902019-D044-4B79-9EB4-1F60652D037B",
+        "id": 1175,
+        "itemOrdinal": 574,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-MATERIALIZED-VIEW-LOG.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-materialized-view-log.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 93,
+      "item": {
+        "guideEntryTitle": "CREATE MATERIALIZED ZONEMAP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-MATERIALIZED-ZONEMAP.html#GUID-1E5048FC-3D28-49BC-80FE-7871568B4702",
+        "id": 1176,
+        "itemOrdinal": 575,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-MATERIALIZED-ZONEMAP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-materialized-zonemap.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 94,
+      "item": {
+        "guideEntryTitle": "CREATE MLE ENV",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-mle-env.html#GUID-419C81FD-338D-495F-85CD-135D4D316718",
+        "id": 1177,
+        "itemOrdinal": 576,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-mle-env.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-mle-env.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 95,
+      "item": {
+        "guideEntryTitle": "CREATE MLE MODULE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-mle-module.html#GUID-EF8D8EBC-2313-4C6C-A76E-1A739C304DCC",
+        "id": 1178,
+        "itemOrdinal": 577,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-mle-module.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-mle-module.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 96,
+      "item": {
+        "guideEntryTitle": "CREATE OPERATOR",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-OPERATOR.html#GUID-62676C58-6F57-4572-8C09-7984A8E3EE9F",
+        "id": 1179,
+        "itemOrdinal": 578,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-OPERATOR.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-operator.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 97,
+      "item": {
+        "guideEntryTitle": "CREATE OUTLINE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-OUTLINE.html#GUID-7CC033AF-DB19-4616-87D9-8173939FD627",
+        "id": 1180,
+        "itemOrdinal": 579,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-OUTLINE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-outline.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 98,
+      "item": {
+        "guideEntryTitle": "CREATE PACKAGE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PACKAGE.html#GUID-40636655-899F-47D0-95CA-D58A71C94A56",
+        "id": 1181,
+        "itemOrdinal": 580,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PACKAGE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-package.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 99,
+      "item": {
+        "guideEntryTitle": "CREATE PACKAGE BODY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PACKAGE-BODY.html#GUID-E571E5A3-1C4B-4246-BF26-0E4348BEB6D6",
+        "id": 1182,
+        "itemOrdinal": 581,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PACKAGE-BODY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-package-body.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 100,
+      "item": {
+        "guideEntryTitle": "CREATE PFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PFILE.html#GUID-C01CBA1C-F477-49BE-AD58-F2FED046D561",
+        "id": 1183,
+        "itemOrdinal": 582,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-pfile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 101,
+      "item": {
+        "guideEntryTitle": "CREATE PLUGGABLE DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PLUGGABLE-DATABASE.html#GUID-F2DBA8DD-EEA8-4BB7-A07F-78DC04DB1FFC",
+        "id": 1184,
+        "itemOrdinal": 583,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PLUGGABLE-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-pluggable-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 102,
+      "item": {
+        "guideEntryTitle": "CREATE PMEM FILESTORE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-pmem-filestore.html#GUID-2518DAF0-E174-4593-86C2-D8E48FBED1FE",
+        "id": 1185,
+        "itemOrdinal": 584,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-pmem-filestore.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-pmem-filestore.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 103,
+      "item": {
+        "guideEntryTitle": "CREATE PROCEDURE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PROCEDURE.html#GUID-771879D8-BBFD-4D87-8A6C-290102142DA3",
+        "id": 1186,
+        "itemOrdinal": 585,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PROCEDURE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-procedure.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 104,
+      "item": {
+        "guideEntryTitle": "CREATE PROFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PROFILE.html#GUID-ABC7AE4D-64A8-4EA9-857D-BEF7300B64C3",
+        "id": 1187,
+        "itemOrdinal": 586,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-PROFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-profile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 105,
+      "item": {
+        "guideEntryTitle": "CREATE PROPERTY GRAPH",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-property-graph.html#GUID-37364ADB-E89C-4D92-A431-F2544FEDB218",
+        "id": 1188,
+        "itemOrdinal": 587,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-property-graph.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-property-graph.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 106,
+      "item": {
+        "guideEntryTitle": "CREATE RESTORE POINT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-RESTORE-POINT.html#GUID-AD0FB693-7C28-4908-A870-BA884B320575",
+        "id": 1189,
+        "itemOrdinal": 588,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-RESTORE-POINT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-restore-point.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 107,
+      "item": {
+        "guideEntryTitle": "CREATE ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ROLE.html#GUID-B2252DC5-5AE7-49B7-9048-98062993E450",
+        "id": 1190,
+        "itemOrdinal": 589,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ROLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 108,
+      "item": {
+        "guideEntryTitle": "CREATE ROLLBACK SEGMENT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ROLLBACK-SEGMENT.html#GUID-14AE3104-5B33-4E53-8E6F-6B2F037B52E9",
+        "id": 1191,
+        "itemOrdinal": 590,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-ROLLBACK-SEGMENT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-rollback-segment.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 109,
+      "item": {
+        "guideEntryTitle": "CREATE SCHEMA",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SCHEMA.html#GUID-2D154F9C-9E2B-4A09-B658-2EA5B99AC838",
+        "id": 1192,
+        "itemOrdinal": 591,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SCHEMA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-schema.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "15 SQL Statements: CREATE SEQUENCE to DROP CLUSTER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-CREATE-SEQUENCE-to-DROP-CLUSTER.html#GUID-01CD18EA-DF10-4B99-B64A-69BB959EEE59",
+        "id": 1193,
+        "itemOrdinal": 592,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-CREATE-SEQUENCE-to-DROP-CLUSTER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 110,
+      "item": {
+        "guideEntryTitle": "CREATE SEQUENCE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SEQUENCE.html#GUID-E9C78A8C-615A-4757-B2A8-5E6EFB130571",
+        "id": 1194,
+        "itemOrdinal": 593,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SEQUENCE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-sequence.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 111,
+      "item": {
+        "guideEntryTitle": "CREATE SPFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SPFILE.html#GUID-D3E295B7-A3A4-43D3-8BBD-5CBE171A2E52",
+        "id": 1195,
+        "itemOrdinal": 594,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SPFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-spfile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 112,
+      "item": {
+        "guideEntryTitle": "CREATE SYNONYM",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SYNONYM.html#GUID-A806C82F-1171-478E-A910-F9C6C42739B2",
+        "id": 1196,
+        "itemOrdinal": 595,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-SYNONYM.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-synonym.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 113,
+      "item": {
+        "guideEntryTitle": "CREATE TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TABLE.html#GUID-F9CE0CC3-13AE-4744-A43C-EAC7A71AAAB6",
+        "id": 1197,
+        "itemOrdinal": 596,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 114,
+      "item": {
+        "guideEntryTitle": "CREATE TABLESPACE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TABLESPACE.html#GUID-51F07BF5-EFAF-4910-9040-C473B86A8BF9",
+        "id": 1198,
+        "itemOrdinal": 597,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TABLESPACE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-tablespace.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 115,
+      "item": {
+        "guideEntryTitle": "CREATE TABLESPACE SET",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TABLESPACE-SET.html#GUID-877951F1-B2A5-4907-9F0F-EF4F1884E8C4",
+        "id": 1199,
+        "itemOrdinal": 598,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TABLESPACE-SET.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-tablespace-set.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 116,
+      "item": {
+        "guideEntryTitle": "CREATE TRIGGER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TRIGGER.html#GUID-EE0DF3AA-7ADC-4171-B8E8-138BE9224E3B",
+        "id": 1200,
+        "itemOrdinal": 599,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TRIGGER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-trigger.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 117,
+      "item": {
+        "guideEntryTitle": "CREATE TRUE CACHE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-true-cache.html#GUID-9CDFE592-D927-427F-A997-B9A50B646A56",
+        "id": 1201,
+        "itemOrdinal": 600,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-true-cache.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-true-cache.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 118,
+      "item": {
+        "guideEntryTitle": "CREATE TYPE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TYPE.html#GUID-E72E3EE6-DE95-4F58-8941-E2F76D0EAE80",
+        "id": 1202,
+        "itemOrdinal": 601,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TYPE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-type.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 119,
+      "item": {
+        "guideEntryTitle": "CREATE TYPE BODY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TYPE-BODY.html#GUID-C4F1591A-6F62-4897-9039-2C3F066F1E9D",
+        "id": 1203,
+        "itemOrdinal": 602,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-TYPE-BODY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-type-body.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 120,
+      "item": {
+        "guideEntryTitle": "CREATE USER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-USER.html#GUID-F0246961-558F-480B-AC0F-14B50134621C",
+        "id": 1204,
+        "itemOrdinal": 603,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-USER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-user.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 121,
+      "item": {
+        "guideEntryTitle": "CREATE VECTOR INDEX",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-vector-index.html#GUID-B396C369-54BB-4098-A0DD-7C54B3A0D66F",
+        "id": 1205,
+        "itemOrdinal": 604,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/create-vector-index.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-vector-index.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 122,
+      "item": {
+        "guideEntryTitle": "CREATE VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-VIEW.html#GUID-61D2D2B4-DACC-4C7C-89EB-7E50D9594D30",
+        "id": 1206,
+        "itemOrdinal": 605,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/CREATE-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\create-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 123,
+      "item": {
+        "guideEntryTitle": "DELETE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DELETE.html#GUID-156845A5-B626-412B-9F95-8869B988ABD7",
+        "id": 1207,
+        "itemOrdinal": 606,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DELETE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\delete.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 124,
+      "item": {
+        "guideEntryTitle": "DISASSOCIATE STATISTICS",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DISASSOCIATE-STATISTICS.html#GUID-6E9A7D93-E28A-469D-97AB-2BECC2EF3C43",
+        "id": 1208,
+        "itemOrdinal": 607,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DISASSOCIATE-STATISTICS.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\disassociate-statistics.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 125,
+      "item": {
+        "guideEntryTitle": "DROP ANALYTIC VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ANALYTIC-VIEW.html#GUID-16BF7588-87E8-4324-BCEC-242355245720",
+        "id": 1209,
+        "itemOrdinal": 608,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ANALYTIC-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-analytic-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 126,
+      "item": {
+        "guideEntryTitle": "DROP APPLICATION IDENTITY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-application-identity.html#GUID-C04F6D3D-F57C-4939-9475-E3719F2DE76A",
+        "id": 1210,
+        "itemOrdinal": 609,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-application-identity.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-application-identity.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 127,
+      "item": {
+        "guideEntryTitle": "DROP ASSERTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-assertion.html#GUID-42ED6603-2225-4932-B26B-2300EC85D37C",
+        "id": 1211,
+        "itemOrdinal": 610,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-assertion.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-assertion.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 128,
+      "item": {
+        "guideEntryTitle": "DROP ATTRIBUTE DIMENSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ATTRIBUTE-DIMENSION.html#GUID-98D6273D-5F83-4AEC-85AF-7540A710F59D",
+        "id": 1212,
+        "itemOrdinal": 611,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ATTRIBUTE-DIMENSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-attribute-dimension.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 129,
+      "item": {
+        "guideEntryTitle": "DROP AUDIT POLICY (Unified Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-AUDIT-POLICY-Unified-Auditing.html#GUID-811D3F84-744E-47A1-B69D-C9D2FA4A0844",
+        "id": 1213,
+        "itemOrdinal": 612,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-AUDIT-POLICY-Unified-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-audit-policy-unified-auditing.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 130,
+      "item": {
+        "guideEntryTitle": "DROP CLUSTER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-CLUSTER.html#GUID-531F7DE2-AA2A-400E-BC9A-4CBEEA7B7156",
+        "id": 1214,
+        "itemOrdinal": 613,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-CLUSTER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-cluster.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "16 SQL Statements: DROP CONTEXT to DROP JAVA",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-DROP-CONTEXT-to-DROP-JAVA.html#GUID-F06DDEEA-AE25-4912-A8EB-E83F8251BD91",
+        "id": 1215,
+        "itemOrdinal": 614,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-DROP-CONTEXT-to-DROP-JAVA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 131,
+      "item": {
+        "guideEntryTitle": "DROP CONTEXT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-CONTEXT.html#GUID-1C5C56A8-A3A3-421B-BEC5-C6ECCA0B60D0",
+        "id": 1216,
+        "itemOrdinal": 615,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-CONTEXT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-context.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 132,
+      "item": {
+        "guideEntryTitle": "DROP DATA GRANT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-data-grant.html#GUID-067163F6-2530-4BDE-AFB5-922CBFD02113",
+        "id": 1217,
+        "itemOrdinal": 616,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-data-grant.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-data-grant.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 133,
+      "item": {
+        "guideEntryTitle": "DROP DATA ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-data-role.html#GUID-3A7767A5-27FA-4F2B-811D-BAE29AE60F0C",
+        "id": 1218,
+        "itemOrdinal": 617,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-data-role.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-data-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 134,
+      "item": {
+        "guideEntryTitle": "DROP DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DATABASE.html#GUID-4FFC1AF5-538D-4882-8979-7A9957492A23",
+        "id": 1219,
+        "itemOrdinal": 618,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 135,
+      "item": {
+        "guideEntryTitle": "DROP DATABASE LINK",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DATABASE-LINK.html#GUID-89856C55-29FB-4B52-84A9-E53B8D115864",
+        "id": 1220,
+        "itemOrdinal": 619,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DATABASE-LINK.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-database-link.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 136,
+      "item": {
+        "guideEntryTitle": "DROP DIMENSION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DIMENSION.html#GUID-658FB451-6759-4777-ACDB-614CFDEFDF80",
+        "id": 1221,
+        "itemOrdinal": 620,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DIMENSION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-dimension.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 137,
+      "item": {
+        "guideEntryTitle": "DROP DIRECTIVE (VALIDATE)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-directive-validate.html#GUID-54085857-48D6-45D9-9E6E-A3232A2D3FB4",
+        "id": 1222,
+        "itemOrdinal": 621,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-directive-validate.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-directive-validate.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 138,
+      "item": {
+        "guideEntryTitle": "DROP DIRECTORY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DIRECTORY.html#GUID-3719950A-7B6A-4284-8467-B3455ECF8516",
+        "id": 1223,
+        "itemOrdinal": 622,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DIRECTORY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-directory.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 139,
+      "item": {
+        "guideEntryTitle": "DROP DISKGROUP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DISKGROUP.html#GUID-6F77FABB-3365-448F-8E2B-9B776904182C",
+        "id": 1224,
+        "itemOrdinal": 623,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-DISKGROUP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-diskgroup.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 140,
+      "item": {
+        "guideEntryTitle": "DROP DOMAIN",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-domain.html#GUID-E82527C8-5C47-43D0-9C0D-E081E78E612F",
+        "id": 1225,
+        "itemOrdinal": 624,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-domain.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-domain.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 141,
+      "item": {
+        "guideEntryTitle": "DROP EDITION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-EDITION.html#GUID-726082F7-C931-4975-8F2B-5EA814A51AB0",
+        "id": 1226,
+        "itemOrdinal": 625,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-EDITION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-edition.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 142,
+      "item": {
+        "guideEntryTitle": "DROP END USER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-end-user.html#GUID-0771F59A-581E-40D1-85F7-BE81B0D704B4",
+        "id": 1227,
+        "itemOrdinal": 626,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-end-user.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-end-user.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 143,
+      "item": {
+        "guideEntryTitle": "DROP END USER CONTEXT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-end-user-context.html#GUID-7D0E733D-61F5-4349-A6AC-534D8E4D2BD1",
+        "id": 1228,
+        "itemOrdinal": 627,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-end-user-context.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-end-user-context.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 144,
+      "item": {
+        "guideEntryTitle": "DROP FLASHBACK ARCHIVE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-FLASHBACK-ARCHIVE.html#GUID-FFF61E62-28AF-4F7B-BBD7-8D9AC08DDE77",
+        "id": 1229,
+        "itemOrdinal": 628,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-FLASHBACK-ARCHIVE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-flashback-archive.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 145,
+      "item": {
+        "guideEntryTitle": "DROP FUNCTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-FUNCTION.html#GUID-5BF63D1C-797E-4FB7-BEAB-B02BD7AADAEF",
+        "id": 1230,
+        "itemOrdinal": 629,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-FUNCTION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-function.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 146,
+      "item": {
+        "guideEntryTitle": "DROP HIERARCHY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-HIERARCHY.html#GUID-03DD165D-EDCC-484F-B79B-D56447587669",
+        "id": 1231,
+        "itemOrdinal": 630,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-HIERARCHY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-hierarchy.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 147,
+      "item": {
+        "guideEntryTitle": "DROP ICEBERG TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-iceberg-table.html#GUID-9876FF23-47FB-4281-875A-D2A329BAB671",
+        "id": 1232,
+        "itemOrdinal": 631,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-iceberg-table.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-iceberg-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 148,
+      "item": {
+        "guideEntryTitle": "DROP INDEX",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-INDEX.html#GUID-F60F75DF-2866-4F93-BB7F-8FCE64BF67B6",
+        "id": 1233,
+        "itemOrdinal": 632,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-INDEX.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-index.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 149,
+      "item": {
+        "guideEntryTitle": "DROP INDEXTYPE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-INDEXTYPE.html#GUID-36D05D07-72C4-48F9-B27D-7C4BBD2C1A81",
+        "id": 1234,
+        "itemOrdinal": 633,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-INDEXTYPE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-indextype.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 150,
+      "item": {
+        "guideEntryTitle": "DROP INMEMORY JOIN GROUP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-INMEMORY-JOIN-GROUP.html#GUID-520D0E9A-B577-4BCD-B6CB-8EB448C0686D",
+        "id": 1235,
+        "itemOrdinal": 634,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-INMEMORY-JOIN-GROUP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-inmemory-join-group.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 151,
+      "item": {
+        "guideEntryTitle": "DROP JAVA",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-JAVA.html#GUID-0D24ADCD-01C8-4FB0-B14C-F5D9FB25E321",
+        "id": 1236,
+        "itemOrdinal": 635,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-JAVA.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-java.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "17 SQL Statements: DROP LIBRARY to DROP SYNONYM",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-DROP-LIBRARY-to-DROP-SYNONYM.html#GUID-A1F5C322-5D22-4989-91A7-59C8F3ECC419",
+        "id": 1237,
+        "itemOrdinal": 636,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-DROP-LIBRARY-to-DROP-SYNONYM.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 152,
+      "item": {
+        "guideEntryTitle": "DROP LIBRARY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-LIBRARY.html#GUID-82F45872-78AD-4125-8D14-EE6A69E2738D",
+        "id": 1238,
+        "itemOrdinal": 637,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-LIBRARY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-library.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 153,
+      "item": {
+        "guideEntryTitle": "DROP LOCKDOWN PROFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-LOCKDOWN-PROFILE.html#GUID-62D428C1-5081-43CA-B45D-7FF1B81363E7",
+        "id": 1239,
+        "itemOrdinal": 638,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-LOCKDOWN-PROFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-lockdown-profile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 154,
+      "item": {
+        "guideEntryTitle": "DROP MATERIALIZED VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-MATERIALIZED-VIEW.html#GUID-187B88E0-F84A-44DB-8F4D-F477586FD22B",
+        "id": 1240,
+        "itemOrdinal": 639,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-MATERIALIZED-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-materialized-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 155,
+      "item": {
+        "guideEntryTitle": "DROP MATERIALIZED VIEW LOG",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-MATERIALIZED-VIEW-LOG.html#GUID-878A08F7-CB95-4911-BE2E-9FEED8861410",
+        "id": 1241,
+        "itemOrdinal": 640,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-MATERIALIZED-VIEW-LOG.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-materialized-view-log.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 156,
+      "item": {
+        "guideEntryTitle": "DROP MATERIALIZED ZONEMAP",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-MATERIALIZED-ZONEMAP.html#GUID-818B228D-9849-4C0C-944E-7A8DEF04A2D0",
+        "id": 1242,
+        "itemOrdinal": 641,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-MATERIALIZED-ZONEMAP.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-materialized-zonemap.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 157,
+      "item": {
+        "guideEntryTitle": "DROP MLE ENV",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-mle-env.html#GUID-19AD5DA2-10B0-46D7-BBEF-6313B6A79425",
+        "id": 1243,
+        "itemOrdinal": 642,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-mle-env.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-mle-env.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 158,
+      "item": {
+        "guideEntryTitle": "DROP MLE MODULE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-mle-module.html#GUID-1E3DEB27-76D6-4564-BC3F-B11DB02609A7",
+        "id": 1244,
+        "itemOrdinal": 643,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-mle-module.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-mle-module.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 159,
+      "item": {
+        "guideEntryTitle": "DROP OPERATOR",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-OPERATOR.html#GUID-48E60BB4-9490-4B8B-B08E-D17EAEBDDD7E",
+        "id": 1245,
+        "itemOrdinal": 644,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-OPERATOR.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-operator.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 160,
+      "item": {
+        "guideEntryTitle": "DROP OUTLINE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-OUTLINE.html#GUID-776F36E0-1905-48DC-9062-FBFAD5E1C36F",
+        "id": 1246,
+        "itemOrdinal": 645,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-OUTLINE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-outline.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 161,
+      "item": {
+        "guideEntryTitle": "DROP PACKAGE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PACKAGE.html#GUID-FAE96214-2ED0-4130-8ACA-A077C7A90B23",
+        "id": 1247,
+        "itemOrdinal": 646,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PACKAGE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-package.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 162,
+      "item": {
+        "guideEntryTitle": "DROP PLUGGABLE DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PLUGGABLE-DATABASE.html#GUID-4A663783-E184-417A-8BE1-703E1CDBA30B",
+        "id": 1248,
+        "itemOrdinal": 647,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PLUGGABLE-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-pluggable-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 163,
+      "item": {
+        "guideEntryTitle": "DROP PMEM FILESTORE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-pmem-filestore.html#GUID-BA62AE81-AA2A-444E-BB46-57B7FB526EFC",
+        "id": 1249,
+        "itemOrdinal": 648,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-pmem-filestore.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-pmem-filestore.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 164,
+      "item": {
+        "guideEntryTitle": "DROP PROCEDURE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PROCEDURE.html#GUID-D7F2B5AD-DEEE-466B-B6D3-B765EB897DCB",
+        "id": 1250,
+        "itemOrdinal": 649,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PROCEDURE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-procedure.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 165,
+      "item": {
+        "guideEntryTitle": "DROP PROFILE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PROFILE.html#GUID-2892A481-F2C8-4B62-8960-E593D1150D83",
+        "id": 1251,
+        "itemOrdinal": 650,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-PROFILE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-profile.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 166,
+      "item": {
+        "guideEntryTitle": "DROP PROPERTY GRAPH",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-property-graph.html#GUID-4B091B93-3681-4CB9-BFDC-A21000AD3637",
+        "id": 1252,
+        "itemOrdinal": 651,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/drop-property-graph.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-property-graph.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 167,
+      "item": {
+        "guideEntryTitle": "DROP RESTORE POINT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-RESTORE-POINT.html#GUID-5FC039A9-46C8-4604-8985-C29CB617798C",
+        "id": 1253,
+        "itemOrdinal": 652,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-RESTORE-POINT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-restore-point.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 168,
+      "item": {
+        "guideEntryTitle": "DROP ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ROLE.html#GUID-F5DEDFAF-EDE6-4733-8E17-C5B94E3168DB",
+        "id": 1254,
+        "itemOrdinal": 653,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ROLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 169,
+      "item": {
+        "guideEntryTitle": "DROP ROLLBACK SEGMENT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ROLLBACK-SEGMENT.html#GUID-26B4C9D6-EFB4-4523-B84D-FAD42060D3D4",
+        "id": 1255,
+        "itemOrdinal": 654,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-ROLLBACK-SEGMENT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-rollback-segment.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 170,
+      "item": {
+        "guideEntryTitle": "DROP SEQUENCE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-SEQUENCE.html#GUID-32B640EE-47C9-46A7-9746-6125BAF8FF8C",
+        "id": 1256,
+        "itemOrdinal": 655,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-SEQUENCE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-sequence.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 171,
+      "item": {
+        "guideEntryTitle": "DROP SYNONYM",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-SYNONYM.html#GUID-C7293D40-83B8-4E60-9E90-CB907F2CA6C7",
+        "id": 1257,
+        "itemOrdinal": 656,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-SYNONYM.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-synonym.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "18 SQL Statements: DROP TABLE to LOCK TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-DROP-TABLE-to-LOCK-TABLE.html#GUID-4DF57957-21B8-4033-A87B-1F37F27FD572",
+        "id": 1258,
+        "itemOrdinal": 657,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-DROP-TABLE-to-LOCK-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 172,
+      "item": {
+        "guideEntryTitle": "DROP TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TABLE.html#GUID-39D89EDC-155D-4A24-837E-D45DDA757B45",
+        "id": 1259,
+        "itemOrdinal": 658,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 173,
+      "item": {
+        "guideEntryTitle": "DROP TABLESPACE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TABLESPACE.html#GUID-C91F3E94-4503-48DE-9BCA-42E495E6BE11",
+        "id": 1260,
+        "itemOrdinal": 659,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TABLESPACE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-tablespace.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 174,
+      "item": {
+        "guideEntryTitle": "DROP TABLESPACE SET",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TABLESPACE-SET.html#GUID-B14EC4C4-87C2-4E79-AB1A-044B620DF1FE",
+        "id": 1261,
+        "itemOrdinal": 660,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TABLESPACE-SET.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-tablespace-set.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 175,
+      "item": {
+        "guideEntryTitle": "DROP TRIGGER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TRIGGER.html#GUID-724AC8BC-0428-43D3-8F11-4D4AD8DC2984",
+        "id": 1262,
+        "itemOrdinal": 661,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TRIGGER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-trigger.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 176,
+      "item": {
+        "guideEntryTitle": "DROP TYPE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TYPE.html#GUID-2CBA2EFD-1B01-46A8-A4CD-B2975D3A1D67",
+        "id": 1263,
+        "itemOrdinal": 662,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TYPE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-type.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 177,
+      "item": {
+        "guideEntryTitle": "DROP TYPE BODY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TYPE-BODY.html#GUID-9D661F88-2174-4D21-87CA-CC6A36385C05",
+        "id": 1264,
+        "itemOrdinal": 663,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-TYPE-BODY.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-type-body.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 178,
+      "item": {
+        "guideEntryTitle": "DROP USER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-USER.html#GUID-F766E1A2-6686-4734-89BA-0C5B4120B90E",
+        "id": 1265,
+        "itemOrdinal": 664,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-USER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-user.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 179,
+      "item": {
+        "guideEntryTitle": "DROP VIEW",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-VIEW.html#GUID-1A1BD841-66B9-47E4-896F-D36E075AE296",
+        "id": 1266,
+        "itemOrdinal": 665,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/DROP-VIEW.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\drop-view.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 180,
+      "item": {
+        "guideEntryTitle": "EXPLAIN PLAN",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/EXPLAIN-PLAN.html#GUID-FD540872-4ED3-4936-96A2-362539931BA0",
+        "id": 1267,
+        "itemOrdinal": 666,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/EXPLAIN-PLAN.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\explain-plan.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 181,
+      "item": {
+        "guideEntryTitle": "FLASHBACK DATABASE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/FLASHBACK-DATABASE.html#GUID-BE0ACF9A-BC13-4810-B08B-33326440258B",
+        "id": 1268,
+        "itemOrdinal": 667,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/FLASHBACK-DATABASE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\flashback-database.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 182,
+      "item": {
+        "guideEntryTitle": "FLASHBACK TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/FLASHBACK-TABLE.html#GUID-FA9AF2FD-2DAD-4387-9E62-14AFC26EA85C",
+        "id": 1269,
+        "itemOrdinal": 668,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/FLASHBACK-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\flashback-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 183,
+      "item": {
+        "guideEntryTitle": "GRANT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/GRANT.html#GUID-20B4E2C0-A7F8-4BC8-A5E8-BE61BDC41AC3",
+        "id": 1270,
+        "itemOrdinal": 669,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/GRANT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\grant.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 184,
+      "item": {
+        "guideEntryTitle": "GRANT DATA ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/grant-data-role.html#GUID-C8ABC027-9A3B-4304-A3D9-981E30C35F19",
+        "id": 1271,
+        "itemOrdinal": 670,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/grant-data-role.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\grant-data-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 185,
+      "item": {
+        "guideEntryTitle": "INSERT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/INSERT.html#GUID-903F8043-0254-4EE9-ACC1-CB8AC0AF3423",
+        "id": 1272,
+        "itemOrdinal": 671,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/INSERT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\insert.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 186,
+      "item": {
+        "guideEntryTitle": "LOCK TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/LOCK-TABLE.html#GUID-4C00C6D9-C5C5-46CC-AD33-A64001744A4C",
+        "id": 1273,
+        "itemOrdinal": 672,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/LOCK-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\lock-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": null,
+      "item": {
+        "guideEntryTitle": "19 SQL Statements: MERGE to UPDATE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-MERGE-to-UPDATE.html#GUID-07BBB875-6272-441A-893F-35E2F9CA58ED",
+        "id": 1274,
+        "itemOrdinal": 673,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SQL-Statements-MERGE-to-UPDATE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": null,
+      "status": "skipped"
+    },
+    {
+      "commandId": 187,
+      "item": {
+        "guideEntryTitle": "MERGE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/MERGE.html#GUID-5692CCB7-24D9-4C0E-81A7-A22436DC968F",
+        "id": 1275,
+        "itemOrdinal": 674,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/MERGE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\merge.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 188,
+      "item": {
+        "guideEntryTitle": "NOAUDIT (Traditional Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/NOAUDIT-Traditional-Auditing.html#GUID-9D8EAF18-4AB3-4C04-8BF7-37BD0E15434D",
+        "id": 1276,
+        "itemOrdinal": 675,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/NOAUDIT-Traditional-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\noaudit-traditional-auditing.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 189,
+      "item": {
+        "guideEntryTitle": "NOAUDIT (Unified Auditing)",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/NOAUDIT-Unified-Auditing.html#GUID-EB92BE04-B09C-493F-952E-9629E739900E",
+        "id": 1277,
+        "itemOrdinal": 676,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/NOAUDIT-Unified-Auditing.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\noaudit-unified-auditing.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 190,
+      "item": {
+        "guideEntryTitle": "PURGE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/PURGE.html#GUID-9257F773-E019-4464-80F4-F5AB61D7D9B6",
+        "id": 1278,
+        "itemOrdinal": 677,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/PURGE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\purge.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 191,
+      "item": {
+        "guideEntryTitle": "RENAME",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/RENAME.html#GUID-573347CE-3EB8-42E5-B4D5-EF71CA06FAFC",
+        "id": 1279,
+        "itemOrdinal": 678,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/RENAME.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\rename.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 192,
+      "item": {
+        "guideEntryTitle": "REVOKE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/REVOKE.html#GUID-BAAD2331-40A5-4366-86CA-BAA6B957E866",
+        "id": 1280,
+        "itemOrdinal": 679,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/REVOKE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\revoke.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 193,
+      "item": {
+        "guideEntryTitle": "REVOKE DATA ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/revoke-data-role.html#GUID-24F7DE71-8A20-4732-9E86-65D27A684189",
+        "id": 1281,
+        "itemOrdinal": 680,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/revoke-data-role.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\revoke-data-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 194,
+      "item": {
+        "guideEntryTitle": "ROLLBACK",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ROLLBACK.html#GUID-94551F0C-A47F-43DE-BC68-9B1C1ED38C93",
+        "id": 1282,
+        "itemOrdinal": 681,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/ROLLBACK.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\rollback.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 195,
+      "item": {
+        "guideEntryTitle": "SAVEPOINT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SAVEPOINT.html#GUID-78EEA746-0021-42E8-9971-3BA6DFFEE794",
+        "id": 1283,
+        "itemOrdinal": 682,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SAVEPOINT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\savepoint.html",
+      "status": "rendered"
+    },
+    {
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "item": {
+        "guideEntryTitle": "SELECT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SELECT.html#GUID-CFA006CA-6FF1-4972-821E-6996142A51C6",
+        "id": 1284,
+        "itemOrdinal": 683,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SELECT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "status": "failed"
+    },
+    {
+      "commandId": 196,
+      "item": {
+        "guideEntryTitle": "SELECT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SELECT.html#GUID-CFA006CA-6FF1-4972-821E-6996142A51C6",
+        "id": 1284,
+        "itemOrdinal": 683,
+        "itemStatus": "FAILED_RENDER",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SELECT.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\select.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 197,
+      "item": {
+        "guideEntryTitle": "SET CONSTRAINT[S]",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SET-CONSTRAINTS.html#GUID-1EF5B212-17C5-4F7C-9412-D777DFDEDCE9",
+        "id": 1285,
+        "itemOrdinal": 684,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SET-CONSTRAINTS.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\set-constraint-s.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 198,
+      "item": {
+        "guideEntryTitle": "SET ROLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SET-ROLE.html#GUID-863F9B6F-82B4-4C49-8E3A-3BA33AE79CAB",
+        "id": 1286,
+        "itemOrdinal": 685,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SET-ROLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\set-role.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 199,
+      "item": {
+        "guideEntryTitle": "SET TRANSACTION",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SET-TRANSACTION.html#GUID-F11E1E30-5871-48D1-8266-F80A1DF126A1",
+        "id": 1287,
+        "itemOrdinal": 686,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/SET-TRANSACTION.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\set-transaction.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 200,
+      "item": {
+        "guideEntryTitle": "SET USE DATA GRANTS ONLY",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/set-use-data-grants-only.html#GUID-79E33139-70CE-4EB1-B1B2-4314458DFC05",
+        "id": 1288,
+        "itemOrdinal": 687,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/set-use-data-grants-only.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\set-use-data-grants-only.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 201,
+      "item": {
+        "guideEntryTitle": "TRUNCATE CLUSTER",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/TRUNCATE-CLUSTER.html#GUID-90C16956-644E-4E28-A53D-BB34ED630561",
+        "id": 1289,
+        "itemOrdinal": 688,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/TRUNCATE-CLUSTER.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\truncate-cluster.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 202,
+      "item": {
+        "guideEntryTitle": "TRUNCATE TABLE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/TRUNCATE-TABLE.html#GUID-B76E5846-75B5-4876-98EC-439E15E4D8A4",
+        "id": 1290,
+        "itemOrdinal": 689,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/TRUNCATE-TABLE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\truncate-table.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 203,
+      "item": {
+        "guideEntryTitle": "UPDATE",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/UPDATE.html#GUID-027A462D-379D-4E35-8611-410F3AC8FDA5",
+        "id": 1291,
+        "itemOrdinal": 690,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/UPDATE.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\update.html",
+      "status": "rendered"
+    },
+    {
+      "commandId": 204,
+      "item": {
+        "guideEntryTitle": "UPDATE END USER CONTEXT",
+        "guideEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/update-end-user-context.html#GUID-17072C19-4156-4C05-BCDB-6072083F8033",
+        "id": 1292,
+        "itemOrdinal": 691,
+        "itemStatus": "PENDING",
+        "normalizedEntryUrl": "https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/update-end-user-context.html",
+        "sourceEnvironment": "PROD"
+      },
+      "previewPath": "C:\\Users\\Bill\\DBUAD\\apps\\skills-ui\\logs\\sql-diagrams\\sql-language-reference-26ai\\PROD\\run-14\\update-end-user-context.html",
+      "status": "rendered"
+    }
+  ],
+  "runId": 14,
+  "skipped": 10
+}

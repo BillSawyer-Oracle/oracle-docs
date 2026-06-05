@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 482" width="1440" height="482" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>DIRECTORY PARTITION DESC</title>
+  <desc>Interactive SQL BNF diagram for DIRECTORY PARTITION DESC. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="482"/>
+  <rect class="frame" x="12" y="12" width="1416" height="458" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">DIRECTORY PARTITION DESC</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">8 syntax lines · 5 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>PARTITION</title><rect class="token token-keyword" x="76" y="94" width="88" height="30" rx="4"/><text class="token-label" x="120.0" y="114" text-anchor="middle">PARTITION</text></g>
+<g id="tok-1-2" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="172" y="94" width="38" height="30" rx="4"/><text class="token-label" x="191.0" y="114" text-anchor="middle">[</text></g>
+<g id="tok-1-3" class="token-group" data-kind="variable"><title>partition</title><rect class="token token-variable" x="218" y="94" width="88" height="30" rx="4"/><text class="token-label" x="262.0" y="114" text-anchor="middle">partition</text></g>
+<g id="tok-1-4" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="314" y="94" width="38" height="30" rx="4"/><text class="token-label" x="333.0" y="114" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<a href="components/table-partition-description.html" target="_parent" class="component-link"><g id="tok-2-5" class="token-group" data-kind="reference"><title>TABLE PARTITION DESCRIPTION</title><rect class="token token-reference" x="76" y="140" width="232" height="30" rx="4"/><text class="token-label" x="192.0" y="160" text-anchor="middle">table_partition_description</text></g></a>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-6" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="104" y="186" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="206" text-anchor="middle">[</text></g>
+<g id="tok-3-7" class="token-group" data-kind="operator"><title>(</title><rect class="token token-operator" x="150" y="186" width="38" height="30" rx="4"/><text class="token-label" x="169.0" y="206" text-anchor="middle">(</text></g>
+<a href="components/range-subpartition-desc.html" target="_parent" class="component-link"><g id="tok-3-8" class="token-group" data-kind="reference"><title>RANGE SUBPARTITION DESC</title><rect class="token token-reference" x="196" y="186" width="200" height="30" rx="4"/><text class="token-label" x="296.0" y="206" text-anchor="middle">range_subpartition_desc</text></g></a>
+<g id="tok-3-9" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="404" y="186" width="38" height="30" rx="4"/><text class="token-label" x="423.0" y="206" text-anchor="middle">[</text></g>
+<g id="tok-3-10" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="450" y="186" width="34" height="30" rx="4"/><text class="token-label" x="467.0" y="206" text-anchor="middle">,</text></g>
+<a href="components/range-subpartition-desc.html" target="_parent" class="component-link"><g id="tok-3-11" class="token-group" data-kind="reference"><title>RANGE SUBPARTITION DESC</title><rect class="token token-reference" x="492" y="186" width="200" height="30" rx="4"/><text class="token-label" x="592.0" y="206" text-anchor="middle">range_subpartition_desc</text></g></a>
+<g id="tok-3-12" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="700" y="186" width="38" height="30" rx="4"/><text class="token-label" x="719.0" y="206" text-anchor="middle">]</text></g>
+<g id="tok-3-13" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="746" y="186" width="34" height="30" rx="4"/><text class="token-label" x="763.0" y="206" text-anchor="middle">.</text></g>
+<g id="tok-3-14" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="788" y="186" width="34" height="30" rx="4"/><text class="token-label" x="805.0" y="206" text-anchor="middle">.</text></g>
+<g id="tok-3-15" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="830" y="186" width="34" height="30" rx="4"/><text class="token-label" x="847.0" y="206" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-16" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="232" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="252" text-anchor="middle">|</text></g>
+<a href="components/list-subpartition-desc.html" target="_parent" class="component-link"><g id="tok-4-17" class="token-group" data-kind="reference"><title>LIST SUBPARTITION DESC</title><rect class="token token-reference" x="202" y="232" width="192" height="30" rx="4"/><text class="token-label" x="298.0" y="252" text-anchor="middle">list_subpartition_desc</text></g></a>
+<g id="tok-4-18" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="402" y="232" width="34" height="30" rx="4"/><text class="token-label" x="419.0" y="252" text-anchor="middle">,</text></g>
+<g id="tok-4-19" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="444" y="232" width="38" height="30" rx="4"/><text class="token-label" x="463.0" y="252" text-anchor="middle">[</text></g>
+<g id="tok-4-20" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="490" y="232" width="34" height="30" rx="4"/><text class="token-label" x="507.0" y="252" text-anchor="middle">,</text></g>
+<a href="components/list-subpartition-desc.html" target="_parent" class="component-link"><g id="tok-4-21" class="token-group" data-kind="reference"><title>LIST SUBPARTITION DESC</title><rect class="token token-reference" x="532" y="232" width="192" height="30" rx="4"/><text class="token-label" x="628.0" y="252" text-anchor="middle">list_subpartition_desc</text></g></a>
+<g id="tok-4-22" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="732" y="232" width="38" height="30" rx="4"/><text class="token-label" x="751.0" y="252" text-anchor="middle">]</text></g>
+<g id="tok-4-23" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="778" y="232" width="34" height="30" rx="4"/><text class="token-label" x="795.0" y="252" text-anchor="middle">.</text></g>
+<g id="tok-4-24" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="820" y="232" width="34" height="30" rx="4"/><text class="token-label" x="837.0" y="252" text-anchor="middle">.</text></g>
+<g id="tok-4-25" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="862" y="232" width="34" height="30" rx="4"/><text class="token-label" x="879.0" y="252" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-26" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="160" y="278" width="34" height="30" rx="4"/><text class="token-label" x="177.0" y="298" text-anchor="middle">|</text></g>
+<a href="components/individual-hash-subparts.html" target="_parent" class="component-link"><g id="tok-5-27" class="token-group" data-kind="reference"><title>INDIVIDUAL HASH SUBPARTS</title><rect class="token token-reference" x="202" y="278" width="208" height="30" rx="4"/><text class="token-label" x="306.0" y="298" text-anchor="middle">individual_hash_subparts</text></g></a>
+<g id="tok-5-28" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="418" y="278" width="38" height="30" rx="4"/><text class="token-label" x="437.0" y="298" text-anchor="middle">[</text></g>
+<g id="tok-5-29" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="464" y="278" width="34" height="30" rx="4"/><text class="token-label" x="481.0" y="298" text-anchor="middle">,</text></g>
+<a href="components/individual-hash-subparts.html" target="_parent" class="component-link"><g id="tok-5-30" class="token-group" data-kind="reference"><title>INDIVIDUAL HASH SUBPARTS</title><rect class="token token-reference" x="506" y="278" width="208" height="30" rx="4"/><text class="token-label" x="610.0" y="298" text-anchor="middle">individual_hash_subparts</text></g></a>
+<g id="tok-5-31" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="722" y="278" width="38" height="30" rx="4"/><text class="token-label" x="741.0" y="298" text-anchor="middle">]</text></g>
+<g id="tok-5-32" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="768" y="278" width="34" height="30" rx="4"/><text class="token-label" x="785.0" y="298" text-anchor="middle">.</text></g>
+<g id="tok-5-33" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="810" y="278" width="34" height="30" rx="4"/><text class="token-label" x="827.0" y="298" text-anchor="middle">.</text></g>
+<g id="tok-5-34" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="852" y="278" width="34" height="30" rx="4"/><text class="token-label" x="869.0" y="298" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-35" class="token-group" data-kind="operator"><title>)</title><rect class="token token-operator" x="132" y="324" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="344" text-anchor="middle">)</text></g>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-36" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="132" y="370" width="34" height="30" rx="4"/><text class="token-label" x="149.0" y="390" text-anchor="middle">|</text></g>
+<a href="components/hash-subparts-by-quantity.html" target="_parent" class="component-link"><g id="tok-7-37" class="token-group" data-kind="reference"><title>HASH SUBPARTS BY QUANTITY</title><rect class="token token-reference" x="174" y="370" width="216" height="30" rx="4"/><text class="token-label" x="282.0" y="390" text-anchor="middle">hash_subparts_by_quantity</text></g></a>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-38" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="104" y="416" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="436" text-anchor="middle">]</text></g>
+</svg>

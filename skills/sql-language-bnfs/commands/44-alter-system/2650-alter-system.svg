@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 1172" width="1440" height="1172" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ALTER SYSTEM</title>
+  <desc>Interactive SQL BNF diagram for ALTER SYSTEM. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="1172"/>
+  <rect class="frame" x="12" y="12" width="1416" height="1148" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ALTER SYSTEM</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">23 syntax lines · 15 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>ALTER</title><rect class="token token-keyword" x="76" y="94" width="56" height="30" rx="4"/><text class="token-label" x="104.0" y="114" text-anchor="middle">ALTER</text></g>
+<g id="tok-1-2" class="token-group" data-kind="keyword"><title>SYSTEM</title><rect class="token token-keyword" x="140" y="94" width="64" height="30" rx="4"/><text class="token-label" x="172.0" y="114" text-anchor="middle">SYSTEM</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-3" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="104" y="140" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="160" text-anchor="middle">{</text></g>
+<a href="components/archive-log-clause.html" target="_parent" class="component-link"><g id="tok-2-4" class="token-group" data-kind="reference"><title>ARCHIVE LOG CLAUSE</title><rect class="token token-reference" x="150" y="140" width="160" height="30" rx="4"/><text class="token-label" x="230.0" y="160" text-anchor="middle">archive_log_clause</text></g></a>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-5" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="186" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="206" text-anchor="middle">|</text></g>
+<a href="components/checkpoint-clause.html" target="_parent" class="component-link"><g id="tok-3-6" class="token-group" data-kind="reference"><title>CHECKPOINT CLAUSE</title><rect class="token token-reference" x="146" y="186" width="152" height="30" rx="4"/><text class="token-label" x="222.0" y="206" text-anchor="middle">checkpoint_clause</text></g></a>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-7" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="232" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="252" text-anchor="middle">|</text></g>
+<a href="components/check-datafiles-clause.html" target="_parent" class="component-link"><g id="tok-4-8" class="token-group" data-kind="reference"><title>CHECK DATAFILES CLAUSE</title><rect class="token token-reference" x="146" y="232" width="192" height="30" rx="4"/><text class="token-label" x="242.0" y="252" text-anchor="middle">check_datafiles_clause</text></g></a>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-9" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="278" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="298" text-anchor="middle">|</text></g>
+<a href="components/distributed-recov-clauses.html" target="_parent" class="component-link"><g id="tok-5-10" class="token-group" data-kind="reference"><title>DISTRIBUTED RECOV CLAUSES</title><rect class="token token-reference" x="146" y="278" width="216" height="30" rx="4"/><text class="token-label" x="254.0" y="298" text-anchor="middle">distributed_recov_clauses</text></g></a>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-11" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="324" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="344" text-anchor="middle">|</text></g>
+<a href="components/flush-clause.html" target="_parent" class="component-link"><g id="tok-6-12" class="token-group" data-kind="reference"><title>FLUSH CLAUSE</title><rect class="token token-reference" x="146" y="324" width="112" height="30" rx="4"/><text class="token-label" x="202.0" y="344" text-anchor="middle">flush_clause</text></g></a>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-13" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="370" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="390" text-anchor="middle">|</text></g>
+<a href="components/end-session-clauses.html" target="_parent" class="component-link"><g id="tok-7-14" class="token-group" data-kind="reference"><title>END SESSION CLAUSES</title><rect class="token token-reference" x="146" y="370" width="168" height="30" rx="4"/><text class="token-label" x="230.0" y="390" text-anchor="middle">end_session_clauses</text></g></a>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-15" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="416" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="436" text-anchor="middle">|</text></g>
+<g id="tok-8-16" class="token-group" data-kind="keyword"><title>SWITCH</title><rect class="token token-keyword" x="146" y="416" width="64" height="30" rx="4"/><text class="token-label" x="178.0" y="436" text-anchor="middle">SWITCH</text></g>
+<g id="tok-8-17" class="token-group" data-kind="keyword"><title>LOGFILE</title><rect class="token token-keyword" x="218" y="416" width="72" height="30" rx="4"/><text class="token-label" x="254.0" y="436" text-anchor="middle">LOGFILE</text></g>
+<text class="line-number" x="28" y="482" text-anchor="start">9</text>
+<line class="rail" x1="48" y1="477" x2="1412" y2="477"/>
+<g id="tok-9-18" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="462" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="482" text-anchor="middle">|</text></g>
+<g id="tok-9-19" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="462" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="482" text-anchor="middle">{</text></g>
+<g id="tok-9-20" class="token-group" data-kind="keyword"><title>SUSPEND</title><rect class="token token-keyword" x="192" y="462" width="72" height="30" rx="4"/><text class="token-label" x="228.0" y="482" text-anchor="middle">SUSPEND</text></g>
+<g id="tok-9-21" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="272" y="462" width="34" height="30" rx="4"/><text class="token-label" x="289.0" y="482" text-anchor="middle">|</text></g>
+<g id="tok-9-22" class="token-group" data-kind="keyword"><title>RESUME</title><rect class="token token-keyword" x="314" y="462" width="64" height="30" rx="4"/><text class="token-label" x="346.0" y="482" text-anchor="middle">RESUME</text></g>
+<g id="tok-9-23" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="386" y="462" width="38" height="30" rx="4"/><text class="token-label" x="405.0" y="482" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="528" text-anchor="start">10</text>
+<line class="rail" x1="48" y1="523" x2="1412" y2="523"/>
+<g id="tok-10-24" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="508" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="528" text-anchor="middle">|</text></g>
+<a href="components/quiesce-clauses.html" target="_parent" class="component-link"><g id="tok-10-25" class="token-group" data-kind="reference"><title>QUIESCE CLAUSES</title><rect class="token token-reference" x="146" y="508" width="136" height="30" rx="4"/><text class="token-label" x="214.0" y="528" text-anchor="middle">quiesce_clauses</text></g></a>
+<text class="line-number" x="28" y="574" text-anchor="start">11</text>
+<line class="rail" x1="48" y1="569" x2="1412" y2="569"/>
+<g id="tok-11-26" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="554" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="574" text-anchor="middle">|</text></g>
+<a href="components/rolling-migration-clauses.html" target="_parent" class="component-link"><g id="tok-11-27" class="token-group" data-kind="reference"><title>ROLLING MIGRATION CLAUSES</title><rect class="token token-reference" x="146" y="554" width="216" height="30" rx="4"/><text class="token-label" x="254.0" y="574" text-anchor="middle">rolling_migration_clauses</text></g></a>
+<text class="line-number" x="28" y="620" text-anchor="start">12</text>
+<line class="rail" x1="48" y1="615" x2="1412" y2="615"/>
+<g id="tok-12-28" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="600" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="620" text-anchor="middle">|</text></g>
+<a href="components/rolling-patch-clauses.html" target="_parent" class="component-link"><g id="tok-12-29" class="token-group" data-kind="reference"><title>ROLLING PATCH CLAUSES</title><rect class="token token-reference" x="146" y="600" width="184" height="30" rx="4"/><text class="token-label" x="238.0" y="620" text-anchor="middle">rolling_patch_clauses</text></g></a>
+<text class="line-number" x="28" y="666" text-anchor="start">13</text>
+<line class="rail" x1="48" y1="661" x2="1412" y2="661"/>
+<g id="tok-13-30" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="646" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="666" text-anchor="middle">|</text></g>
+<a href="components/security-clauses.html" target="_parent" class="component-link"><g id="tok-13-31" class="token-group" data-kind="reference"><title>SECURITY CLAUSES</title><rect class="token token-reference" x="146" y="646" width="144" height="30" rx="4"/><text class="token-label" x="218.0" y="666" text-anchor="middle">security_clauses</text></g></a>
+<text class="line-number" x="28" y="712" text-anchor="start">14</text>
+<line class="rail" x1="48" y1="707" x2="1412" y2="707"/>
+<g id="tok-14-32" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="692" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="712" text-anchor="middle">|</text></g>
+<a href="components/affinity-clauses.html" target="_parent" class="component-link"><g id="tok-14-33" class="token-group" data-kind="reference"><title>AFFINITY CLAUSES</title><rect class="token token-reference" x="146" y="692" width="144" height="30" rx="4"/><text class="token-label" x="218.0" y="712" text-anchor="middle">affinity_clauses</text></g></a>
+<text class="line-number" x="28" y="758" text-anchor="start">15</text>
+<line class="rail" x1="48" y1="753" x2="1412" y2="753"/>
+<g id="tok-15-34" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="738" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="758" text-anchor="middle">|</text></g>
+<a href="components/shutdown-dispatcher-clause.html" target="_parent" class="component-link"><g id="tok-15-35" class="token-group" data-kind="reference"><title>SHUTDOWN DISPATCHER CLAUSE</title><rect class="token token-reference" x="146" y="738" width="224" height="30" rx="4"/><text class="token-label" x="258.0" y="758" text-anchor="middle">shutdown_dispatcher_clause</text></g></a>
+<text class="line-number" x="28" y="804" text-anchor="start">16</text>
+<line class="rail" x1="48" y1="799" x2="1412" y2="799"/>
+<g id="tok-16-36" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="784" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="804" text-anchor="middle">|</text></g>
+<g id="tok-16-37" class="token-group" data-kind="keyword"><title>REGISTER</title><rect class="token token-keyword" x="146" y="784" width="80" height="30" rx="4"/><text class="token-label" x="186.0" y="804" text-anchor="middle">REGISTER</text></g>
+<text class="line-number" x="28" y="850" text-anchor="start">17</text>
+<line class="rail" x1="48" y1="845" x2="1412" y2="845"/>
+<g id="tok-17-38" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="830" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="850" text-anchor="middle">|</text></g>
+<g id="tok-17-39" class="token-group" data-kind="keyword"><title>SET</title><rect class="token token-keyword" x="146" y="830" width="54" height="30" rx="4"/><text class="token-label" x="173.0" y="850" text-anchor="middle">SET</text></g>
+<a href="components/alter-system-set-clause.html" target="_parent" class="component-link"><g id="tok-17-40" class="token-group" data-kind="reference"><title>ALTER SYSTEM SET CLAUSE</title><rect class="token token-reference" x="208" y="830" width="200" height="30" rx="4"/><text class="token-label" x="308.0" y="850" text-anchor="middle">alter_system_set_clause</text></g></a>
+<text class="line-number" x="28" y="896" text-anchor="start">18</text>
+<line class="rail" x1="48" y1="891" x2="1412" y2="891"/>
+<g id="tok-18-41" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="188" y="876" width="38" height="30" rx="4"/><text class="token-label" x="207.0" y="896" text-anchor="middle">[</text></g>
+<a href="components/alter-system-set-clause.html" target="_parent" class="component-link"><g id="tok-18-42" class="token-group" data-kind="reference"><title>ALTER SYSTEM SET CLAUSE</title><rect class="token token-reference" x="234" y="876" width="200" height="30" rx="4"/><text class="token-label" x="334.0" y="896" text-anchor="middle">alter_system_set_clause</text></g></a>
+<g id="tok-18-43" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="442" y="876" width="38" height="30" rx="4"/><text class="token-label" x="461.0" y="896" text-anchor="middle">]</text></g>
+<g id="tok-18-44" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="488" y="876" width="34" height="30" rx="4"/><text class="token-label" x="505.0" y="896" text-anchor="middle">.</text></g>
+<g id="tok-18-45" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="530" y="876" width="34" height="30" rx="4"/><text class="token-label" x="547.0" y="896" text-anchor="middle">.</text></g>
+<g id="tok-18-46" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="572" y="876" width="34" height="30" rx="4"/><text class="token-label" x="589.0" y="896" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="942" text-anchor="start">19</text>
+<line class="rail" x1="48" y1="937" x2="1412" y2="937"/>
+<g id="tok-19-47" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="922" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="942" text-anchor="middle">|</text></g>
+<g id="tok-19-48" class="token-group" data-kind="keyword"><title>RESET</title><rect class="token token-keyword" x="146" y="922" width="56" height="30" rx="4"/><text class="token-label" x="174.0" y="942" text-anchor="middle">RESET</text></g>
+<a href="components/alter-system-reset-clause.html" target="_parent" class="component-link"><g id="tok-19-49" class="token-group" data-kind="reference"><title>ALTER SYSTEM RESET CLAUSE</title><rect class="token token-reference" x="210" y="922" width="216" height="30" rx="4"/><text class="token-label" x="318.0" y="942" text-anchor="middle">alter_system_reset_clause</text></g></a>
+<text class="line-number" x="28" y="988" text-anchor="start">20</text>
+<line class="rail" x1="48" y1="983" x2="1412" y2="983"/>
+<g id="tok-20-50" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="188" y="968" width="38" height="30" rx="4"/><text class="token-label" x="207.0" y="988" text-anchor="middle">[</text></g>
+<a href="components/alter-system-reset-clause.html" target="_parent" class="component-link"><g id="tok-20-51" class="token-group" data-kind="reference"><title>ALTER SYSTEM RESET CLAUSE</title><rect class="token token-reference" x="234" y="968" width="216" height="30" rx="4"/><text class="token-label" x="342.0" y="988" text-anchor="middle">alter_system_reset_clause</text></g></a>
+<g id="tok-20-52" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="458" y="968" width="38" height="30" rx="4"/><text class="token-label" x="477.0" y="988" text-anchor="middle">]</text></g>
+<g id="tok-20-53" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="504" y="968" width="34" height="30" rx="4"/><text class="token-label" x="521.0" y="988" text-anchor="middle">.</text></g>
+<g id="tok-20-54" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="546" y="968" width="34" height="30" rx="4"/><text class="token-label" x="563.0" y="988" text-anchor="middle">.</text></g>
+<g id="tok-20-55" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="588" y="968" width="34" height="30" rx="4"/><text class="token-label" x="605.0" y="988" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="1034" text-anchor="start">21</text>
+<line class="rail" x1="48" y1="1029" x2="1412" y2="1029"/>
+<g id="tok-21-56" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="1014" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="1034" text-anchor="middle">|</text></g>
+<g id="tok-21-57" class="token-group" data-kind="keyword"><title>RELOCATE</title><rect class="token token-keyword" x="146" y="1014" width="80" height="30" rx="4"/><text class="token-label" x="186.0" y="1034" text-anchor="middle">RELOCATE</text></g>
+<g id="tok-21-58" class="token-group" data-kind="keyword"><title>CLIENT</title><rect class="token token-keyword" x="234" y="1014" width="64" height="30" rx="4"/><text class="token-label" x="266.0" y="1034" text-anchor="middle">CLIENT</text></g>
+<g id="tok-21-59" class="token-group" data-kind="variable"><title>client_id</title><rect class="token token-variable" x="306" y="1014" width="88" height="30" rx="4"/><text class="token-label" x="350.0" y="1034" text-anchor="middle">client_id</text></g>
+<text class="line-number" x="28" y="1080" text-anchor="start">22</text>
+<line class="rail" x1="48" y1="1075" x2="1412" y2="1075"/>
+<g id="tok-22-60" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="104" y="1060" width="34" height="30" rx="4"/><text class="token-label" x="121.0" y="1080" text-anchor="middle">|</text></g>
+<a href="components/cancel-sql-clause.html" target="_parent" class="component-link"><g id="tok-22-61" class="token-group" data-kind="reference"><title>CANCEL SQL CLAUSE</title><rect class="token token-reference" x="146" y="1060" width="152" height="30" rx="4"/><text class="token-label" x="222.0" y="1080" text-anchor="middle">cancel_sql_clause</text></g></a>
+<text class="line-number" x="28" y="1126" text-anchor="start">23</text>
+<line class="rail" x1="48" y1="1121" x2="1412" y2="1121"/>
+<g id="tok-23-62" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="118" y="1106" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="1126" text-anchor="middle">}</text></g>
+<g id="tok-23-63" class="token-group" data-kind="operator"><title>;</title><rect class="token token-operator" x="164" y="1106" width="34" height="30" rx="4"/><text class="token-label" x="181.0" y="1126" text-anchor="middle">;</text></g>
+</svg>

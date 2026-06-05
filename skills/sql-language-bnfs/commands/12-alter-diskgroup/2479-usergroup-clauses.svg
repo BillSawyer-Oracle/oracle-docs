@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 298" width="1440" height="298" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>USERGROUP CLAUSES</title>
+  <desc>Interactive SQL BNF diagram for USERGROUP CLAUSES. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="298"/>
+  <rect class="frame" x="12" y="12" width="1416" height="274" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">USERGROUP CLAUSES</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">4 syntax lines · 0 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="76" y="94" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="114" text-anchor="middle">{</text></g>
+<g id="tok-1-2" class="token-group" data-kind="keyword"><title>ADD</title><rect class="token token-keyword" x="122" y="94" width="54" height="30" rx="4"/><text class="token-label" x="149.0" y="114" text-anchor="middle">ADD</text></g>
+<g id="tok-1-3" class="token-group" data-kind="keyword"><title>USERGROUP</title><rect class="token token-keyword" x="184" y="94" width="88" height="30" rx="4"/><text class="token-label" x="228.0" y="114" text-anchor="middle">USERGROUP</text></g>
+<g id="tok-1-4" class="token-group" data-kind="literal"><title>&#x27;usergroup&#x27;</title><rect class="token token-literal" x="280" y="94" width="104" height="30" rx="4"/><text class="token-label" x="332.0" y="114" text-anchor="middle">&#x27;usergroup&#x27;</text></g>
+<g id="tok-1-5" class="token-group" data-kind="keyword"><title>WITH</title><rect class="token token-keyword" x="392" y="94" width="54" height="30" rx="4"/><text class="token-label" x="419.0" y="114" text-anchor="middle">WITH</text></g>
+<g id="tok-1-6" class="token-group" data-kind="keyword"><title>MEMBER</title><rect class="token token-keyword" x="454" y="94" width="64" height="30" rx="4"/><text class="token-label" x="486.0" y="114" text-anchor="middle">MEMBER</text></g>
+<g id="tok-1-7" class="token-group" data-kind="literal"><title>&#x27;user&#x27;</title><rect class="token token-literal" x="526" y="94" width="64" height="30" rx="4"/><text class="token-label" x="558.0" y="114" text-anchor="middle">&#x27;user&#x27;</text></g>
+<g id="tok-1-8" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="598" y="94" width="38" height="30" rx="4"/><text class="token-label" x="617.0" y="114" text-anchor="middle">[</text></g>
+<g id="tok-1-9" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="644" y="94" width="34" height="30" rx="4"/><text class="token-label" x="661.0" y="114" text-anchor="middle">,</text></g>
+<g id="tok-1-10" class="token-group" data-kind="literal"><title>&#x27;user&#x27;</title><rect class="token token-literal" x="686" y="94" width="64" height="30" rx="4"/><text class="token-label" x="718.0" y="114" text-anchor="middle">&#x27;user&#x27;</text></g>
+<g id="tok-1-11" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="758" y="94" width="38" height="30" rx="4"/><text class="token-label" x="777.0" y="114" text-anchor="middle">]</text></g>
+<g id="tok-1-12" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="804" y="94" width="34" height="30" rx="4"/><text class="token-label" x="821.0" y="114" text-anchor="middle">.</text></g>
+<g id="tok-1-13" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="846" y="94" width="34" height="30" rx="4"/><text class="token-label" x="863.0" y="114" text-anchor="middle">.</text></g>
+<g id="tok-1-14" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="888" y="94" width="34" height="30" rx="4"/><text class="token-label" x="905.0" y="114" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-15" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="140" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="160" text-anchor="middle">|</text></g>
+<g id="tok-2-16" class="token-group" data-kind="keyword"><title>MODIFY</title><rect class="token token-keyword" x="118" y="140" width="64" height="30" rx="4"/><text class="token-label" x="150.0" y="160" text-anchor="middle">MODIFY</text></g>
+<g id="tok-2-17" class="token-group" data-kind="keyword"><title>USERGROUP</title><rect class="token token-keyword" x="190" y="140" width="88" height="30" rx="4"/><text class="token-label" x="234.0" y="160" text-anchor="middle">USERGROUP</text></g>
+<g id="tok-2-18" class="token-group" data-kind="literal"><title>&#x27;usergroup&#x27;</title><rect class="token token-literal" x="286" y="140" width="104" height="30" rx="4"/><text class="token-label" x="338.0" y="160" text-anchor="middle">&#x27;usergroup&#x27;</text></g>
+<g id="tok-2-19" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="398" y="140" width="38" height="30" rx="4"/><text class="token-label" x="417.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-20" class="token-group" data-kind="keyword"><title>ADD</title><rect class="token token-keyword" x="444" y="140" width="54" height="30" rx="4"/><text class="token-label" x="471.0" y="160" text-anchor="middle">ADD</text></g>
+<g id="tok-2-21" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="506" y="140" width="34" height="30" rx="4"/><text class="token-label" x="523.0" y="160" text-anchor="middle">|</text></g>
+<g id="tok-2-22" class="token-group" data-kind="keyword"><title>DROP</title><rect class="token token-keyword" x="548" y="140" width="54" height="30" rx="4"/><text class="token-label" x="575.0" y="160" text-anchor="middle">DROP</text></g>
+<g id="tok-2-23" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="610" y="140" width="38" height="30" rx="4"/><text class="token-label" x="629.0" y="160" text-anchor="middle">}</text></g>
+<g id="tok-2-24" class="token-group" data-kind="keyword"><title>MEMBER</title><rect class="token token-keyword" x="656" y="140" width="64" height="30" rx="4"/><text class="token-label" x="688.0" y="160" text-anchor="middle">MEMBER</text></g>
+<g id="tok-2-25" class="token-group" data-kind="literal"><title>&#x27;user&#x27;</title><rect class="token token-literal" x="728" y="140" width="64" height="30" rx="4"/><text class="token-label" x="760.0" y="160" text-anchor="middle">&#x27;user&#x27;</text></g>
+<g id="tok-2-26" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="800" y="140" width="38" height="30" rx="4"/><text class="token-label" x="819.0" y="160" text-anchor="middle">[</text></g>
+<g id="tok-2-27" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="846" y="140" width="34" height="30" rx="4"/><text class="token-label" x="863.0" y="160" text-anchor="middle">,</text></g>
+<g id="tok-2-28" class="token-group" data-kind="literal"><title>&#x27;user&#x27;</title><rect class="token token-literal" x="888" y="140" width="64" height="30" rx="4"/><text class="token-label" x="920.0" y="160" text-anchor="middle">&#x27;user&#x27;</text></g>
+<g id="tok-2-29" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="960" y="140" width="38" height="30" rx="4"/><text class="token-label" x="979.0" y="160" text-anchor="middle">]</text></g>
+<g id="tok-2-30" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="1006" y="140" width="34" height="30" rx="4"/><text class="token-label" x="1023.0" y="160" text-anchor="middle">.</text></g>
+<g id="tok-2-31" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="1048" y="140" width="34" height="30" rx="4"/><text class="token-label" x="1065.0" y="160" text-anchor="middle">.</text></g>
+<g id="tok-2-32" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="1090" y="140" width="34" height="30" rx="4"/><text class="token-label" x="1107.0" y="160" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-33" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="186" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="206" text-anchor="middle">|</text></g>
+<g id="tok-3-34" class="token-group" data-kind="keyword"><title>DROP</title><rect class="token token-keyword" x="118" y="186" width="54" height="30" rx="4"/><text class="token-label" x="145.0" y="206" text-anchor="middle">DROP</text></g>
+<g id="tok-3-35" class="token-group" data-kind="keyword"><title>USERGROUP</title><rect class="token token-keyword" x="180" y="186" width="88" height="30" rx="4"/><text class="token-label" x="224.0" y="206" text-anchor="middle">USERGROUP</text></g>
+<g id="tok-3-36" class="token-group" data-kind="literal"><title>&#x27;usergroup&#x27;</title><rect class="token token-literal" x="276" y="186" width="104" height="30" rx="4"/><text class="token-label" x="328.0" y="206" text-anchor="middle">&#x27;usergroup&#x27;</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-37" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="76" y="232" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="252" text-anchor="middle">}</text></g>
+</svg>

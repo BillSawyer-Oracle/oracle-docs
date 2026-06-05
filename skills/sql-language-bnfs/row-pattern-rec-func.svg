@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 298" width="1440" height="298" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ROW PATTERN REC FUNC</title>
+  <desc>Interactive SQL BNF diagram for ROW PATTERN REC FUNC. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="298"/>
+  <rect class="frame" x="12" y="12" width="1416" height="274" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ROW PATTERN REC FUNC</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">4 syntax lines · 4 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<a href="components/row-pattern-classifier-func.html" target="_parent" class="component-link"><g id="tok-1-1" class="token-group" data-kind="reference"><title>ROW PATTERN CLASSIFIER FUNC</title><rect class="token token-reference" x="76" y="94" width="232" height="30" rx="4"/><text class="token-label" x="192.0" y="114" text-anchor="middle">row_pattern_classifier_func</text></g></a>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-2" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="140" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="160" text-anchor="middle">|</text></g>
+<a href="components/row-pattern-match-num-func.html" target="_parent" class="component-link"><g id="tok-2-3" class="token-group" data-kind="reference"><title>ROW PATTERN MATCH NUM FUNC</title><rect class="token token-reference" x="118" y="140" width="224" height="30" rx="4"/><text class="token-label" x="230.0" y="160" text-anchor="middle">row_pattern_match_num_func</text></g></a>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-4" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="186" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="206" text-anchor="middle">|</text></g>
+<a href="components/row-pattern-navigation-func.html" target="_parent" class="component-link"><g id="tok-3-5" class="token-group" data-kind="reference"><title>ROW PATTERN NAVIGATION FUNC</title><rect class="token token-reference" x="118" y="186" width="232" height="30" rx="4"/><text class="token-label" x="234.0" y="206" text-anchor="middle">row_pattern_navigation_func</text></g></a>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-6" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="232" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="252" text-anchor="middle">|</text></g>
+<a href="components/row-pattern-aggregate-func.html" target="_parent" class="component-link"><g id="tok-4-7" class="token-group" data-kind="reference"><title>ROW PATTERN AGGREGATE FUNC</title><rect class="token token-reference" x="118" y="232" width="224" height="30" rx="4"/><text class="token-label" x="230.0" y="252" text-anchor="middle">row_pattern_aggregate_func</text></g></a>
+</svg>

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 1034" width="1440" height="1034" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>CONDITIONAL INSERT CLAUSE</title>
+  <desc>Interactive SQL BNF diagram for CONDITIONAL INSERT CLAUSE. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="1034"/>
+  <rect class="frame" x="12" y="12" width="1416" height="1010" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">CONDITIONAL INSERT CLAUSE</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">20 syntax lines · 4 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="76" y="94" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="114" text-anchor="middle">[</text></g>
+<g id="tok-1-2" class="token-group" data-kind="keyword"><title>ALL</title><rect class="token token-keyword" x="122" y="94" width="54" height="30" rx="4"/><text class="token-label" x="149.0" y="114" text-anchor="middle">ALL</text></g>
+<g id="tok-1-3" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="184" y="94" width="34" height="30" rx="4"/><text class="token-label" x="201.0" y="114" text-anchor="middle">|</text></g>
+<g id="tok-1-4" class="token-group" data-kind="keyword"><title>FIRST</title><rect class="token token-keyword" x="226" y="94" width="56" height="30" rx="4"/><text class="token-label" x="254.0" y="114" text-anchor="middle">FIRST</text></g>
+<g id="tok-1-5" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="290" y="94" width="38" height="30" rx="4"/><text class="token-label" x="309.0" y="114" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-6" class="token-group" data-kind="keyword"><title>WHEN</title><rect class="token token-keyword" x="104" y="140" width="54" height="30" rx="4"/><text class="token-label" x="131.0" y="160" text-anchor="middle">WHEN</text></g>
+<g id="tok-2-7" class="token-group" data-kind="variable"><title>condition</title><rect class="token token-variable" x="166" y="140" width="88" height="30" rx="4"/><text class="token-label" x="210.0" y="160" text-anchor="middle">condition</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-8" class="token-group" data-kind="keyword"><title>THEN</title><rect class="token token-keyword" x="104" y="186" width="54" height="30" rx="4"/><text class="token-label" x="131.0" y="206" text-anchor="middle">THEN</text></g>
+<a href="components/insert-into-clause.html" target="_parent" class="component-link"><g id="tok-3-9" class="token-group" data-kind="reference"><title>INSERT INTO CLAUSE</title><rect class="token token-reference" x="166" y="186" width="160" height="30" rx="4"/><text class="token-label" x="246.0" y="206" text-anchor="middle">insert_into_clause</text></g></a>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-10" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="232" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="252" text-anchor="middle">[</text></g>
+<a href="components/insert-values-clause.html" target="_parent" class="component-link"><g id="tok-4-11" class="token-group" data-kind="reference"><title>INSERT VALUES CLAUSE</title><rect class="token token-reference" x="178" y="232" width="176" height="30" rx="4"/><text class="token-label" x="266.0" y="252" text-anchor="middle">insert_values_clause</text></g></a>
+<g id="tok-4-12" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="362" y="232" width="34" height="30" rx="4"/><text class="token-label" x="379.0" y="252" text-anchor="middle">|</text></g>
+<a href="components/insert-set-clause.html" target="_parent" class="component-link"><g id="tok-4-13" class="token-group" data-kind="reference"><title>INSERT SET CLAUSE</title><rect class="token token-reference" x="404" y="232" width="152" height="30" rx="4"/><text class="token-label" x="480.0" y="252" text-anchor="middle">insert_set_clause</text></g></a>
+<g id="tok-4-14" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="564" y="232" width="38" height="30" rx="4"/><text class="token-label" x="583.0" y="252" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-15" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="278" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="298" text-anchor="middle">[</text></g>
+<a href="components/error-logging-clause.html" target="_parent" class="component-link"><g id="tok-5-16" class="token-group" data-kind="reference"><title>ERROR LOGGING CLAUSE</title><rect class="token token-reference" x="178" y="278" width="176" height="30" rx="4"/><text class="token-label" x="266.0" y="298" text-anchor="middle">error_logging_clause</text></g></a>
+<g id="tok-5-17" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="362" y="278" width="38" height="30" rx="4"/><text class="token-label" x="381.0" y="298" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-18" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="324" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="344" text-anchor="middle">[</text></g>
+<a href="components/insert-into-clause.html" target="_parent" class="component-link"><g id="tok-6-19" class="token-group" data-kind="reference"><title>INSERT INTO CLAUSE</title><rect class="token token-reference" x="178" y="324" width="160" height="30" rx="4"/><text class="token-label" x="258.0" y="344" text-anchor="middle">insert_into_clause</text></g></a>
+<g id="tok-6-20" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="346" y="324" width="38" height="30" rx="4"/><text class="token-label" x="365.0" y="344" text-anchor="middle">[</text></g>
+<a href="components/insert-values-clause.html" target="_parent" class="component-link"><g id="tok-6-21" class="token-group" data-kind="reference"><title>INSERT VALUES CLAUSE</title><rect class="token token-reference" x="392" y="324" width="176" height="30" rx="4"/><text class="token-label" x="480.0" y="344" text-anchor="middle">insert_values_clause</text></g></a>
+<g id="tok-6-22" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="576" y="324" width="34" height="30" rx="4"/><text class="token-label" x="593.0" y="344" text-anchor="middle">|</text></g>
+<a href="components/insert-set-clause.html" target="_parent" class="component-link"><g id="tok-6-23" class="token-group" data-kind="reference"><title>INSERT SET CLAUSE</title><rect class="token token-reference" x="618" y="324" width="152" height="30" rx="4"/><text class="token-label" x="694.0" y="344" text-anchor="middle">insert_set_clause</text></g></a>
+<g id="tok-6-24" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="778" y="324" width="38" height="30" rx="4"/><text class="token-label" x="797.0" y="344" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-25" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="146" y="370" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="390" text-anchor="middle">[</text></g>
+<a href="components/error-logging-clause.html" target="_parent" class="component-link"><g id="tok-7-26" class="token-group" data-kind="reference"><title>ERROR LOGGING CLAUSE</title><rect class="token token-reference" x="192" y="370" width="176" height="30" rx="4"/><text class="token-label" x="280.0" y="390" text-anchor="middle">error_logging_clause</text></g></a>
+<g id="tok-7-27" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="376" y="370" width="38" height="30" rx="4"/><text class="token-label" x="395.0" y="390" text-anchor="middle">]</text></g>
+<g id="tok-7-28" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="422" y="370" width="38" height="30" rx="4"/><text class="token-label" x="441.0" y="390" text-anchor="middle">]</text></g>
+<g id="tok-7-29" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="468" y="370" width="34" height="30" rx="4"/><text class="token-label" x="485.0" y="390" text-anchor="middle">.</text></g>
+<g id="tok-7-30" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="510" y="370" width="34" height="30" rx="4"/><text class="token-label" x="527.0" y="390" text-anchor="middle">.</text></g>
+<g id="tok-7-31" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="552" y="370" width="34" height="30" rx="4"/><text class="token-label" x="569.0" y="390" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-32" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="104" y="416" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="436" text-anchor="middle">[</text></g>
+<g id="tok-8-33" class="token-group" data-kind="keyword"><title>WHEN</title><rect class="token token-keyword" x="150" y="416" width="54" height="30" rx="4"/><text class="token-label" x="177.0" y="436" text-anchor="middle">WHEN</text></g>
+<g id="tok-8-34" class="token-group" data-kind="variable"><title>condition</title><rect class="token token-variable" x="212" y="416" width="88" height="30" rx="4"/><text class="token-label" x="256.0" y="436" text-anchor="middle">condition</text></g>
+<text class="line-number" x="28" y="482" text-anchor="start">9</text>
+<line class="rail" x1="48" y1="477" x2="1412" y2="477"/>
+<g id="tok-9-35" class="token-group" data-kind="keyword"><title>THEN</title><rect class="token token-keyword" x="104" y="462" width="54" height="30" rx="4"/><text class="token-label" x="131.0" y="482" text-anchor="middle">THEN</text></g>
+<a href="components/insert-into-clause.html" target="_parent" class="component-link"><g id="tok-9-36" class="token-group" data-kind="reference"><title>INSERT INTO CLAUSE</title><rect class="token token-reference" x="166" y="462" width="160" height="30" rx="4"/><text class="token-label" x="246.0" y="482" text-anchor="middle">insert_into_clause</text></g></a>
+<text class="line-number" x="28" y="528" text-anchor="start">10</text>
+<line class="rail" x1="48" y1="523" x2="1412" y2="523"/>
+<g id="tok-10-37" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="508" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="528" text-anchor="middle">[</text></g>
+<a href="components/insert-values-clause.html" target="_parent" class="component-link"><g id="tok-10-38" class="token-group" data-kind="reference"><title>INSERT VALUES CLAUSE</title><rect class="token token-reference" x="178" y="508" width="176" height="30" rx="4"/><text class="token-label" x="266.0" y="528" text-anchor="middle">insert_values_clause</text></g></a>
+<g id="tok-10-39" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="362" y="508" width="34" height="30" rx="4"/><text class="token-label" x="379.0" y="528" text-anchor="middle">|</text></g>
+<a href="components/insert-set-clause.html" target="_parent" class="component-link"><g id="tok-10-40" class="token-group" data-kind="reference"><title>INSERT SET CLAUSE</title><rect class="token token-reference" x="404" y="508" width="152" height="30" rx="4"/><text class="token-label" x="480.0" y="528" text-anchor="middle">insert_set_clause</text></g></a>
+<g id="tok-10-41" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="564" y="508" width="38" height="30" rx="4"/><text class="token-label" x="583.0" y="528" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="574" text-anchor="start">11</text>
+<line class="rail" x1="48" y1="569" x2="1412" y2="569"/>
+<g id="tok-11-42" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="554" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="574" text-anchor="middle">[</text></g>
+<a href="components/error-logging-clause.html" target="_parent" class="component-link"><g id="tok-11-43" class="token-group" data-kind="reference"><title>ERROR LOGGING CLAUSE</title><rect class="token token-reference" x="178" y="554" width="176" height="30" rx="4"/><text class="token-label" x="266.0" y="574" text-anchor="middle">error_logging_clause</text></g></a>
+<g id="tok-11-44" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="362" y="554" width="38" height="30" rx="4"/><text class="token-label" x="381.0" y="574" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="620" text-anchor="start">12</text>
+<line class="rail" x1="48" y1="615" x2="1412" y2="615"/>
+<g id="tok-12-45" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="600" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="620" text-anchor="middle">[</text></g>
+<a href="components/insert-into-clause.html" target="_parent" class="component-link"><g id="tok-12-46" class="token-group" data-kind="reference"><title>INSERT INTO CLAUSE</title><rect class="token token-reference" x="178" y="600" width="160" height="30" rx="4"/><text class="token-label" x="258.0" y="620" text-anchor="middle">insert_into_clause</text></g></a>
+<g id="tok-12-47" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="346" y="600" width="38" height="30" rx="4"/><text class="token-label" x="365.0" y="620" text-anchor="middle">[</text></g>
+<a href="components/insert-values-clause.html" target="_parent" class="component-link"><g id="tok-12-48" class="token-group" data-kind="reference"><title>INSERT VALUES CLAUSE</title><rect class="token token-reference" x="392" y="600" width="176" height="30" rx="4"/><text class="token-label" x="480.0" y="620" text-anchor="middle">insert_values_clause</text></g></a>
+<g id="tok-12-49" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="576" y="600" width="34" height="30" rx="4"/><text class="token-label" x="593.0" y="620" text-anchor="middle">|</text></g>
+<a href="components/insert-set-clause.html" target="_parent" class="component-link"><g id="tok-12-50" class="token-group" data-kind="reference"><title>INSERT SET CLAUSE</title><rect class="token token-reference" x="618" y="600" width="152" height="30" rx="4"/><text class="token-label" x="694.0" y="620" text-anchor="middle">insert_set_clause</text></g></a>
+<g id="tok-12-51" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="778" y="600" width="38" height="30" rx="4"/><text class="token-label" x="797.0" y="620" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="666" text-anchor="start">13</text>
+<line class="rail" x1="48" y1="661" x2="1412" y2="661"/>
+<g id="tok-13-52" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="646" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="666" text-anchor="middle">[</text></g>
+<a href="components/error-logging-clause.html" target="_parent" class="component-link"><g id="tok-13-53" class="token-group" data-kind="reference"><title>ERROR LOGGING CLAUSE</title><rect class="token token-reference" x="164" y="646" width="176" height="30" rx="4"/><text class="token-label" x="252.0" y="666" text-anchor="middle">error_logging_clause</text></g></a>
+<g id="tok-13-54" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="348" y="646" width="38" height="30" rx="4"/><text class="token-label" x="367.0" y="666" text-anchor="middle">]</text></g>
+<g id="tok-13-55" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="394" y="646" width="38" height="30" rx="4"/><text class="token-label" x="413.0" y="666" text-anchor="middle">]</text></g>
+<g id="tok-13-56" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="440" y="646" width="34" height="30" rx="4"/><text class="token-label" x="457.0" y="666" text-anchor="middle">.</text></g>
+<g id="tok-13-57" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="482" y="646" width="34" height="30" rx="4"/><text class="token-label" x="499.0" y="666" text-anchor="middle">.</text></g>
+<g id="tok-13-58" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="524" y="646" width="34" height="30" rx="4"/><text class="token-label" x="541.0" y="666" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="712" text-anchor="start">14</text>
+<line class="rail" x1="48" y1="707" x2="1412" y2="707"/>
+<g id="tok-14-59" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="76" y="692" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="712" text-anchor="middle">]</text></g>
+<g id="tok-14-60" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="122" y="692" width="34" height="30" rx="4"/><text class="token-label" x="139.0" y="712" text-anchor="middle">.</text></g>
+<g id="tok-14-61" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="164" y="692" width="34" height="30" rx="4"/><text class="token-label" x="181.0" y="712" text-anchor="middle">.</text></g>
+<g id="tok-14-62" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="206" y="692" width="34" height="30" rx="4"/><text class="token-label" x="223.0" y="712" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="758" text-anchor="start">15</text>
+<line class="rail" x1="48" y1="753" x2="1412" y2="753"/>
+<g id="tok-15-63" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="90" y="738" width="38" height="30" rx="4"/><text class="token-label" x="109.0" y="758" text-anchor="middle">[</text></g>
+<g id="tok-15-64" class="token-group" data-kind="keyword"><title>ELSE</title><rect class="token token-keyword" x="136" y="738" width="54" height="30" rx="4"/><text class="token-label" x="163.0" y="758" text-anchor="middle">ELSE</text></g>
+<a href="components/insert-into-clause.html" target="_parent" class="component-link"><g id="tok-15-65" class="token-group" data-kind="reference"><title>INSERT INTO CLAUSE</title><rect class="token token-reference" x="198" y="738" width="160" height="30" rx="4"/><text class="token-label" x="278.0" y="758" text-anchor="middle">insert_into_clause</text></g></a>
+<text class="line-number" x="28" y="804" text-anchor="start">16</text>
+<line class="rail" x1="48" y1="799" x2="1412" y2="799"/>
+<g id="tok-16-66" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="784" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="804" text-anchor="middle">[</text></g>
+<a href="components/insert-values-clause.html" target="_parent" class="component-link"><g id="tok-16-67" class="token-group" data-kind="reference"><title>INSERT VALUES CLAUSE</title><rect class="token token-reference" x="164" y="784" width="176" height="30" rx="4"/><text class="token-label" x="252.0" y="804" text-anchor="middle">insert_values_clause</text></g></a>
+<g id="tok-16-68" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="348" y="784" width="38" height="30" rx="4"/><text class="token-label" x="367.0" y="804" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="850" text-anchor="start">17</text>
+<line class="rail" x1="48" y1="845" x2="1412" y2="845"/>
+<g id="tok-17-69" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="830" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="850" text-anchor="middle">[</text></g>
+<a href="components/error-logging-clause.html" target="_parent" class="component-link"><g id="tok-17-70" class="token-group" data-kind="reference"><title>ERROR LOGGING CLAUSE</title><rect class="token token-reference" x="164" y="830" width="176" height="30" rx="4"/><text class="token-label" x="252.0" y="850" text-anchor="middle">error_logging_clause</text></g></a>
+<g id="tok-17-71" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="348" y="830" width="38" height="30" rx="4"/><text class="token-label" x="367.0" y="850" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="896" text-anchor="start">18</text>
+<line class="rail" x1="48" y1="891" x2="1412" y2="891"/>
+<g id="tok-18-72" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="118" y="876" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="896" text-anchor="middle">[</text></g>
+<a href="components/insert-into-clause.html" target="_parent" class="component-link"><g id="tok-18-73" class="token-group" data-kind="reference"><title>INSERT INTO CLAUSE</title><rect class="token token-reference" x="164" y="876" width="160" height="30" rx="4"/><text class="token-label" x="244.0" y="896" text-anchor="middle">insert_into_clause</text></g></a>
+<g id="tok-18-74" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="332" y="876" width="38" height="30" rx="4"/><text class="token-label" x="351.0" y="896" text-anchor="middle">[</text></g>
+<a href="components/insert-values-clause.html" target="_parent" class="component-link"><g id="tok-18-75" class="token-group" data-kind="reference"><title>INSERT VALUES CLAUSE</title><rect class="token token-reference" x="378" y="876" width="176" height="30" rx="4"/><text class="token-label" x="466.0" y="896" text-anchor="middle">insert_values_clause</text></g></a>
+<g id="tok-18-76" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="562" y="876" width="34" height="30" rx="4"/><text class="token-label" x="579.0" y="896" text-anchor="middle">|</text></g>
+<a href="components/insert-set-clause.html" target="_parent" class="component-link"><g id="tok-18-77" class="token-group" data-kind="reference"><title>INSERT SET CLAUSE</title><rect class="token token-reference" x="604" y="876" width="152" height="30" rx="4"/><text class="token-label" x="680.0" y="896" text-anchor="middle">insert_set_clause</text></g></a>
+<g id="tok-18-78" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="764" y="876" width="38" height="30" rx="4"/><text class="token-label" x="783.0" y="896" text-anchor="middle">]</text></g>
+<text class="line-number" x="28" y="942" text-anchor="start">19</text>
+<line class="rail" x1="48" y1="937" x2="1412" y2="937"/>
+<g id="tok-19-79" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="104" y="922" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="942" text-anchor="middle">[</text></g>
+<a href="components/error-logging-clause.html" target="_parent" class="component-link"><g id="tok-19-80" class="token-group" data-kind="reference"><title>ERROR LOGGING CLAUSE</title><rect class="token token-reference" x="150" y="922" width="176" height="30" rx="4"/><text class="token-label" x="238.0" y="942" text-anchor="middle">error_logging_clause</text></g></a>
+<g id="tok-19-81" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="334" y="922" width="38" height="30" rx="4"/><text class="token-label" x="353.0" y="942" text-anchor="middle">]</text></g>
+<g id="tok-19-82" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="380" y="922" width="38" height="30" rx="4"/><text class="token-label" x="399.0" y="942" text-anchor="middle">]</text></g>
+<g id="tok-19-83" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="426" y="922" width="34" height="30" rx="4"/><text class="token-label" x="443.0" y="942" text-anchor="middle">.</text></g>
+<g id="tok-19-84" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="468" y="922" width="34" height="30" rx="4"/><text class="token-label" x="485.0" y="942" text-anchor="middle">.</text></g>
+<g id="tok-19-85" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="510" y="922" width="34" height="30" rx="4"/><text class="token-label" x="527.0" y="942" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="988" text-anchor="start">20</text>
+<line class="rail" x1="48" y1="983" x2="1412" y2="983"/>
+<g id="tok-20-86" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="76" y="968" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="988" text-anchor="middle">]</text></g>
+</svg>

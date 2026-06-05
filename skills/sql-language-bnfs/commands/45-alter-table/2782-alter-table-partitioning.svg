@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 1126" width="1440" height="1126" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ALTER TABLE PARTITIONING</title>
+  <desc>Interactive SQL BNF diagram for ALTER TABLE PARTITIONING. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="1126"/>
+  <rect class="frame" x="12" y="12" width="1416" height="1102" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ALTER TABLE PARTITIONING</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">22 syntax lines · 21 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="76" y="94" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="114" text-anchor="middle">{</text></g>
+<a href="components/modify-table-default-attrs.html" target="_parent" class="component-link"><g id="tok-1-2" class="token-group" data-kind="reference"><title>MODIFY TABLE DEFAULT ATTRS</title><rect class="token token-reference" x="122" y="94" width="224" height="30" rx="4"/><text class="token-label" x="234.0" y="114" text-anchor="middle">modify_table_default_attrs</text></g></a>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-3" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="140" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="160" text-anchor="middle">|</text></g>
+<a href="components/alter-automatic-partitioning.html" target="_parent" class="component-link"><g id="tok-2-4" class="token-group" data-kind="reference"><title>ALTER AUTOMATIC PARTITIONING</title><rect class="token token-reference" x="118" y="140" width="240" height="30" rx="4"/><text class="token-label" x="238.0" y="160" text-anchor="middle">alter_automatic_partitioning</text></g></a>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-5" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="186" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="206" text-anchor="middle">|</text></g>
+<a href="components/alter-interval-partitioning.html" target="_parent" class="component-link"><g id="tok-3-6" class="token-group" data-kind="reference"><title>ALTER INTERVAL PARTITIONING</title><rect class="token token-reference" x="118" y="186" width="232" height="30" rx="4"/><text class="token-label" x="234.0" y="206" text-anchor="middle">alter_interval_partitioning</text></g></a>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-7" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="232" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="252" text-anchor="middle">|</text></g>
+<a href="components/set-subpartition-template.html" target="_parent" class="component-link"><g id="tok-4-8" class="token-group" data-kind="reference"><title>SET SUBPARTITION TEMPLATE</title><rect class="token token-reference" x="118" y="232" width="216" height="30" rx="4"/><text class="token-label" x="226.0" y="252" text-anchor="middle">set_subpartition_template</text></g></a>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-9" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="278" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="298" text-anchor="middle">|</text></g>
+<a href="components/modify-table-partition.html" target="_parent" class="component-link"><g id="tok-5-10" class="token-group" data-kind="reference"><title>MODIFY TABLE PARTITION</title><rect class="token token-reference" x="118" y="278" width="192" height="30" rx="4"/><text class="token-label" x="214.0" y="298" text-anchor="middle">modify_table_partition</text></g></a>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-11" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="324" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="344" text-anchor="middle">|</text></g>
+<a href="components/modify-table-subpartition.html" target="_parent" class="component-link"><g id="tok-6-12" class="token-group" data-kind="reference"><title>MODIFY TABLE SUBPARTITION</title><rect class="token token-reference" x="118" y="324" width="216" height="30" rx="4"/><text class="token-label" x="226.0" y="344" text-anchor="middle">modify_table_subpartition</text></g></a>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-13" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="370" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="390" text-anchor="middle">|</text></g>
+<a href="components/move-table-partition.html" target="_parent" class="component-link"><g id="tok-7-14" class="token-group" data-kind="reference"><title>MOVE TABLE PARTITION</title><rect class="token token-reference" x="118" y="370" width="176" height="30" rx="4"/><text class="token-label" x="206.0" y="390" text-anchor="middle">move_table_partition</text></g></a>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-15" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="416" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="436" text-anchor="middle">|</text></g>
+<a href="components/move-table-subpartition.html" target="_parent" class="component-link"><g id="tok-8-16" class="token-group" data-kind="reference"><title>MOVE TABLE SUBPARTITION</title><rect class="token token-reference" x="118" y="416" width="200" height="30" rx="4"/><text class="token-label" x="218.0" y="436" text-anchor="middle">move_table_subpartition</text></g></a>
+<text class="line-number" x="28" y="482" text-anchor="start">9</text>
+<line class="rail" x1="48" y1="477" x2="1412" y2="477"/>
+<g id="tok-9-17" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="462" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="482" text-anchor="middle">|</text></g>
+<a href="components/add-external-partition-attrs.html" target="_parent" class="component-link"><g id="tok-9-18" class="token-group" data-kind="reference"><title>ADD EXTERNAL PARTITION ATTRS</title><rect class="token token-reference" x="118" y="462" width="240" height="30" rx="4"/><text class="token-label" x="238.0" y="482" text-anchor="middle">add_external_partition_attrs</text></g></a>
+<text class="line-number" x="28" y="528" text-anchor="start">10</text>
+<line class="rail" x1="48" y1="523" x2="1412" y2="523"/>
+<g id="tok-10-19" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="508" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="528" text-anchor="middle">|</text></g>
+<a href="components/add-table-partition.html" target="_parent" class="component-link"><g id="tok-10-20" class="token-group" data-kind="reference"><title>ADD TABLE PARTITION</title><rect class="token token-reference" x="118" y="508" width="168" height="30" rx="4"/><text class="token-label" x="202.0" y="528" text-anchor="middle">add_table_partition</text></g></a>
+<text class="line-number" x="28" y="574" text-anchor="start">11</text>
+<line class="rail" x1="48" y1="569" x2="1412" y2="569"/>
+<g id="tok-11-21" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="554" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="574" text-anchor="middle">|</text></g>
+<a href="components/coalesce-table-partition.html" target="_parent" class="component-link"><g id="tok-11-22" class="token-group" data-kind="reference"><title>COALESCE TABLE PARTITION</title><rect class="token token-reference" x="118" y="554" width="208" height="30" rx="4"/><text class="token-label" x="222.0" y="574" text-anchor="middle">coalesce_table_partition</text></g></a>
+<text class="line-number" x="28" y="620" text-anchor="start">12</text>
+<line class="rail" x1="48" y1="615" x2="1412" y2="615"/>
+<g id="tok-12-23" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="600" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="620" text-anchor="middle">|</text></g>
+<a href="components/drop-external-partition-attrs.html" target="_parent" class="component-link"><g id="tok-12-24" class="token-group" data-kind="reference"><title>DROP EXTERNAL PARTITION ATTRS</title><rect class="token token-reference" x="118" y="600" width="248" height="30" rx="4"/><text class="token-label" x="242.0" y="620" text-anchor="middle">drop_external_partition_attrs</text></g></a>
+<text class="line-number" x="28" y="666" text-anchor="start">13</text>
+<line class="rail" x1="48" y1="661" x2="1412" y2="661"/>
+<g id="tok-13-25" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="646" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="666" text-anchor="middle">|</text></g>
+<a href="components/drop-table-partition.html" target="_parent" class="component-link"><g id="tok-13-26" class="token-group" data-kind="reference"><title>DROP TABLE PARTITION</title><rect class="token token-reference" x="118" y="646" width="176" height="30" rx="4"/><text class="token-label" x="206.0" y="666" text-anchor="middle">drop_table_partition</text></g></a>
+<text class="line-number" x="28" y="712" text-anchor="start">14</text>
+<line class="rail" x1="48" y1="707" x2="1412" y2="707"/>
+<g id="tok-14-27" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="692" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="712" text-anchor="middle">|</text></g>
+<a href="components/drop-table-subpartition.html" target="_parent" class="component-link"><g id="tok-14-28" class="token-group" data-kind="reference"><title>DROP TABLE SUBPARTITION</title><rect class="token token-reference" x="118" y="692" width="200" height="30" rx="4"/><text class="token-label" x="218.0" y="712" text-anchor="middle">drop_table_subpartition</text></g></a>
+<text class="line-number" x="28" y="758" text-anchor="start">15</text>
+<line class="rail" x1="48" y1="753" x2="1412" y2="753"/>
+<g id="tok-15-29" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="738" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="758" text-anchor="middle">|</text></g>
+<a href="components/rename-partition-subpart.html" target="_parent" class="component-link"><g id="tok-15-30" class="token-group" data-kind="reference"><title>RENAME PARTITION SUBPART</title><rect class="token token-reference" x="118" y="738" width="208" height="30" rx="4"/><text class="token-label" x="222.0" y="758" text-anchor="middle">rename_partition_subpart</text></g></a>
+<text class="line-number" x="28" y="804" text-anchor="start">16</text>
+<line class="rail" x1="48" y1="799" x2="1412" y2="799"/>
+<g id="tok-16-31" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="784" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="804" text-anchor="middle">|</text></g>
+<a href="components/truncate-partition-subpart.html" target="_parent" class="component-link"><g id="tok-16-32" class="token-group" data-kind="reference"><title>TRUNCATE PARTITION SUBPART</title><rect class="token token-reference" x="118" y="784" width="224" height="30" rx="4"/><text class="token-label" x="230.0" y="804" text-anchor="middle">truncate_partition_subpart</text></g></a>
+<text class="line-number" x="28" y="850" text-anchor="start">17</text>
+<line class="rail" x1="48" y1="845" x2="1412" y2="845"/>
+<g id="tok-17-33" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="830" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="850" text-anchor="middle">|</text></g>
+<a href="components/split-table-partition.html" target="_parent" class="component-link"><g id="tok-17-34" class="token-group" data-kind="reference"><title>SPLIT TABLE PARTITION</title><rect class="token token-reference" x="118" y="830" width="184" height="30" rx="4"/><text class="token-label" x="210.0" y="850" text-anchor="middle">split_table_partition</text></g></a>
+<text class="line-number" x="28" y="896" text-anchor="start">18</text>
+<line class="rail" x1="48" y1="891" x2="1412" y2="891"/>
+<g id="tok-18-35" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="876" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="896" text-anchor="middle">|</text></g>
+<a href="components/split-table-subpartition.html" target="_parent" class="component-link"><g id="tok-18-36" class="token-group" data-kind="reference"><title>SPLIT TABLE SUBPARTITION</title><rect class="token token-reference" x="118" y="876" width="208" height="30" rx="4"/><text class="token-label" x="222.0" y="896" text-anchor="middle">split_table_subpartition</text></g></a>
+<text class="line-number" x="28" y="942" text-anchor="start">19</text>
+<line class="rail" x1="48" y1="937" x2="1412" y2="937"/>
+<g id="tok-19-37" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="922" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="942" text-anchor="middle">|</text></g>
+<a href="components/merge-table-partitions.html" target="_parent" class="component-link"><g id="tok-19-38" class="token-group" data-kind="reference"><title>MERGE TABLE PARTITIONS</title><rect class="token token-reference" x="118" y="922" width="192" height="30" rx="4"/><text class="token-label" x="214.0" y="942" text-anchor="middle">merge_table_partitions</text></g></a>
+<text class="line-number" x="28" y="988" text-anchor="start">20</text>
+<line class="rail" x1="48" y1="983" x2="1412" y2="983"/>
+<g id="tok-20-39" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="968" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="988" text-anchor="middle">|</text></g>
+<a href="components/merge-table-subpartitions.html" target="_parent" class="component-link"><g id="tok-20-40" class="token-group" data-kind="reference"><title>MERGE TABLE SUBPARTITIONS</title><rect class="token token-reference" x="118" y="968" width="216" height="30" rx="4"/><text class="token-label" x="226.0" y="988" text-anchor="middle">merge_table_subpartitions</text></g></a>
+<text class="line-number" x="28" y="1034" text-anchor="start">21</text>
+<line class="rail" x1="48" y1="1029" x2="1412" y2="1029"/>
+<g id="tok-21-41" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="1014" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="1034" text-anchor="middle">|</text></g>
+<a href="components/exchange-partition-subpart.html" target="_parent" class="component-link"><g id="tok-21-42" class="token-group" data-kind="reference"><title>EXCHANGE PARTITION SUBPART</title><rect class="token token-reference" x="118" y="1014" width="224" height="30" rx="4"/><text class="token-label" x="230.0" y="1034" text-anchor="middle">exchange_partition_subpart</text></g></a>
+<text class="line-number" x="28" y="1080" text-anchor="start">22</text>
+<line class="rail" x1="48" y1="1075" x2="1412" y2="1075"/>
+<g id="tok-22-43" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="76" y="1060" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="1080" text-anchor="middle">}</text></g>
+</svg>

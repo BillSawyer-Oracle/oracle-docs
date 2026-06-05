@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 206" width="1440" height="206" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ROW PATTERN</title>
+  <desc>Interactive SQL BNF diagram for ROW PATTERN. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="206"/>
+  <rect class="frame" x="12" y="12" width="1416" height="182" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ROW PATTERN</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">2 syntax lines · 2 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="76" y="94" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="114" text-anchor="middle">[</text></g>
+<a href="components/row-pattern.html" target="_parent" class="component-link"><g id="tok-1-2" class="token-group" data-kind="reference"><title>ROW PATTERN</title><rect class="token token-reference" x="122" y="94" width="104" height="30" rx="4"/><text class="token-label" x="174.0" y="114" text-anchor="middle">row_pattern</text></g></a>
+<g id="tok-1-3" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="234" y="94" width="34" height="30" rx="4"/><text class="token-label" x="251.0" y="114" text-anchor="middle">|</text></g>
+<g id="tok-1-4" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="276" y="94" width="38" height="30" rx="4"/><text class="token-label" x="295.0" y="114" text-anchor="middle">]</text></g>
+<a href="components/row-pattern-term.html" target="_parent" class="component-link"><g id="tok-1-5" class="token-group" data-kind="reference"><title>ROW PATTERN TERM</title><rect class="token token-reference" x="322" y="94" width="144" height="30" rx="4"/><text class="token-label" x="394.0" y="114" text-anchor="middle">row_pattern_term</text></g></a>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-6" class="token-group" data-kind="variable"><title>Note</title><rect class="token token-variable" x="76" y="140" width="54" height="30" rx="4"/><text class="token-label" x="103.0" y="160" text-anchor="middle">Note</text></g>
+<g id="tok-2-7" class="token-group" data-kind="operator"><title>:</title><rect class="token token-operator" x="138" y="140" width="34" height="30" rx="4"/><text class="token-label" x="155.0" y="160" text-anchor="middle">:</text></g>
+<g id="tok-2-8" class="token-group" data-kind="variable"><title>The</title><rect class="token token-variable" x="180" y="140" width="54" height="30" rx="4"/><text class="token-label" x="207.0" y="160" text-anchor="middle">The</text></g>
+<g id="tok-2-9" class="token-group" data-kind="variable"><title>vertical</title><rect class="token token-variable" x="242" y="140" width="80" height="30" rx="4"/><text class="token-label" x="282.0" y="160" text-anchor="middle">vertical</text></g>
+<g id="tok-2-10" class="token-group" data-kind="variable"><title>bar</title><rect class="token token-variable" x="330" y="140" width="54" height="30" rx="4"/><text class="token-label" x="357.0" y="160" text-anchor="middle">bar</text></g>
+<g id="tok-2-11" class="token-group" data-kind="variable"><title>is</title><rect class="token token-variable" x="392" y="140" width="54" height="30" rx="4"/><text class="token-label" x="419.0" y="160" text-anchor="middle">is</text></g>
+<g id="tok-2-12" class="token-group" data-kind="variable"><title>part</title><rect class="token token-variable" x="454" y="140" width="54" height="30" rx="4"/><text class="token-label" x="481.0" y="160" text-anchor="middle">part</text></g>
+<g id="tok-2-13" class="token-group" data-kind="variable"><title>of</title><rect class="token token-variable" x="516" y="140" width="54" height="30" rx="4"/><text class="token-label" x="543.0" y="160" text-anchor="middle">of</text></g>
+<g id="tok-2-14" class="token-group" data-kind="variable"><title>the</title><rect class="token token-variable" x="578" y="140" width="54" height="30" rx="4"/><text class="token-label" x="605.0" y="160" text-anchor="middle">the</text></g>
+<g id="tok-2-15" class="token-group" data-kind="variable"><title>syntax</title><rect class="token token-variable" x="640" y="140" width="64" height="30" rx="4"/><text class="token-label" x="672.0" y="160" text-anchor="middle">syntax</text></g>
+<g id="tok-2-16" class="token-group" data-kind="variable"><title>rather</title><rect class="token token-variable" x="712" y="140" width="64" height="30" rx="4"/><text class="token-label" x="744.0" y="160" text-anchor="middle">rather</text></g>
+<g id="tok-2-17" class="token-group" data-kind="variable"><title>than</title><rect class="token token-variable" x="784" y="140" width="54" height="30" rx="4"/><text class="token-label" x="811.0" y="160" text-anchor="middle">than</text></g>
+<g id="tok-2-18" class="token-group" data-kind="keyword"><title>BNF</title><rect class="token token-keyword" x="846" y="140" width="54" height="30" rx="4"/><text class="token-label" x="873.0" y="160" text-anchor="middle">BNF</text></g>
+<g id="tok-2-19" class="token-group" data-kind="variable"><title>notation</title><rect class="token token-variable" x="908" y="140" width="80" height="30" rx="4"/><text class="token-label" x="948.0" y="160" text-anchor="middle">notation</text></g>
+<g id="tok-2-20" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="996" y="140" width="34" height="30" rx="4"/><text class="token-label" x="1013.0" y="160" text-anchor="middle">.</text></g>
+</svg>

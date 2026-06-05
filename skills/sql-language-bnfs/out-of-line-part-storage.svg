@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 758" width="1440" height="758" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>OUT OF LINE PART STORAGE</title>
+  <desc>Interactive SQL BNF diagram for OUT OF LINE PART STORAGE. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="758"/>
+  <rect class="frame" x="12" y="12" width="1416" height="734" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">OUT OF LINE PART STORAGE</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">14 syntax lines · 3 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>PARTITION</title><rect class="token token-keyword" x="76" y="94" width="88" height="30" rx="4"/><text class="token-label" x="120.0" y="114" text-anchor="middle">PARTITION</text></g>
+<g id="tok-1-2" class="token-group" data-kind="variable"><title>partition</title><rect class="token token-variable" x="172" y="94" width="88" height="30" rx="4"/><text class="token-label" x="216.0" y="114" text-anchor="middle">partition</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-3" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="104" y="140" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="160" text-anchor="middle">{</text></g>
+<a href="components/nested-table-col-properties.html" target="_parent" class="component-link"><g id="tok-2-4" class="token-group" data-kind="reference"><title>NESTED TABLE COL PROPERTIES</title><rect class="token token-reference" x="150" y="140" width="232" height="30" rx="4"/><text class="token-label" x="266.0" y="160" text-anchor="middle">nested_table_col_properties</text></g></a>
+<g id="tok-2-5" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="390" y="140" width="34" height="30" rx="4"/><text class="token-label" x="407.0" y="160" text-anchor="middle">|</text></g>
+<a href="components/lob-storage-clause.html" target="_parent" class="component-link"><g id="tok-2-6" class="token-group" data-kind="reference"><title>LOB STORAGE CLAUSE</title><rect class="token token-reference" x="432" y="140" width="160" height="30" rx="4"/><text class="token-label" x="512.0" y="160" text-anchor="middle">LOB_storage_clause</text></g></a>
+<g id="tok-2-7" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="600" y="140" width="34" height="30" rx="4"/><text class="token-label" x="617.0" y="160" text-anchor="middle">|</text></g>
+<a href="components/varray-col-properties.html" target="_parent" class="component-link"><g id="tok-2-8" class="token-group" data-kind="reference"><title>VARRAY COL PROPERTIES</title><rect class="token token-reference" x="642" y="140" width="184" height="30" rx="4"/><text class="token-label" x="734.0" y="160" text-anchor="middle">varray_col_properties</text></g></a>
+<g id="tok-2-9" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="834" y="140" width="38" height="30" rx="4"/><text class="token-label" x="853.0" y="160" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-10" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="186" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="206" text-anchor="middle">[</text></g>
+<a href="components/nested-table-col-properties.html" target="_parent" class="component-link"><g id="tok-3-11" class="token-group" data-kind="reference"><title>NESTED TABLE COL PROPERTIES</title><rect class="token token-reference" x="178" y="186" width="232" height="30" rx="4"/><text class="token-label" x="294.0" y="206" text-anchor="middle">nested_table_col_properties</text></g></a>
+<g id="tok-3-12" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="418" y="186" width="34" height="30" rx="4"/><text class="token-label" x="435.0" y="206" text-anchor="middle">|</text></g>
+<a href="components/lob-storage-clause.html" target="_parent" class="component-link"><g id="tok-3-13" class="token-group" data-kind="reference"><title>LOB STORAGE CLAUSE</title><rect class="token token-reference" x="460" y="186" width="160" height="30" rx="4"/><text class="token-label" x="540.0" y="206" text-anchor="middle">LOB_storage_clause</text></g></a>
+<g id="tok-3-14" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="628" y="186" width="34" height="30" rx="4"/><text class="token-label" x="645.0" y="206" text-anchor="middle">|</text></g>
+<a href="components/varray-col-properties.html" target="_parent" class="component-link"><g id="tok-3-15" class="token-group" data-kind="reference"><title>VARRAY COL PROPERTIES</title><rect class="token token-reference" x="670" y="186" width="184" height="30" rx="4"/><text class="token-label" x="762.0" y="206" text-anchor="middle">varray_col_properties</text></g></a>
+<g id="tok-3-16" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="862" y="186" width="38" height="30" rx="4"/><text class="token-label" x="881.0" y="206" text-anchor="middle">]</text></g>
+<g id="tok-3-17" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="908" y="186" width="34" height="30" rx="4"/><text class="token-label" x="925.0" y="206" text-anchor="middle">.</text></g>
+<g id="tok-3-18" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="950" y="186" width="34" height="30" rx="4"/><text class="token-label" x="967.0" y="206" text-anchor="middle">.</text></g>
+<g id="tok-3-19" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="992" y="186" width="34" height="30" rx="4"/><text class="token-label" x="1009.0" y="206" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-20" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="76" y="232" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="252" text-anchor="middle">[</text></g>
+<g id="tok-4-21" class="token-group" data-kind="operator"><title>(</title><rect class="token token-operator" x="122" y="232" width="38" height="30" rx="4"/><text class="token-label" x="141.0" y="252" text-anchor="middle">(</text></g>
+<g id="tok-4-22" class="token-group" data-kind="keyword"><title>SUBPARTITION</title><rect class="token token-keyword" x="168" y="232" width="112" height="30" rx="4"/><text class="token-label" x="224.0" y="252" text-anchor="middle">SUBPARTITION</text></g>
+<g id="tok-4-23" class="token-group" data-kind="variable"><title>subpartition</title><rect class="token token-variable" x="288" y="232" width="112" height="30" rx="4"/><text class="token-label" x="344.0" y="252" text-anchor="middle">subpartition</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-24" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="118" y="278" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="298" text-anchor="middle">{</text></g>
+<a href="components/nested-table-col-properties.html" target="_parent" class="component-link"><g id="tok-5-25" class="token-group" data-kind="reference"><title>NESTED TABLE COL PROPERTIES</title><rect class="token token-reference" x="164" y="278" width="232" height="30" rx="4"/><text class="token-label" x="280.0" y="298" text-anchor="middle">nested_table_col_properties</text></g></a>
+<g id="tok-5-26" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="404" y="278" width="34" height="30" rx="4"/><text class="token-label" x="421.0" y="298" text-anchor="middle">|</text></g>
+<a href="components/lob-storage-clause.html" target="_parent" class="component-link"><g id="tok-5-27" class="token-group" data-kind="reference"><title>LOB STORAGE CLAUSE</title><rect class="token token-reference" x="446" y="278" width="160" height="30" rx="4"/><text class="token-label" x="526.0" y="298" text-anchor="middle">LOB_storage_clause</text></g></a>
+<g id="tok-5-28" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="614" y="278" width="34" height="30" rx="4"/><text class="token-label" x="631.0" y="298" text-anchor="middle">|</text></g>
+<a href="components/varray-col-properties.html" target="_parent" class="component-link"><g id="tok-5-29" class="token-group" data-kind="reference"><title>VARRAY COL PROPERTIES</title><rect class="token token-reference" x="656" y="278" width="184" height="30" rx="4"/><text class="token-label" x="748.0" y="298" text-anchor="middle">varray_col_properties</text></g></a>
+<g id="tok-5-30" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="848" y="278" width="38" height="30" rx="4"/><text class="token-label" x="867.0" y="298" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-31" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="146" y="324" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="344" text-anchor="middle">[</text></g>
+<a href="components/nested-table-col-properties.html" target="_parent" class="component-link"><g id="tok-6-32" class="token-group" data-kind="reference"><title>NESTED TABLE COL PROPERTIES</title><rect class="token token-reference" x="192" y="324" width="232" height="30" rx="4"/><text class="token-label" x="308.0" y="344" text-anchor="middle">nested_table_col_properties</text></g></a>
+<g id="tok-6-33" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="432" y="324" width="34" height="30" rx="4"/><text class="token-label" x="449.0" y="344" text-anchor="middle">|</text></g>
+<a href="components/lob-storage-clause.html" target="_parent" class="component-link"><g id="tok-6-34" class="token-group" data-kind="reference"><title>LOB STORAGE CLAUSE</title><rect class="token token-reference" x="474" y="324" width="160" height="30" rx="4"/><text class="token-label" x="554.0" y="344" text-anchor="middle">LOB_storage_clause</text></g></a>
+<g id="tok-6-35" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="642" y="324" width="34" height="30" rx="4"/><text class="token-label" x="659.0" y="344" text-anchor="middle">|</text></g>
+<a href="components/varray-col-properties.html" target="_parent" class="component-link"><g id="tok-6-36" class="token-group" data-kind="reference"><title>VARRAY COL PROPERTIES</title><rect class="token token-reference" x="684" y="324" width="184" height="30" rx="4"/><text class="token-label" x="776.0" y="344" text-anchor="middle">varray_col_properties</text></g></a>
+<text class="line-number" x="28" y="390" text-anchor="start">7</text>
+<line class="rail" x1="48" y1="385" x2="1412" y2="385"/>
+<g id="tok-7-37" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="146" y="370" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="390" text-anchor="middle">]</text></g>
+<g id="tok-7-38" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="192" y="370" width="34" height="30" rx="4"/><text class="token-label" x="209.0" y="390" text-anchor="middle">.</text></g>
+<g id="tok-7-39" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="234" y="370" width="34" height="30" rx="4"/><text class="token-label" x="251.0" y="390" text-anchor="middle">.</text></g>
+<g id="tok-7-40" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="276" y="370" width="34" height="30" rx="4"/><text class="token-label" x="293.0" y="390" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="436" text-anchor="start">8</text>
+<line class="rail" x1="48" y1="431" x2="1412" y2="431"/>
+<g id="tok-8-41" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="132" y="416" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="436" text-anchor="middle">[</text></g>
+<g id="tok-8-42" class="token-group" data-kind="operator"><title>,</title><rect class="token token-operator" x="178" y="416" width="34" height="30" rx="4"/><text class="token-label" x="195.0" y="436" text-anchor="middle">,</text></g>
+<g id="tok-8-43" class="token-group" data-kind="keyword"><title>SUBPARTITION</title><rect class="token token-keyword" x="220" y="416" width="112" height="30" rx="4"/><text class="token-label" x="276.0" y="436" text-anchor="middle">SUBPARTITION</text></g>
+<g id="tok-8-44" class="token-group" data-kind="variable"><title>subpartition</title><rect class="token token-variable" x="340" y="416" width="112" height="30" rx="4"/><text class="token-label" x="396.0" y="436" text-anchor="middle">subpartition</text></g>
+<text class="line-number" x="28" y="482" text-anchor="start">9</text>
+<line class="rail" x1="48" y1="477" x2="1412" y2="477"/>
+<g id="tok-9-45" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="146" y="462" width="38" height="30" rx="4"/><text class="token-label" x="165.0" y="482" text-anchor="middle">{</text></g>
+<a href="components/nested-table-col-properties.html" target="_parent" class="component-link"><g id="tok-9-46" class="token-group" data-kind="reference"><title>NESTED TABLE COL PROPERTIES</title><rect class="token token-reference" x="192" y="462" width="232" height="30" rx="4"/><text class="token-label" x="308.0" y="482" text-anchor="middle">nested_table_col_properties</text></g></a>
+<g id="tok-9-47" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="432" y="462" width="34" height="30" rx="4"/><text class="token-label" x="449.0" y="482" text-anchor="middle">|</text></g>
+<a href="components/lob-storage-clause.html" target="_parent" class="component-link"><g id="tok-9-48" class="token-group" data-kind="reference"><title>LOB STORAGE CLAUSE</title><rect class="token token-reference" x="474" y="462" width="160" height="30" rx="4"/><text class="token-label" x="554.0" y="482" text-anchor="middle">LOB_storage_clause</text></g></a>
+<g id="tok-9-49" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="642" y="462" width="34" height="30" rx="4"/><text class="token-label" x="659.0" y="482" text-anchor="middle">|</text></g>
+<a href="components/varray-col-properties.html" target="_parent" class="component-link"><g id="tok-9-50" class="token-group" data-kind="reference"><title>VARRAY COL PROPERTIES</title><rect class="token token-reference" x="684" y="462" width="184" height="30" rx="4"/><text class="token-label" x="776.0" y="482" text-anchor="middle">varray_col_properties</text></g></a>
+<g id="tok-9-51" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="876" y="462" width="38" height="30" rx="4"/><text class="token-label" x="895.0" y="482" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="528" text-anchor="start">10</text>
+<line class="rail" x1="48" y1="523" x2="1412" y2="523"/>
+<g id="tok-10-52" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="174" y="508" width="38" height="30" rx="4"/><text class="token-label" x="193.0" y="528" text-anchor="middle">[</text></g>
+<a href="components/nested-table-col-properties.html" target="_parent" class="component-link"><g id="tok-10-53" class="token-group" data-kind="reference"><title>NESTED TABLE COL PROPERTIES</title><rect class="token token-reference" x="220" y="508" width="232" height="30" rx="4"/><text class="token-label" x="336.0" y="528" text-anchor="middle">nested_table_col_properties</text></g></a>
+<g id="tok-10-54" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="460" y="508" width="34" height="30" rx="4"/><text class="token-label" x="477.0" y="528" text-anchor="middle">|</text></g>
+<a href="components/lob-storage-clause.html" target="_parent" class="component-link"><g id="tok-10-55" class="token-group" data-kind="reference"><title>LOB STORAGE CLAUSE</title><rect class="token token-reference" x="502" y="508" width="160" height="30" rx="4"/><text class="token-label" x="582.0" y="528" text-anchor="middle">LOB_storage_clause</text></g></a>
+<g id="tok-10-56" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="670" y="508" width="34" height="30" rx="4"/><text class="token-label" x="687.0" y="528" text-anchor="middle">|</text></g>
+<a href="components/varray-col-properties.html" target="_parent" class="component-link"><g id="tok-10-57" class="token-group" data-kind="reference"><title>VARRAY COL PROPERTIES</title><rect class="token token-reference" x="712" y="508" width="184" height="30" rx="4"/><text class="token-label" x="804.0" y="528" text-anchor="middle">varray_col_properties</text></g></a>
+<text class="line-number" x="28" y="574" text-anchor="start">11</text>
+<line class="rail" x1="48" y1="569" x2="1412" y2="569"/>
+<g id="tok-11-58" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="174" y="554" width="38" height="30" rx="4"/><text class="token-label" x="193.0" y="574" text-anchor="middle">]</text></g>
+<g id="tok-11-59" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="220" y="554" width="34" height="30" rx="4"/><text class="token-label" x="237.0" y="574" text-anchor="middle">.</text></g>
+<g id="tok-11-60" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="262" y="554" width="34" height="30" rx="4"/><text class="token-label" x="279.0" y="574" text-anchor="middle">.</text></g>
+<g id="tok-11-61" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="304" y="554" width="34" height="30" rx="4"/><text class="token-label" x="321.0" y="574" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="620" text-anchor="start">12</text>
+<line class="rail" x1="48" y1="615" x2="1412" y2="615"/>
+<g id="tok-12-62" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="132" y="600" width="38" height="30" rx="4"/><text class="token-label" x="151.0" y="620" text-anchor="middle">]</text></g>
+<g id="tok-12-63" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="178" y="600" width="34" height="30" rx="4"/><text class="token-label" x="195.0" y="620" text-anchor="middle">.</text></g>
+<g id="tok-12-64" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="220" y="600" width="34" height="30" rx="4"/><text class="token-label" x="237.0" y="620" text-anchor="middle">.</text></g>
+<g id="tok-12-65" class="token-group" data-kind="operator"><title>.</title><rect class="token token-operator" x="262" y="600" width="34" height="30" rx="4"/><text class="token-label" x="279.0" y="620" text-anchor="middle">.</text></g>
+<text class="line-number" x="28" y="666" text-anchor="start">13</text>
+<line class="rail" x1="48" y1="661" x2="1412" y2="661"/>
+<g id="tok-13-66" class="token-group" data-kind="operator"><title>)</title><rect class="token token-operator" x="104" y="646" width="38" height="30" rx="4"/><text class="token-label" x="123.0" y="666" text-anchor="middle">)</text></g>
+<text class="line-number" x="28" y="712" text-anchor="start">14</text>
+<line class="rail" x1="48" y1="707" x2="1412" y2="707"/>
+<g id="tok-14-67" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="76" y="692" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="712" text-anchor="middle">]</text></g>
+</svg>

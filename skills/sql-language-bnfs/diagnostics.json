@@ -1,0 +1,1744 @@
+{
+  "diagnostics": [],
+  "generatedAt": "2026-05-18T00:40:23.197631Z",
+  "items": [
+    {
+      "commandId": 1,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 478,
+      "title": "ADMINISTER KEY MANAGEMENT"
+    },
+    {
+      "commandId": 2,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 479,
+      "title": "ALTER ANALYTIC VIEW"
+    },
+    {
+      "commandId": 3,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 480,
+      "title": "ALTER ASSERTION"
+    },
+    {
+      "commandId": 4,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 481,
+      "title": "ALTER ATTRIBUTE DIMENSION"
+    },
+    {
+      "commandId": 5,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 482,
+      "title": "ALTER AUDIT POLICY (Unified Auditing)"
+    },
+    {
+      "commandId": 6,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 483,
+      "title": "ALTER CLUSTER"
+    },
+    {
+      "commandId": 7,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 484,
+      "title": "ALTER DATABASE"
+    },
+    {
+      "commandId": 8,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 485,
+      "title": "ALTER DATABASE DICTIONARY"
+    },
+    {
+      "commandId": 9,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 486,
+      "title": "ALTER DATABASE LINK"
+    },
+    {
+      "commandId": 10,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 487,
+      "title": "ALTER DIMENSION"
+    },
+    {
+      "commandId": 11,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 488,
+      "title": "ALTER DIRECTIVE (VALIDATE)"
+    },
+    {
+      "commandId": 12,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 489,
+      "title": "ALTER DISKGROUP"
+    },
+    {
+      "commandId": 13,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 490,
+      "title": "ALTER DOMAIN"
+    },
+    {
+      "commandId": 14,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 491,
+      "title": "ALTER END USER"
+    },
+    {
+      "commandId": 15,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 492,
+      "title": "ALTER FLASHBACK ARCHIVE"
+    },
+    {
+      "commandId": 16,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 493,
+      "title": "ALTER FUNCTION"
+    },
+    {
+      "commandId": 17,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 494,
+      "title": "ALTER HIERARCHY"
+    },
+    {
+      "commandId": 18,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 495,
+      "title": "ALTER INDEX"
+    },
+    {
+      "commandId": 19,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 496,
+      "title": "ALTER INDEXTYPE"
+    },
+    {
+      "commandId": 20,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 497,
+      "title": "ALTER INMEMORY JOIN GROUP"
+    },
+    {
+      "commandId": 21,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 498,
+      "title": "ALTER JAVA"
+    },
+    {
+      "commandId": 22,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 499,
+      "title": "ALTER JSON RELATIONAL DUALITY VIEW"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 500,
+      "title": "11 SQL Statements: ALTER LIBRARY to ALTER SESSION"
+    },
+    {
+      "commandId": 23,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 501,
+      "title": "ALTER LIBRARY"
+    },
+    {
+      "commandId": 24,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 502,
+      "title": "ALTER LOCKDOWN PROFILE"
+    },
+    {
+      "commandId": 25,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 503,
+      "title": "ALTER MATERIALIZED VIEW"
+    },
+    {
+      "commandId": 26,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 504,
+      "title": "ALTER MATERIALIZED VIEW LOG"
+    },
+    {
+      "commandId": 27,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 505,
+      "title": "ALTER MATERIALIZED ZONEMAP"
+    },
+    {
+      "commandId": 28,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 506,
+      "title": "ALTER MLE ENV"
+    },
+    {
+      "commandId": 29,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 507,
+      "title": "ALTER MLE MODULE"
+    },
+    {
+      "commandId": 30,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 508,
+      "title": "ALTER OPERATOR"
+    },
+    {
+      "commandId": 31,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 509,
+      "title": "ALTER OUTLINE"
+    },
+    {
+      "commandId": 32,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 510,
+      "title": "ALTER PACKAGE"
+    },
+    {
+      "commandId": 33,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 511,
+      "title": "ALTER PLUGGABLE DATABASE"
+    },
+    {
+      "commandId": 34,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 512,
+      "title": "ALTER PMEM FILESTORE"
+    },
+    {
+      "commandId": 35,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 513,
+      "title": "ALTER PROCEDURE"
+    },
+    {
+      "commandId": 36,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 514,
+      "title": "ALTER PROFILE"
+    },
+    {
+      "commandId": 37,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 515,
+      "title": "ALTER PROPERTY GRAPH"
+    },
+    {
+      "commandId": 38,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 516,
+      "title": "ALTER RESOURCE COST"
+    },
+    {
+      "commandId": 39,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 517,
+      "title": "ALTER ROLE"
+    },
+    {
+      "commandId": 40,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 518,
+      "title": "ALTER ROLLBACK SEGMENT"
+    },
+    {
+      "commandId": 41,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 519,
+      "title": "ALTER SEQUENCE"
+    },
+    {
+      "commandId": 42,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 520,
+      "title": "ALTER SESSION"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 521,
+      "title": "12 SQL Statements: ALTER SYNONYM to COMMENT"
+    },
+    {
+      "commandId": 43,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 522,
+      "title": "ALTER SYNONYM"
+    },
+    {
+      "commandId": 44,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 523,
+      "title": "ALTER SYSTEM"
+    },
+    {
+      "commandId": 45,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 524,
+      "title": "ALTER TABLE"
+    },
+    {
+      "commandId": 46,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 525,
+      "title": "ALTER TABLESPACE"
+    },
+    {
+      "commandId": 47,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 526,
+      "title": "ALTER TABLESPACE SET"
+    },
+    {
+      "commandId": 48,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 527,
+      "title": "ALTER TRIGGER"
+    },
+    {
+      "commandId": 49,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 528,
+      "title": "ALTER TYPE"
+    },
+    {
+      "commandId": 50,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 529,
+      "title": "ALTER USER"
+    },
+    {
+      "commandId": 51,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 530,
+      "title": "ALTER VIEW"
+    },
+    {
+      "commandId": 52,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 531,
+      "title": "ANALYZE"
+    },
+    {
+      "commandId": 53,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 532,
+      "title": "ASSOCIATE STATISTICS"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 533,
+      "title": "AUDIT (Traditional Auditing)"
+    },
+    {
+      "commandId": 54,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 534,
+      "title": "AUDIT (Unified Auditing)"
+    },
+    {
+      "commandId": 55,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 535,
+      "title": "CALL"
+    },
+    {
+      "commandId": 56,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 536,
+      "title": "COMMENT"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 537,
+      "title": "13 SQL Statements: COMMIT to CREATE JSON RELATIONAL DUALITY VIEW"
+    },
+    {
+      "commandId": 57,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 538,
+      "title": "COMMIT"
+    },
+    {
+      "commandId": 58,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 539,
+      "title": "CREATE ANALYTIC VIEW"
+    },
+    {
+      "commandId": 59,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 540,
+      "title": "CREATE APPLICATION IDENTITY"
+    },
+    {
+      "commandId": 60,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 541,
+      "title": "CREATE ASSERTION"
+    },
+    {
+      "commandId": 61,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 542,
+      "title": "CREATE ATTRIBUTE DIMENSION"
+    },
+    {
+      "commandId": 62,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 543,
+      "title": "CREATE AUDIT POLICY (Unified Auditing)"
+    },
+    {
+      "commandId": 63,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 544,
+      "title": "CREATE CLUSTER"
+    },
+    {
+      "commandId": 64,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 545,
+      "title": "CREATE CONTEXT"
+    },
+    {
+      "commandId": 65,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 546,
+      "title": "CREATE CONTROLFILE"
+    },
+    {
+      "commandId": 66,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 547,
+      "title": "CREATE DATA GRANT"
+    },
+    {
+      "commandId": 67,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 548,
+      "title": "CREATE DATA ROLE"
+    },
+    {
+      "commandId": 68,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 549,
+      "title": "CREATE DATABASE"
+    },
+    {
+      "commandId": 69,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 550,
+      "title": "CREATE DATABASE LINK"
+    },
+    {
+      "commandId": 70,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 551,
+      "title": "CREATE DIMENSION"
+    },
+    {
+      "commandId": 71,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 552,
+      "title": "CREATE DIRECTIVE (VALIDATE)"
+    },
+    {
+      "commandId": 72,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 553,
+      "title": "CREATE DIRECTORY"
+    },
+    {
+      "commandId": 73,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 554,
+      "title": "CREATE DISKGROUP"
+    },
+    {
+      "commandId": 74,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 555,
+      "title": "CREATE DOMAIN"
+    },
+    {
+      "commandId": 75,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 556,
+      "title": "CREATE EDITION"
+    },
+    {
+      "commandId": 76,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 557,
+      "title": "CREATE END USER"
+    },
+    {
+      "commandId": 77,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 558,
+      "title": "CREATE END USER CONTEXT"
+    },
+    {
+      "commandId": 78,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 559,
+      "title": "CREATE FLASHBACK ARCHIVE"
+    },
+    {
+      "commandId": 79,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 560,
+      "title": "CREATE FUNCTION"
+    },
+    {
+      "commandId": 80,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 561,
+      "title": "CREATE HIERARCHY"
+    },
+    {
+      "commandId": 81,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 562,
+      "title": "CREATE HYBRID VECTOR INDEX"
+    },
+    {
+      "commandId": 82,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 563,
+      "title": "CREATE ICEBERG TABLE"
+    },
+    {
+      "commandId": 83,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 564,
+      "title": "CREATE INDEX"
+    },
+    {
+      "commandId": 84,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 565,
+      "title": "CREATE INDEXTYPE"
+    },
+    {
+      "commandId": 85,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 566,
+      "title": "CREATE INMEMORY JOIN GROUP"
+    },
+    {
+      "commandId": 86,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 567,
+      "title": "CREATE JAVA"
+    },
+    {
+      "commandId": 87,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 568,
+      "title": "CREATE JSON RELATIONAL DUALITY VIEW"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 569,
+      "title": "14 SQL Statements: CREATE LIBRARY to CREATE SCHEMA"
+    },
+    {
+      "commandId": 88,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 570,
+      "title": "CREATE LIBRARY"
+    },
+    {
+      "commandId": 89,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 571,
+      "title": "CREATE LOCKDOWN PROFILE"
+    },
+    {
+      "commandId": 90,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 572,
+      "title": "CREATE LOGICAL PARTITION TRACKING"
+    },
+    {
+      "commandId": 91,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 573,
+      "title": "CREATE MATERIALIZED VIEW"
+    },
+    {
+      "commandId": 92,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 574,
+      "title": "CREATE MATERIALIZED VIEW LOG"
+    },
+    {
+      "commandId": 93,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 575,
+      "title": "CREATE MATERIALIZED ZONEMAP"
+    },
+    {
+      "commandId": 94,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 576,
+      "title": "CREATE MLE ENV"
+    },
+    {
+      "commandId": 95,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 577,
+      "title": "CREATE MLE MODULE"
+    },
+    {
+      "commandId": 96,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 578,
+      "title": "CREATE OPERATOR"
+    },
+    {
+      "commandId": 97,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 579,
+      "title": "CREATE OUTLINE"
+    },
+    {
+      "commandId": 98,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 580,
+      "title": "CREATE PACKAGE"
+    },
+    {
+      "commandId": 99,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 581,
+      "title": "CREATE PACKAGE BODY"
+    },
+    {
+      "commandId": 100,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 582,
+      "title": "CREATE PFILE"
+    },
+    {
+      "commandId": 101,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 583,
+      "title": "CREATE PLUGGABLE DATABASE"
+    },
+    {
+      "commandId": 102,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 584,
+      "title": "CREATE PMEM FILESTORE"
+    },
+    {
+      "commandId": 103,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 585,
+      "title": "CREATE PROCEDURE"
+    },
+    {
+      "commandId": 104,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 586,
+      "title": "CREATE PROFILE"
+    },
+    {
+      "commandId": 105,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 587,
+      "title": "CREATE PROPERTY GRAPH"
+    },
+    {
+      "commandId": 106,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 588,
+      "title": "CREATE RESTORE POINT"
+    },
+    {
+      "commandId": 107,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 589,
+      "title": "CREATE ROLE"
+    },
+    {
+      "commandId": 108,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 590,
+      "title": "CREATE ROLLBACK SEGMENT"
+    },
+    {
+      "commandId": 109,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 591,
+      "title": "CREATE SCHEMA"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 592,
+      "title": "15 SQL Statements: CREATE SEQUENCE to DROP CLUSTER"
+    },
+    {
+      "commandId": 110,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 593,
+      "title": "CREATE SEQUENCE"
+    },
+    {
+      "commandId": 111,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 594,
+      "title": "CREATE SPFILE"
+    },
+    {
+      "commandId": 112,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 595,
+      "title": "CREATE SYNONYM"
+    },
+    {
+      "commandId": 113,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 596,
+      "title": "CREATE TABLE"
+    },
+    {
+      "commandId": 114,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 597,
+      "title": "CREATE TABLESPACE"
+    },
+    {
+      "commandId": 115,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 598,
+      "title": "CREATE TABLESPACE SET"
+    },
+    {
+      "commandId": 116,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 599,
+      "title": "CREATE TRIGGER"
+    },
+    {
+      "commandId": 117,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 600,
+      "title": "CREATE TRUE CACHE"
+    },
+    {
+      "commandId": 118,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 601,
+      "title": "CREATE TYPE"
+    },
+    {
+      "commandId": 119,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 602,
+      "title": "CREATE TYPE BODY"
+    },
+    {
+      "commandId": 120,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 603,
+      "title": "CREATE USER"
+    },
+    {
+      "commandId": 121,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 604,
+      "title": "CREATE VECTOR INDEX"
+    },
+    {
+      "commandId": 122,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 605,
+      "title": "CREATE VIEW"
+    },
+    {
+      "commandId": 123,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 606,
+      "title": "DELETE"
+    },
+    {
+      "commandId": 124,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 607,
+      "title": "DISASSOCIATE STATISTICS"
+    },
+    {
+      "commandId": 125,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 608,
+      "title": "DROP ANALYTIC VIEW"
+    },
+    {
+      "commandId": 126,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 609,
+      "title": "DROP APPLICATION IDENTITY"
+    },
+    {
+      "commandId": 127,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 610,
+      "title": "DROP ASSERTION"
+    },
+    {
+      "commandId": 128,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 611,
+      "title": "DROP ATTRIBUTE DIMENSION"
+    },
+    {
+      "commandId": 129,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 612,
+      "title": "DROP AUDIT POLICY (Unified Auditing)"
+    },
+    {
+      "commandId": 130,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 613,
+      "title": "DROP CLUSTER"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 614,
+      "title": "16 SQL Statements: DROP CONTEXT to DROP JAVA"
+    },
+    {
+      "commandId": 131,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 615,
+      "title": "DROP CONTEXT"
+    },
+    {
+      "commandId": 132,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 616,
+      "title": "DROP DATA GRANT"
+    },
+    {
+      "commandId": 133,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 617,
+      "title": "DROP DATA ROLE"
+    },
+    {
+      "commandId": 134,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 618,
+      "title": "DROP DATABASE"
+    },
+    {
+      "commandId": 135,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 619,
+      "title": "DROP DATABASE LINK"
+    },
+    {
+      "commandId": 136,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 620,
+      "title": "DROP DIMENSION"
+    },
+    {
+      "commandId": 137,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 621,
+      "title": "DROP DIRECTIVE (VALIDATE)"
+    },
+    {
+      "commandId": 138,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 622,
+      "title": "DROP DIRECTORY"
+    },
+    {
+      "commandId": 139,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 623,
+      "title": "DROP DISKGROUP"
+    },
+    {
+      "commandId": 140,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 624,
+      "title": "DROP DOMAIN"
+    },
+    {
+      "commandId": 141,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 625,
+      "title": "DROP EDITION"
+    },
+    {
+      "commandId": 142,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 626,
+      "title": "DROP END USER"
+    },
+    {
+      "commandId": 143,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 627,
+      "title": "DROP END USER CONTEXT"
+    },
+    {
+      "commandId": 144,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 628,
+      "title": "DROP FLASHBACK ARCHIVE"
+    },
+    {
+      "commandId": 145,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 629,
+      "title": "DROP FUNCTION"
+    },
+    {
+      "commandId": 146,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 630,
+      "title": "DROP HIERARCHY"
+    },
+    {
+      "commandId": 147,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 631,
+      "title": "DROP ICEBERG TABLE"
+    },
+    {
+      "commandId": 148,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 632,
+      "title": "DROP INDEX"
+    },
+    {
+      "commandId": 149,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 633,
+      "title": "DROP INDEXTYPE"
+    },
+    {
+      "commandId": 150,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 634,
+      "title": "DROP INMEMORY JOIN GROUP"
+    },
+    {
+      "commandId": 151,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 635,
+      "title": "DROP JAVA"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 636,
+      "title": "17 SQL Statements: DROP LIBRARY to DROP SYNONYM"
+    },
+    {
+      "commandId": 152,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 637,
+      "title": "DROP LIBRARY"
+    },
+    {
+      "commandId": 153,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 638,
+      "title": "DROP LOCKDOWN PROFILE"
+    },
+    {
+      "commandId": 154,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 639,
+      "title": "DROP MATERIALIZED VIEW"
+    },
+    {
+      "commandId": 155,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 640,
+      "title": "DROP MATERIALIZED VIEW LOG"
+    },
+    {
+      "commandId": 156,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 641,
+      "title": "DROP MATERIALIZED ZONEMAP"
+    },
+    {
+      "commandId": 157,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 642,
+      "title": "DROP MLE ENV"
+    },
+    {
+      "commandId": 158,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 643,
+      "title": "DROP MLE MODULE"
+    },
+    {
+      "commandId": 159,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 644,
+      "title": "DROP OPERATOR"
+    },
+    {
+      "commandId": 160,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 645,
+      "title": "DROP OUTLINE"
+    },
+    {
+      "commandId": 161,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 646,
+      "title": "DROP PACKAGE"
+    },
+    {
+      "commandId": 162,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 647,
+      "title": "DROP PLUGGABLE DATABASE"
+    },
+    {
+      "commandId": 163,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 648,
+      "title": "DROP PMEM FILESTORE"
+    },
+    {
+      "commandId": 164,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 649,
+      "title": "DROP PROCEDURE"
+    },
+    {
+      "commandId": 165,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 650,
+      "title": "DROP PROFILE"
+    },
+    {
+      "commandId": 166,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 651,
+      "title": "DROP PROPERTY GRAPH"
+    },
+    {
+      "commandId": 167,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 652,
+      "title": "DROP RESTORE POINT"
+    },
+    {
+      "commandId": 168,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 653,
+      "title": "DROP ROLE"
+    },
+    {
+      "commandId": 169,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 654,
+      "title": "DROP ROLLBACK SEGMENT"
+    },
+    {
+      "commandId": 170,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 655,
+      "title": "DROP SEQUENCE"
+    },
+    {
+      "commandId": 171,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 656,
+      "title": "DROP SYNONYM"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 657,
+      "title": "18 SQL Statements: DROP TABLE to LOCK TABLE"
+    },
+    {
+      "commandId": 172,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 658,
+      "title": "DROP TABLE"
+    },
+    {
+      "commandId": 173,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 659,
+      "title": "DROP TABLESPACE"
+    },
+    {
+      "commandId": 174,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 660,
+      "title": "DROP TABLESPACE SET"
+    },
+    {
+      "commandId": 175,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 661,
+      "title": "DROP TRIGGER"
+    },
+    {
+      "commandId": 176,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 662,
+      "title": "DROP TYPE"
+    },
+    {
+      "commandId": 177,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 663,
+      "title": "DROP TYPE BODY"
+    },
+    {
+      "commandId": 178,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 664,
+      "title": "DROP USER"
+    },
+    {
+      "commandId": 179,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 665,
+      "title": "DROP VIEW"
+    },
+    {
+      "commandId": 180,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 666,
+      "title": "EXPLAIN PLAN"
+    },
+    {
+      "commandId": 181,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 667,
+      "title": "FLASHBACK DATABASE"
+    },
+    {
+      "commandId": 182,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 668,
+      "title": "FLASHBACK TABLE"
+    },
+    {
+      "commandId": 183,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 669,
+      "title": "GRANT"
+    },
+    {
+      "commandId": 184,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 670,
+      "title": "GRANT DATA ROLE"
+    },
+    {
+      "commandId": 185,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 671,
+      "title": "INSERT"
+    },
+    {
+      "commandId": 186,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 672,
+      "title": "LOCK TABLE"
+    },
+    {
+      "commandId": null,
+      "diagnosticSummary": "No EPS-backed longdesc BNF image references were found.",
+      "itemKind": "NON_COMMAND_OR_LINK_PAGE",
+      "itemStatus": "SKIPPED_NON_COMMAND",
+      "ordinal": 673,
+      "title": "19 SQL Statements: MERGE to UPDATE"
+    },
+    {
+      "commandId": 187,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 674,
+      "title": "MERGE"
+    },
+    {
+      "commandId": 188,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 675,
+      "title": "NOAUDIT (Traditional Auditing)"
+    },
+    {
+      "commandId": 189,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 676,
+      "title": "NOAUDIT (Unified Auditing)"
+    },
+    {
+      "commandId": 190,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 677,
+      "title": "PURGE"
+    },
+    {
+      "commandId": 191,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 678,
+      "title": "RENAME"
+    },
+    {
+      "commandId": 192,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 679,
+      "title": "REVOKE"
+    },
+    {
+      "commandId": 193,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 680,
+      "title": "REVOKE DATA ROLE"
+    },
+    {
+      "commandId": 194,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 681,
+      "title": "ROLLBACK"
+    },
+    {
+      "commandId": 195,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 682,
+      "title": "SAVEPOINT"
+    },
+    {
+      "commandId": 196,
+      "diagnosticSummary": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 683,
+      "title": "SELECT"
+    },
+    {
+      "commandId": 197,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 684,
+      "title": "SET CONSTRAINT[S]"
+    },
+    {
+      "commandId": 198,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 685,
+      "title": "SET ROLE"
+    },
+    {
+      "commandId": 199,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 686,
+      "title": "SET TRANSACTION"
+    },
+    {
+      "commandId": 200,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 687,
+      "title": "SET USE DATA GRANTS ONLY"
+    },
+    {
+      "commandId": 201,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 688,
+      "title": "TRUNCATE CLUSTER"
+    },
+    {
+      "commandId": 202,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 689,
+      "title": "TRUNCATE TABLE"
+    },
+    {
+      "commandId": 203,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 690,
+      "title": "UPDATE"
+    },
+    {
+      "commandId": 204,
+      "diagnosticSummary": null,
+      "itemKind": "COMMAND",
+      "itemStatus": "RENDERED",
+      "ordinal": 691,
+      "title": "UPDATE END USER CONTEXT"
+    }
+  ],
+  "kind": "sql-diagram-diagnostics",
+  "renderer": {
+    "layoutVersion": "0.2.0",
+    "rendererVersion": "0.2.2",
+    "themeVersion": "0.2.0"
+  },
+  "run": {
+    "cancelRequested": false,
+    "commandsFailed": 0,
+    "commandsProcessed": 214,
+    "commandsRendered": 204,
+    "commandsSkipped": 10,
+    "commandsTotal": 214,
+    "guideContentSha256": "a19e96af3c94706c624e552106246b69910b4b345c22c4ca41c0eeebdf4ba183",
+    "guideId": 3,
+    "guideKey": "sql-language-reference-26ai",
+    "guideName": "SQL Language Reference",
+    "guideTableName": "DBUAD_GUIDES",
+    "guideVersion": "26ai",
+    "id": 14,
+    "publishabilityStatus": "Ready for same-environment export",
+    "runScope": "SUBRANGE",
+    "runStatus": "COMPLETED",
+    "sourceEnvironment": "PROD"
+  },
+  "severityCounts": {}
+}

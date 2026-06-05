@@ -1,0 +1,19 @@
+{
+  "commandCount": 204,
+  "encrypted": false,
+  "encryptionMethod": null,
+  "exportType": "SAME_ENVIRONMENT",
+  "generatedAt": "2026-05-18T00:40:01.245783Z",
+  "guideKey": "sql-language-reference-26ai",
+  "guideName": "SQL Language Reference",
+  "guideVersion": "26ai",
+  "kind": "sql-diagram-export-manifest",
+  "layoutVersion": "0.2.0",
+  "rendererVersion": "0.2.2",
+  "runId": 14,
+  "sourceEnvironment": "PROD",
+  "targetEnvironment": "PROD",
+  "themeVersion": "0.2.0",
+  "watermarkRequired": false,
+  "watermarkValidated": false
+}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 1440 390" width="1440" height="390" data-renderer-version="0.2.2" data-theme-version="0.2.0" data-layout-version="0.2.0">
+  <title>ALTER TABLESPACE ENCRYPTION</title>
+  <desc>Interactive SQL BNF diagram for ALTER TABLESPACE ENCRYPTION. Blue symbols link to supporting components.</desc>
+  <style>
+    .background { fill: #ffffff; }
+    .frame { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.25; }
+    .title-band { fill: #111827; }
+    .component-title { fill: #ffffff; font: 700 20px Arial, sans-serif; }
+    .component-subtitle { fill: #d1d5db; font: 12px Arial, sans-serif; }
+    .rail { stroke: #9ca3af; stroke-width: 1.35; }
+    .line-number { fill: #64748b; font: 12px Arial, sans-serif; }
+    .token { stroke-width: 1.25; }
+    .token-label { fill: #111827; font: 13px Arial, sans-serif; pointer-events: none; }
+    .token-keyword { fill: #f1f5f9; stroke: #64748b; }
+    .token-reference { fill: #dbeafe; stroke: #2563eb; }
+    .token-variable { fill: #fff7ed; stroke: #c2410c; }
+    .token-literal { fill: #ecfdf5; stroke: #047857; }
+    .token-operator { fill: #ffffff; stroke: #94a3b8; }
+    .component-link:hover .token-reference { fill: #bfdbfe; stroke: #1d4ed8; }
+    .truncated { fill: #9f1239; font: 13px Arial, sans-serif; }
+  </style>
+  <rect class="background" x="0" y="0" width="1440" height="390"/>
+  <rect class="frame" x="12" y="12" width="1416" height="366" rx="6"/>
+  <rect class="title-band" x="12" y="12" width="1416" height="50" rx="6"/>
+  <text class="component-title" x="28" y="40">ALTER TABLESPACE ENCRYPTION</text>
+  <text class="component-subtitle" x="1412" y="40" text-anchor="end">6 syntax lines · 2 references</text>
+  <text class="line-number" x="28" y="114" text-anchor="start">1</text>
+<line class="rail" x1="48" y1="109" x2="1412" y2="109"/>
+<g id="tok-1-1" class="token-group" data-kind="keyword"><title>ENCRYPTION</title><rect class="token token-keyword" x="76" y="94" width="96" height="30" rx="4"/><text class="token-label" x="124.0" y="114" text-anchor="middle">ENCRYPTION</text></g>
+<text class="line-number" x="28" y="160" text-anchor="start">2</text>
+<line class="rail" x1="48" y1="155" x2="1412" y2="155"/>
+<g id="tok-2-2" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="76" y="140" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-3" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="122" y="140" width="38" height="30" rx="4"/><text class="token-label" x="141.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-4" class="token-group" data-kind="keyword"><title>ONLINE</title><rect class="token token-keyword" x="168" y="140" width="64" height="30" rx="4"/><text class="token-label" x="200.0" y="160" text-anchor="middle">ONLINE</text></g>
+<g id="tok-2-5" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="240" y="140" width="38" height="30" rx="4"/><text class="token-label" x="259.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-6" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="286" y="140" width="38" height="30" rx="4"/><text class="token-label" x="305.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-7" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="332" y="140" width="38" height="30" rx="4"/><text class="token-label" x="351.0" y="160" text-anchor="middle">[</text></g>
+<a href="components/tablespace-encryption-spec.html" target="_parent" class="component-link"><g id="tok-2-8" class="token-group" data-kind="reference"><title>TABLESPACE ENCRYPTION SPEC</title><rect class="token token-reference" x="378" y="140" width="224" height="30" rx="4"/><text class="token-label" x="490.0" y="160" text-anchor="middle">tablespace_encryption_spec</text></g></a>
+<g id="tok-2-9" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="610" y="140" width="38" height="30" rx="4"/><text class="token-label" x="629.0" y="160" text-anchor="middle">]</text></g>
+<g id="tok-2-10" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="656" y="140" width="38" height="30" rx="4"/><text class="token-label" x="675.0" y="160" text-anchor="middle">{</text></g>
+<g id="tok-2-11" class="token-group" data-kind="keyword"><title>ENCRYPT</title><rect class="token token-keyword" x="702" y="140" width="72" height="30" rx="4"/><text class="token-label" x="738.0" y="160" text-anchor="middle">ENCRYPT</text></g>
+<g id="tok-2-12" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="782" y="140" width="34" height="30" rx="4"/><text class="token-label" x="799.0" y="160" text-anchor="middle">|</text></g>
+<g id="tok-2-13" class="token-group" data-kind="keyword"><title>REKEY</title><rect class="token token-keyword" x="824" y="140" width="56" height="30" rx="4"/><text class="token-label" x="852.0" y="160" text-anchor="middle">REKEY</text></g>
+<g id="tok-2-14" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="888" y="140" width="38" height="30" rx="4"/><text class="token-label" x="907.0" y="160" text-anchor="middle">}</text></g>
+<g id="tok-2-15" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="934" y="140" width="38" height="30" rx="4"/><text class="token-label" x="953.0" y="160" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="206" text-anchor="start">3</text>
+<line class="rail" x1="48" y1="201" x2="1412" y2="201"/>
+<g id="tok-3-16" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="186" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="206" text-anchor="middle">|</text></g>
+<g id="tok-3-17" class="token-group" data-kind="keyword"><title>DECRYPT</title><rect class="token token-keyword" x="118" y="186" width="72" height="30" rx="4"/><text class="token-label" x="154.0" y="206" text-anchor="middle">DECRYPT</text></g>
+<g id="tok-3-18" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="198" y="186" width="38" height="30" rx="4"/><text class="token-label" x="217.0" y="206" text-anchor="middle">}</text></g>
+<g id="tok-3-19" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="244" y="186" width="38" height="30" rx="4"/><text class="token-label" x="263.0" y="206" text-anchor="middle">[</text></g>
+<a href="components/ts-file-name-convert.html" target="_parent" class="component-link"><g id="tok-3-20" class="token-group" data-kind="reference"><title>TS FILE NAME CONVERT</title><rect class="token token-reference" x="290" y="186" width="176" height="30" rx="4"/><text class="token-label" x="378.0" y="206" text-anchor="middle">ts_file_name_convert</text></g></a>
+<g id="tok-3-21" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="474" y="186" width="38" height="30" rx="4"/><text class="token-label" x="493.0" y="206" text-anchor="middle">]</text></g>
+<g id="tok-3-22" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="520" y="186" width="38" height="30" rx="4"/><text class="token-label" x="539.0" y="206" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="252" text-anchor="start">4</text>
+<line class="rail" x1="48" y1="247" x2="1412" y2="247"/>
+<g id="tok-4-23" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="232" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="252" text-anchor="middle">|</text></g>
+<g id="tok-4-24" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="118" y="232" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="252" text-anchor="middle">{</text></g>
+<g id="tok-4-25" class="token-group" data-kind="keyword"><title>FINISH</title><rect class="token token-keyword" x="164" y="232" width="64" height="30" rx="4"/><text class="token-label" x="196.0" y="252" text-anchor="middle">FINISH</text></g>
+<g id="tok-4-26" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="236" y="232" width="38" height="30" rx="4"/><text class="token-label" x="255.0" y="252" text-anchor="middle">{</text></g>
+<g id="tok-4-27" class="token-group" data-kind="keyword"><title>ENCRYPT</title><rect class="token token-keyword" x="282" y="232" width="72" height="30" rx="4"/><text class="token-label" x="318.0" y="252" text-anchor="middle">ENCRYPT</text></g>
+<g id="tok-4-28" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="362" y="232" width="34" height="30" rx="4"/><text class="token-label" x="379.0" y="252" text-anchor="middle">|</text></g>
+<g id="tok-4-29" class="token-group" data-kind="keyword"><title>REKEY</title><rect class="token token-keyword" x="404" y="232" width="56" height="30" rx="4"/><text class="token-label" x="432.0" y="252" text-anchor="middle">REKEY</text></g>
+<g id="tok-4-30" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="468" y="232" width="34" height="30" rx="4"/><text class="token-label" x="485.0" y="252" text-anchor="middle">|</text></g>
+<g id="tok-4-31" class="token-group" data-kind="keyword"><title>DECRYPT</title><rect class="token token-keyword" x="510" y="232" width="72" height="30" rx="4"/><text class="token-label" x="546.0" y="252" text-anchor="middle">DECRYPT</text></g>
+<g id="tok-4-32" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="590" y="232" width="38" height="30" rx="4"/><text class="token-label" x="609.0" y="252" text-anchor="middle">}</text></g>
+<g id="tok-4-33" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="636" y="232" width="38" height="30" rx="4"/><text class="token-label" x="655.0" y="252" text-anchor="middle">[</text></g>
+<a href="components/ts-file-name-convert.html" target="_parent" class="component-link"><g id="tok-4-34" class="token-group" data-kind="reference"><title>TS FILE NAME CONVERT</title><rect class="token token-reference" x="682" y="232" width="176" height="30" rx="4"/><text class="token-label" x="770.0" y="252" text-anchor="middle">ts_file_name_convert</text></g></a>
+<g id="tok-4-35" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="866" y="232" width="38" height="30" rx="4"/><text class="token-label" x="885.0" y="252" text-anchor="middle">]</text></g>
+<g id="tok-4-36" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="912" y="232" width="38" height="30" rx="4"/><text class="token-label" x="931.0" y="252" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="298" text-anchor="start">5</text>
+<line class="rail" x1="48" y1="293" x2="1412" y2="293"/>
+<g id="tok-5-37" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="76" y="278" width="34" height="30" rx="4"/><text class="token-label" x="93.0" y="298" text-anchor="middle">|</text></g>
+<g id="tok-5-38" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="118" y="278" width="38" height="30" rx="4"/><text class="token-label" x="137.0" y="298" text-anchor="middle">{</text></g>
+<g id="tok-5-39" class="token-group" data-kind="keyword"><title>OFFLINE</title><rect class="token token-keyword" x="164" y="278" width="72" height="30" rx="4"/><text class="token-label" x="200.0" y="298" text-anchor="middle">OFFLINE</text></g>
+<g id="tok-5-40" class="token-group" data-kind="operator"><title>[</title><rect class="token token-operator" x="244" y="278" width="38" height="30" rx="4"/><text class="token-label" x="263.0" y="298" text-anchor="middle">[</text></g>
+<a href="components/tablespace-encryption-spec.html" target="_parent" class="component-link"><g id="tok-5-41" class="token-group" data-kind="reference"><title>TABLESPACE ENCRYPTION SPEC</title><rect class="token token-reference" x="290" y="278" width="224" height="30" rx="4"/><text class="token-label" x="402.0" y="298" text-anchor="middle">tablespace_encryption_spec</text></g></a>
+<g id="tok-5-42" class="token-group" data-kind="operator"><title>]</title><rect class="token token-operator" x="522" y="278" width="38" height="30" rx="4"/><text class="token-label" x="541.0" y="298" text-anchor="middle">]</text></g>
+<g id="tok-5-43" class="token-group" data-kind="operator"><title>{</title><rect class="token token-operator" x="568" y="278" width="38" height="30" rx="4"/><text class="token-label" x="587.0" y="298" text-anchor="middle">{</text></g>
+<g id="tok-5-44" class="token-group" data-kind="keyword"><title>ENCRYPT</title><rect class="token token-keyword" x="614" y="278" width="72" height="30" rx="4"/><text class="token-label" x="650.0" y="298" text-anchor="middle">ENCRYPT</text></g>
+<g id="tok-5-45" class="token-group" data-kind="operator"><title>|</title><rect class="token token-operator" x="694" y="278" width="34" height="30" rx="4"/><text class="token-label" x="711.0" y="298" text-anchor="middle">|</text></g>
+<g id="tok-5-46" class="token-group" data-kind="keyword"><title>DECRYPT</title><rect class="token token-keyword" x="736" y="278" width="72" height="30" rx="4"/><text class="token-label" x="772.0" y="298" text-anchor="middle">DECRYPT</text></g>
+<g id="tok-5-47" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="816" y="278" width="38" height="30" rx="4"/><text class="token-label" x="835.0" y="298" text-anchor="middle">}</text></g>
+<text class="line-number" x="28" y="344" text-anchor="start">6</text>
+<line class="rail" x1="48" y1="339" x2="1412" y2="339"/>
+<g id="tok-6-48" class="token-group" data-kind="operator"><title>}</title><rect class="token token-operator" x="76" y="324" width="38" height="30" rx="4"/><text class="token-label" x="95.0" y="344" text-anchor="middle">}</text></g>
+</svg>

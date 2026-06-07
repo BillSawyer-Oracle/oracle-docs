@@ -422,7 +422,11 @@ select:focus,
   <script>
 window.FREESQL_APPROVED_VIEWER = {
   "localDataUrl": "approved-code-blocks-data.json",
-  "remoteDataUrl": "https://raw.githubusercontent.com/BillSawyer-Oracle/oracle-docs/main/skills/freesql-code-review/outputs/approved-code-blocks-data.json"
+  "remoteDataUrl": "https://raw.githubusercontent.com/BillSawyer-Oracle/oracle-docs/main/skills/freesql-code-review/outputs/approved-code-blocks-data.json",
+  "remoteDataUrls": [
+    "https://raw.githubusercontent.com/BillSawyer-Oracle/oracle-docs/main/skills/freesql-code-review/outputs/approved-code-blocks-data.json",
+    "https://raw.githubusercontent.com/BillSawyer-Oracle/oracle-docs/main/skills/freesql-code-review/approved-code-blocks-data.json"
+  ]
 };
   </script>
   <script>
@@ -430,6 +434,9 @@ const app = document.getElementById("app");
 const CONFIG = window.FREESQL_APPROVED_VIEWER || {};
 const LOCAL_DATA_URL = CONFIG.localDataUrl || "approved-code-blocks-data.json";
 const DEFAULT_REMOTE_DATA_URL = CONFIG.remoteDataUrl || "";
+const DEFAULT_REMOTE_DATA_URLS = Array.isArray(CONFIG.remoteDataUrls)
+  ? CONFIG.remoteDataUrls.filter(Boolean)
+  : [DEFAULT_REMOTE_DATA_URL].filter(Boolean);
 const PAGE_SIZE_OPTIONS = [12, 24, 48];
 let DATA = emptyData();
 const state = {
@@ -675,12 +682,25 @@ function updateFilter(key, value, focusId = "") {
 }
 
 function remoteDataUrl() {
+  return remoteDataUrls()[0] || "";
+}
+
+function remoteDataUrls() {
+  const urls = [];
   try {
     const params = new URLSearchParams(window.location.search);
-    return params.get("dataUrl") || DATA.remoteDataUrl || DEFAULT_REMOTE_DATA_URL || "";
+    const override = params.get("dataUrl");
+    if (override) {
+      urls.push(override);
+    }
   } catch {
-    return DATA.remoteDataUrl || DEFAULT_REMOTE_DATA_URL || "";
+    // Ignore malformed query strings.
   }
+  urls.push(...DEFAULT_REMOTE_DATA_URLS);
+  if (DATA.remoteDataUrl) {
+    urls.push(DATA.remoteDataUrl);
+  }
+  return Array.from(new Set(urls.filter(Boolean)));
 }
 
 async function fetchArtifactPayload(url) {
@@ -711,21 +731,15 @@ async function loadLocalData() {
   state.loading = true;
   state.loadError = "";
   state.openDataPrompt = "";
-  if (window.location.protocol === "file:") {
-    DATA = emptyData();
-    state.loading = false;
-    state.openDataPrompt = `Open ${LOCAL_DATA_URL} to load this local artifact.`;
-    state.updateStatus = "";
-    render();
-    return;
-  }
   state.updateStatus = `Loading ${LOCAL_DATA_URL}...`;
   render();
   try {
     loadDataPayload(await fetchArtifactPayload(LOCAL_DATA_URL), LOCAL_DATA_URL);
   } catch (error) {
     DATA = emptyData();
-    state.openDataPrompt = `Automatic data load did not complete. Use Open Data to select ${LOCAL_DATA_URL}.`;
+    state.openDataPrompt = window.location.protocol === "file:"
+      ? `The page looked for ${LOCAL_DATA_URL} in this folder, but the browser blocked or could not complete the same-folder read. Use Open Data to select it.`
+      : `Automatic data load did not complete. Use Open Data to select ${LOCAL_DATA_URL}.`;
     state.updateStatus = "";
   } finally {
     state.loading = false;
@@ -775,8 +789,8 @@ function downloadJson(data) {
 }
 
 async function updateData() {
-  const url = remoteDataUrl();
-  if (!url) {
+  const urls = remoteDataUrls();
+  if (!urls.length) {
     state.updateStatus = "No GitHub JSON URL is configured.";
     showToast("No GitHub JSON URL configured.");
     render();
@@ -784,13 +798,28 @@ async function updateData() {
   }
   state.updating = true;
   state.loadError = "";
-  state.updateStatus = `Downloading latest JSON from ${compactUrl(url)}...`;
+  state.openDataPrompt = "";
+  state.updateStatus = `Downloading latest JSON from ${compactUrl(urls[0])}...`;
   render();
+  const attempts = [];
   try {
-    const downloadedData = await fetchArtifactPayload(url);
-    const downloadPayload = { ...downloadedData, remoteDataUrl: downloadedData.remoteDataUrl || url };
+    let downloadedData = null;
+    let successfulUrl = "";
+    for (const url of urls) {
+      try {
+        downloadedData = await fetchArtifactPayload(url);
+        successfulUrl = url;
+        break;
+      } catch (error) {
+        attempts.push(`${compactUrl(url)} (${error.message})`);
+      }
+    }
+    if (!downloadedData) {
+      throw new Error(attempts.join("; "));
+    }
+    const downloadPayload = { ...downloadedData, remoteDataUrl: downloadedData.remoteDataUrl || successfulUrl };
     const updatedData = normalizeData(downloadPayload);
-    updatedData.remoteDataUrl = updatedData.remoteDataUrl || url;
+    updatedData.remoteDataUrl = updatedData.remoteDataUrl || successfulUrl;
     DATA = updatedData;
     resetViewState();
     downloadJson(downloadPayload);

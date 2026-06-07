@@ -23,10 +23,16 @@
     "pageCount": 72,
     "schemaCount": 4,
     "latestTestedAt": "2026-06-05T23:10:40.941819+00:00",
-    "generatedAt": "2026-06-05T23:23:10.486742+00:00"
+    "generatedAt": "2026-06-06T19:59:04.864196+00:00"
   },
   "options": {
     "schemas": [
+      {
+        "value": "BILL_SAWYER_SCHEMA_FZ9KP",
+        "label": "Personal schema",
+        "count": 88,
+        "isPersonalSchema": true
+      },
       {
         "value": "HR",
         "label": "HR",
@@ -38,12 +44,6 @@
         "label": "OE",
         "count": 3,
         "isPersonalSchema": false
-      },
-      {
-        "value": "BILL_SAWYER_SCHEMA_FZ9KP",
-        "label": "Personal schema",
-        "count": 88,
-        "isPersonalSchema": true
       },
       {
         "value": "SH",
@@ -65,6 +65,21 @@
       }
     ],
     "chapters": [
+      {
+        "value": "Title and Copyright Information",
+        "label": "Title and Copyright Information",
+        "count": 0
+      },
+      {
+        "value": "Preface",
+        "label": "Preface",
+        "count": 0
+      },
+      {
+        "value": "Changes in This Release for Oracle AI Database SQL Language Reference",
+        "label": "Changes in This Release for Oracle AI Database SQL Language Reference",
+        "count": 0
+      },
       {
         "value": "1 Introduction to Oracle SQL",
         "label": "1 Introduction to Oracle SQL",
@@ -124,6 +139,76 @@
         "value": "12 SQL Statements: ALTER SYNONYM to COMMENT",
         "label": "12 SQL Statements: ALTER SYNONYM to COMMENT",
         "count": 11
+      },
+      {
+        "value": "13 SQL Statements: COMMIT to CREATE JSON RELATIONAL DUALITY VIEW",
+        "label": "13 SQL Statements: COMMIT to CREATE JSON RELATIONAL DUALITY VIEW",
+        "count": 0
+      },
+      {
+        "value": "14 SQL Statements: CREATE LIBRARY to CREATE SCHEMA",
+        "label": "14 SQL Statements: CREATE LIBRARY to CREATE SCHEMA",
+        "count": 0
+      },
+      {
+        "value": "15 SQL Statements: CREATE SEQUENCE to DROP CLUSTER",
+        "label": "15 SQL Statements: CREATE SEQUENCE to DROP CLUSTER",
+        "count": 0
+      },
+      {
+        "value": "16 SQL Statements: DROP CONTEXT to DROP JAVA",
+        "label": "16 SQL Statements: DROP CONTEXT to DROP JAVA",
+        "count": 0
+      },
+      {
+        "value": "17 SQL Statements: DROP LIBRARY to DROP SYNONYM",
+        "label": "17 SQL Statements: DROP LIBRARY to DROP SYNONYM",
+        "count": 0
+      },
+      {
+        "value": "18 SQL Statements: DROP TABLE to LOCK TABLE",
+        "label": "18 SQL Statements: DROP TABLE to LOCK TABLE",
+        "count": 0
+      },
+      {
+        "value": "19 SQL Statements: MERGE to UPDATE",
+        "label": "19 SQL Statements: MERGE to UPDATE",
+        "count": 0
+      },
+      {
+        "value": "A How to Read Syntax Diagrams",
+        "label": "A How to Read Syntax Diagrams",
+        "count": 0
+      },
+      {
+        "value": "B Automatic and Manual Locking Mechanisms During SQL Operations",
+        "label": "B Automatic and Manual Locking Mechanisms During SQL Operations",
+        "count": 0
+      },
+      {
+        "value": "C Oracle and Standard SQL",
+        "label": "C Oracle and Standard SQL",
+        "count": 0
+      },
+      {
+        "value": "D Oracle Regular Expression Support",
+        "label": "D Oracle Regular Expression Support",
+        "count": 0
+      },
+      {
+        "value": "E Oracle SQL Reserved Words and Keywords",
+        "label": "E Oracle SQL Reserved Words and Keywords",
+        "count": 0
+      },
+      {
+        "value": "F Extended Examples",
+        "label": "F Extended Examples",
+        "count": 0
+      },
+      {
+        "value": "Index",
+        "label": "Index",
+        "count": 0
       }
     ]
   },

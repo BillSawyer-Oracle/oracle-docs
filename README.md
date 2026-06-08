@@ -6,6 +6,7 @@ There are some skills here. I will try to keep this README up-to-date with all o
 Seriously! No promises!
 
 Anyhow, here is what is here:
+* [Oracle AI Database 26ai Cheat Sheet](https://github.com/BillSawyer-Oracle/oracle-docs/blob/main/Oracle%20AI%20Database%2026ai%20SQL%20Cheat%20Sheet.pdf)
 * [Oracle Error Help](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/oracle-error-help)
 * [Build Oracle Docs Knowledge Base](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/build-oracle-docs-kb)
 * [Oracle SQL Language Reference - FreeSQL Code Review](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/freesql-code-review)

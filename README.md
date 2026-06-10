@@ -12,6 +12,7 @@ Anyhow, here is what is here:
 * [Oracle SQL Language Reference - FreeSQL Code Review](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/freesql-code-review)
 * [Oracle SQL Language Reference - BNFs](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/sql-language-bnfs)
 * [Grill Me - slightly modified](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/grill-me)
+* [Oracle Skills by @KrisRice](https://github.com/oracle/skills)
 
 ** HUGE THANKS to [Matt Pocock](https://github.com/mattpocock/skills/commits?author=mattpocock) who contributed the original [Grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) which literally changed my life.
 

@@ -1,6 +1,6 @@
 ---
 name: oracle-error-help
-description: Look up Oracle database errors in Oracle's official Error Help documentation during normal LLM sessions, and open the bundled reference editor when explicitly requested. Trigger implicitly whenever the user or tool output contains a recognized Oracle error such as ORA-01403, PLS-201, TNS-12541, RMAN-00569, SQL*Loader-2, or casual forms such as "oraerr 4031". Also trigger when the user asks to edit, refresh, add, or remove Oracle Error Help prefixes or trusted sources. Do not trigger for general Oracle questions without an error code or for non-Oracle error families.
+description: Look up Oracle database errors in Oracle's official Error Help documentation during normal LLM sessions, and open the bundled lookup UI or reference editor when explicitly requested. Trigger implicitly whenever the user or tool output contains a recognized Oracle error such as ORA-01403, PLS-201, TNS-12541, RMAN-00569, SQL*Loader-2, or casual forms such as "oraerr 4031". Also trigger when the user asks for the Oracle Error Help app, lookup UI, reference editor, or to edit, refresh, add, or remove prefixes or trusted sources. Do not trigger for general Oracle questions without an error code or for non-Oracle error families.
 ---
 
 # Oracle Error Help
@@ -11,7 +11,7 @@ Use Oracle's official Error Help pages first and trusted Oracle sources only as 
 
 Participate through normal implicit skill invocation whenever a recognized Oracle error appears in user input or tool output. This lookup behavior requires no local server or UI.
 
-Do not start the bundled web app during ordinary error lookup. Start it only when the user explicitly asks to open the editor or maintain the prefix or trusted-source references.
+Do not start the bundled web app during ordinary conversational error lookup. Start it only when the user explicitly asks for the lookup UI, reference editor, or reference maintenance.
 
 ## Detect errors
 
@@ -43,12 +43,12 @@ If the official page is empty or unavailable, say so and name the attempted vers
 
 If a prefix is not in the prefix reference, say it is not recognized as an Oracle error family and offer a general search.
 
-## Open the reference editor on request
+## Open the standalone app on request
 
-When the user requests the editor, start this command as a long-running background process from the plugin root:
+When the user requests the lookup UI or reference editor, start this command as a long-running background process from the plugin root:
 
 ```text
-node app/server.mjs
+node --use-env-proxy app/server.mjs
 ```
 
-Give the user the printed localhost URL. The editor can refresh prefixes from Oracle, add or remove prefixes, and add or remove trusted sources. It writes only the two reference files in this skill. No packages or build step are required. Stop the server when the user asks to close it; otherwise leave it running for the active session.
+Give the user the printed localhost URL. The Error Lookup tab accepts pasted diagnostics or a UTF-8 `.trc`, `.log`, or `.txt` file and shows official Message, Cause, and Action results. The Reference Editor tab can refresh prefixes from Oracle and edit prefixes or trusted sources. The Node flag uses configured `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` values when present; no packages or build step are required. Stop the server when the user asks to close it; otherwise leave it running for the active session.

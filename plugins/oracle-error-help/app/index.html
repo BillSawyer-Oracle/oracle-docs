@@ -3,25 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Oracle Error Help References</title>
+  <title>Oracle Error Help</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <main>
+    <div class="redwood-strip" aria-hidden="true"></div>
     <header>
       <p class="eyebrow">Oracle Error Help</p>
-      <h1>Reference editor</h1>
-      <p>Maintain the plugin’s recognized error prefixes and trusted fallback sources.</p>
+      <h1>Error lookup</h1>
+      <p id="view-description">Find official Oracle messages, causes, and recommended actions from pasted diagnostics or a trace file.</p>
     </header>
-    <section>
+
+    <nav class="tabs" role="tablist" aria-label="Oracle Error Help views">
+      <button id="lookup-tab" role="tab" aria-selected="true" aria-controls="lookup-panel" data-panel="lookup-panel">Error Lookup</button>
+      <button id="references-tab" role="tab" aria-selected="false" aria-controls="references-panel" data-panel="references-panel">Reference Editor</button>
+    </nav>
+
+    <section id="lookup-panel" role="tabpanel" aria-labelledby="lookup-tab">
+      <div class="lookup-grid">
+        <label>Oracle Database Release
+          <select id="version">
+            <option value="26ai">26ai</option>
+            <option value="21c">21c</option>
+            <option value="19c">19c</option>
+          </select>
+        </label>
+        <label>Trace or Log File
+          <input id="lookup-file" type="file" accept=".trc,.log,.txt,text/plain">
+          <span class="help">UTF-8 .trc, .log, or .txt; 2 MB maximum.</span>
+        </label>
+      </div>
+      <label>Oracle Error Text
+        <textarea id="lookup-text" rows="7" spellcheck="false" placeholder="ORA 942&#10;ORA-06512: at line 1"></textarea>
+        <span id="payload-size" class="help">Current payload: 0 bytes.</span>
+      </label>
+      <div class="actions"><button id="run-lookup">Run Lookup</button><button id="clear-lookup" class="secondary">Clear</button></div>
+
+      <div id="lookup-results" class="results" hidden>
+        <div id="result-badges" class="badges"></div>
+        <div id="lookup-note" class="note" hidden></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Code</th><th>Status</th><th>Message</th><th>Cause</th><th>Action / Official Extra Sections</th></tr></thead>
+            <tbody id="result-rows"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="references-panel" role="tabpanel" aria-labelledby="references-tab" hidden>
       <div class="section-heading">
         <div><h2>Error prefixes</h2><p>One prefix per line. Refresh previews Oracle’s current index; Save writes the file.</p></div>
         <span id="prefix-count" class="count"></span>
       </div>
       <textarea id="prefixes" rows="16" spellcheck="false" aria-label="Oracle error prefixes"></textarea>
       <div class="actions"><button id="refresh" class="secondary">Refresh from Oracle</button><button id="save-prefixes">Save prefixes</button></div>
-    </section>
-    <section>
+      <hr>
       <div class="section-heading">
         <div><h2>Trusted sources</h2><p>Sources are searched in this order when official Error Help has no result.</p></div>
         <button id="add-source" class="secondary">Add source</button>
@@ -31,6 +69,7 @@
     </section>
     <p id="status" role="status" aria-live="polite"></p>
   </main>
+
   <template id="source-template">
     <div class="source-row">
       <label>Name<input data-field="name" required></label>

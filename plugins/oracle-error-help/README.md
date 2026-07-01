@@ -11,12 +11,23 @@ codex plugin add oracle-error-help@oracle-docs
 
 Start a new Codex thread after installation. The skill invokes implicitly for recognized errors such as `ORA-01403`, `PLS-00201`, `TNS-12541`, and `RMAN-00569`.
 
-## Reference editor
+## Standalone app
 
-Ask Codex to open the Oracle Error Help reference editor, or run it directly from the plugin directory:
+The app runs independently of an LLM and does not require the NoDoc Tools server. From this plugin directory, start it with:
 
 ```text
 node app/server.mjs
 ```
 
-Open the printed localhost URL. The dependency-free editor can refresh and edit recognized error prefixes and add, remove, or reorder trusted fallback sources. The web app does not run during ordinary error lookups.
+Open the printed localhost URL. The dependency-free app provides two tabs:
+
+- **Error Lookup** accepts pasted diagnostics or a UTF-8 `.trc`, `.log`, or `.txt` file, supports 26ai, 21c, and 19c, and displays official Message, Cause, and Action content.
+- **Reference Editor** refreshes or edits recognized error prefixes and adds, removes, or reorders trusted fallback sources.
+
+When outbound HTTPS requires `HTTP_PROXY`, `HTTPS_PROXY`, or `NO_PROXY`, start it with:
+
+```text
+node --use-env-proxy app/server.mjs
+```
+
+The app starts only when invoked; it does not run during ordinary conversational lookups.

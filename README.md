@@ -21,7 +21,15 @@ codex plugin marketplace add BillSawyer-Oracle/oracle-docs --ref main
 codex plugin add oracle-error-help@oracle-docs
 ```
 
-The plugin activates implicitly when an Oracle error appears in a normal LLM session. Its local reference editor runs only when requested.
+The plugin activates implicitly when an Oracle error appears in a normal LLM session. Its local lookup UI and reference editor run only when requested.
+
+To run both interfaces without an LLM, clone this repository and start the standalone app:
+
+```text
+node plugins/oracle-error-help/app/server.mjs
+```
+
+Open the printed localhost URL. **Error Lookup** is the default tab, and **Reference Editor** maintains recognized prefixes and trusted fallback sources. If outbound HTTPS uses environment proxy settings, add Node's `--use-env-proxy` flag.
 
 ## THANKS and RECOGNITION
 

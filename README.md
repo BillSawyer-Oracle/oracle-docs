@@ -31,6 +31,8 @@ node plugins/oracle-error-help/app/server.mjs
 
 Open the printed localhost URL. **Error Lookup** is the default tab, and **Reference Editor** maintains recognized prefixes and trusted fallback sources. If outbound HTTPS uses environment proxy settings, add Node's `--use-env-proxy` flag.
 
+Matching curated **Helpful Checks** appear below official Oracle results as runnable, copyable SQL without requiring an LLM. Their source is `plugins/oracle-error-help/skills/oracle-error-help/references/oracle-trusted-sources.md`; Reference Editor source-table saves preserve the checks.
+
 ## THANKS and RECOGNITION
 
 **HUGE THANKS** to [Matt Pocock](https://github.com/mattpocock/skills/commits?author=mattpocock) who contributed the original [Grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) which literally changed my life.

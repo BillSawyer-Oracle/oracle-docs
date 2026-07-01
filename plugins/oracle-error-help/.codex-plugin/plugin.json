@@ -1,6 +1,6 @@
 {
   "name": "oracle-error-help",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Explain Oracle errors from official documentation with conversational and on-demand lookup interfaces.",
   "author": {
     "name": "DBUAD"
@@ -9,12 +9,13 @@
   "interface": {
     "displayName": "Oracle Error Help",
     "shortDescription": "Explain Oracle errors in chat or a local UI.",
-    "longDescription": "Runs implicitly during LLM sessions and provides an on-demand dependency-free lookup UI and reference editor.",
+    "longDescription": "Runs implicitly during LLM sessions and provides an on-demand dependency-free lookup UI, curated Helpful Checks, and reference editor.",
     "developerName": "DBUAD",
     "category": "Developer Tools",
     "capabilities": [
       "Lookup",
       "Standalone lookup UI",
+      "Helpful Checks",
       "Local reference editor"
     ],
     "defaultPrompt": [

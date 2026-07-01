@@ -64,6 +64,56 @@ function statusLabel(value) {
   return { found: "Found", not_found: "Not found", lookup_unavailable: "Unavailable", backtrace: "Backtrace" }[value] || value;
 }
 
+function renderHelpfulChecks(checks = []) {
+  const container = $("#helpful-checks");
+  const sections = $("#helpful-sections");
+  sections.replaceChildren();
+  container.hidden = !checks.length;
+  for (const check of checks) {
+    const section = document.createElement("section");
+    section.className = "helpful-section";
+    const title = document.createElement("h3");
+    title.textContent = check.title;
+    const summary = document.createElement("p");
+    summary.textContent = check.summary;
+    section.append(title, summary);
+    for (const item of check.items) {
+      const label = document.createElement("h4");
+      label.textContent = item.label;
+      const block = document.createElement("div");
+      block.className = "code-block";
+      const pre = document.createElement("pre");
+      const code = document.createElement("code");
+      code.textContent = item.sql;
+      pre.append(code);
+      const copy = document.createElement("button");
+      copy.className = "copy-button";
+      copy.textContent = "Copy";
+      copy.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(item.sql);
+          copy.textContent = "Copied";
+          window.setTimeout(() => { copy.textContent = "Copy"; }, 1600);
+        } catch {
+          message("Could not copy the code. Select it and copy manually.", true);
+        }
+      });
+      block.append(pre, copy);
+      section.append(label, block);
+    }
+    if (check.notes.length) {
+      const notes = document.createElement("ul");
+      for (const note of check.notes) {
+        const item = document.createElement("li");
+        item.textContent = note;
+        notes.append(item);
+      }
+      section.append(notes);
+    }
+    sections.append(section);
+  }
+}
+
 function renderResults(data) {
   const rows = $("#result-rows");
   rows.replaceChildren();
@@ -112,6 +162,7 @@ function renderResults(data) {
   if (data.ignored.length) notes.push(`Ignored unsupported prefix candidate(s): ${data.ignored.map(({ original }) => original).join(", ")}.`);
   $("#lookup-note").textContent = notes.join(" ");
   $("#lookup-note").hidden = !notes.length;
+  renderHelpfulChecks(data.helpfulChecks);
   $("#lookup-results").hidden = false;
 }
 
@@ -135,6 +186,7 @@ $("#clear-lookup").addEventListener("click", () => {
   $("#lookup-file").value = "";
   fileText = "";
   $("#lookup-results").hidden = true;
+  renderHelpfulChecks([]);
   updatePayloadSize();
   message("Lookup cleared.");
 });

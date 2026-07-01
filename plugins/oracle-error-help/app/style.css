@@ -37,6 +37,18 @@ hr { margin: 28px 0; border: 0; border-top: 1px solid #deded9; }
 .status-backtrace { color: #3f5368; background: #e7eef5; }
 .note { margin: 12px 0; padding: 12px 14px; border: 1px solid #e3c36b; border-radius: 4px; color: #674d16; background: #fff8e8; }
 .table-wrap { overflow-x: auto; }
+.helpful-checks { margin-top: 28px; padding: 18px; border: 1px solid #ecd8a8; border-radius: 6px; background: #fffaf0; }
+.helpful-checks > h2 { margin: 0 0 8px; font: 700 1.8rem/1.1 Georgia, serif; color: #312d2a; }
+.helpful-checks > p { color: #312d2a; }
+.helpful-section { padding: 18px 0 0; border: 0; background: transparent; }
+.helpful-section h3 { margin: 0 0 8px; font-size: 1rem; }
+.helpful-section h4 { margin: 18px 0 8px; }
+.helpful-section p, .helpful-section li { color: #312d2a; line-height: 1.45; }
+.code-block { position: relative; border-radius: 6px; color: #ffdc8a; background: #424b4b; }
+.code-block pre { margin: 0; padding: 44px 14px 14px; overflow-x: auto; }
+.code-block code { font: .86rem/1.45 ui-monospace, SFMono-Regular, Consolas, monospace; white-space: pre; }
+.copy-button { position: absolute; top: 8px; right: 8px; min-height: 32px; border: 1px solid #222; color: #fff; background: #4f5959; }
+.copy-button:hover { color: #fff; background: #303737; }
 table { width: 100%; min-width: 1080px; border-collapse: collapse; table-layout: fixed; }
 th, td { padding: 11px 12px; border-bottom: 1px solid #e2e2de; text-align: left; vertical-align: top; white-space: pre-line; overflow-wrap: anywhere; }
 th { color: #4d5657; background: #f4f4f1; font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
@@ -66,6 +78,8 @@ a { color: #8f261a; }
   h1 { color: #f2e9e3; }
   p, .help, .count { color: #b9afa6; }
   section, .results { border-color: #443c36; background: #211e1b; }
+  .helpful-checks { border-color: #655226; background: #2a2419; }
+  .helpful-checks > h2, .helpful-checks > p, .helpful-section p, .helpful-section li { color: #f2e9e3; }
   textarea, input, select { border-color: #65584e; color: #f5efe9; background: #171513; }
   button.secondary { border-color: #65584e; color: #eee5dd; background: #332d29; }
   th { color: #d7cec6; background: #302b27; }

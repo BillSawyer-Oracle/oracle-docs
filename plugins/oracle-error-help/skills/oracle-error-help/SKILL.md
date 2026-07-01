@@ -37,6 +37,10 @@ Remove the asterisk from `SQL*LOADER` in the URL slug. For example, `PCC-2010` b
 
 Read `references/lookup-guide.md` for page extraction, version variants, stack interpretation, and output rules. Reuse results already fetched for the same code and version in the current conversation.
 
+## Add helpful checks
+
+After the official results, read the `## Helpful Checks` section in `references/oracle-trusted-sources.md`. Include only sections matching detected codes and only when they add runnable diagnostics or practical context that the official content does not already provide. Label them supplemental, preserve SQL as fenced code blocks, and never let them override or contradict the official Message, Cause, or Action.
+
 ## Fall back safely
 
 If the official page is empty or unavailable, say so and name the attempted version. Ask before broadening the search. When the user agrees, read `references/oracle-trusted-sources.md`, search those domains in listed order, and cite the result.

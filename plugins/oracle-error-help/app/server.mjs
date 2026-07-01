@@ -50,9 +50,42 @@ function parseSources(markdown) {
   });
 }
 
-function sourceMarkdown(sources) {
+function helpfulChecksMarkdown(markdown) {
+  const start = String(markdown ?? "").search(/^## Helpful Checks\s*$/m);
+  return start >= 0 ? String(markdown).slice(start).trim() : "";
+}
+
+function parseHelpfulChecks(markdown) {
+  const body = helpfulChecksMarkdown(markdown);
+  const codes = [...body.matchAll(/^###\s+([A-Z][A-Z0-9*]*-\d{5})\s*$/gm)];
+  return codes.map((heading, index) => {
+    const start = heading.index + heading[0].length;
+    const end = index + 1 < codes.length ? codes[index + 1].index : body.length;
+    const block = body.slice(start, end).trim();
+    const sections = [...block.matchAll(/^####\s+(.+)\s*$/gm)];
+    const summary = block.slice(0, sections[0]?.index ?? block.length).trim();
+    const items = [];
+    const notes = [];
+    for (let sectionIndex = 0; sectionIndex < sections.length; sectionIndex += 1) {
+      const section = sections[sectionIndex];
+      const sectionStart = section.index + section[0].length;
+      const sectionEnd = sectionIndex + 1 < sections.length ? sections[sectionIndex + 1].index : block.length;
+      const content = block.slice(sectionStart, sectionEnd).trim();
+      if (section[1].trim().toLowerCase() === "notes") {
+        notes.push(...content.split(/\r?\n/).map((line) => line.replace(/^\s*-\s+/, "").trim()).filter(Boolean));
+        continue;
+      }
+      const code = /```(?:sql)?\s*\r?\n([\s\S]*?)```/i.exec(content)?.[1]?.trim();
+      if (code) items.push({ label: section[1].trim(), sql: code });
+    }
+    return { code: heading[1], title: `Helpful checks for ${heading[1]}`, summary, items, notes };
+  });
+}
+
+function sourceMarkdown(sources, existing = "") {
   const timestamp = new Date().toISOString();
   const rows = sources.map(({ name, pattern, notes }) => `| ${name} | ${pattern} | ${notes} |`).join("\n");
+  const helpfulChecks = helpfulChecksMarkdown(existing);
   return `---
 type: reference
 title: Oracle Trusted Sources for Error Lookup
@@ -71,7 +104,7 @@ Use these sources in listed order when Oracle Error Help has no useful entry.
 |---|---|---|
 ${rows}
 
-Search for the exact error code plus relevant context. Prefer the sources above. If none is useful, broaden the search and clearly identify that the result is not from a curated source.
+Search for the exact error code plus relevant context. Prefer the sources above. If none is useful, broaden the search and clearly identify that the result is not from a curated source.${helpfulChecks ? `\n\n${helpfulChecks}` : ""}
 `;
 }
 
@@ -209,7 +242,7 @@ async function fetchLookup(code, version, sources) {
   }
 }
 
-async function lookupErrors(text, version, prefixes, sources) {
+async function lookupErrors(text, version, prefixes, sources, helpfulChecks = []) {
   if (!VERSIONS.has(version)) throw new Error("Version must be 26ai, 21c, or 19c.");
   if (Buffer.byteLength(text, "utf8") > 2_000_000) throw new Error("Error text must be 2 MB or smaller.");
   const { detected, ignored } = detectOracleCodes(text, prefixes);
@@ -220,7 +253,15 @@ async function lookupErrors(text, version, prefixes, sources) {
   if (detected.some(({ code }) => code === "ORA-06512")) {
     results.push({ status: "backtrace", code: "ORA-06512", message: "PL/SQL backtrace marker; use the other errors to find the underlying cause." });
   }
-  return { version, detected, ignored, omitted: informative.slice(5), results };
+  const detectedCodes = new Set(detected.map(({ code }) => code));
+  return {
+    version,
+    detected,
+    ignored,
+    omitted: informative.slice(5),
+    results,
+    helpfulChecks: helpfulChecks.filter(({ code }) => detectedCodes.has(code)),
+  };
 }
 
 async function atomicWrite(path, content) {
@@ -263,7 +304,8 @@ async function handle(req, res) {
     }
     if (req.method === "PUT" && url.pathname === "/api/sources") {
       const sources = cleanSources((await readJson(req)).sources);
-      await atomicWrite(SOURCES_FILE, sourceMarkdown(sources));
+      const existing = await readFile(SOURCES_FILE, "utf8");
+      await atomicWrite(SOURCES_FILE, sourceMarkdown(sources, existing));
       return send(res, 200, { sources });
     }
     if (req.method === "POST" && url.pathname === "/api/refresh") {
@@ -279,6 +321,7 @@ async function handle(req, res) {
         String(input.version ?? "26ai"),
         prefixText.split(/\r?\n/).filter(Boolean),
         parseSources(sourceText),
+        parseHelpfulChecks(sourceText),
       );
       return send(res, 200, data);
     }
@@ -292,6 +335,15 @@ function selfTest() {
   assert.deepEqual(cleanPrefixes(["ora", " TNS ", "ora"]), ["ORA", "TNS"]);
   const sources = [{ name: "Oracle Docs", pattern: "docs.oracle.com", notes: "Official" }];
   assert.deepEqual(parseSources(sourceMarkdown(sources)), sources);
+  const helpfulFixture = "## Helpful Checks\n\n### ORA-00942\n\nSummary.\n\n#### Check it\n\n```sql\nselect 1 from dual;\n```\n\n#### Notes\n\n- Keep it useful.";
+  assert.deepEqual(parseHelpfulChecks(helpfulFixture), [{
+    code: "ORA-00942",
+    title: "Helpful checks for ORA-00942",
+    summary: "Summary.",
+    items: [{ label: "Check it", sql: "select 1 from dual;" }],
+    notes: ["Keep it useful."],
+  }]);
+  assert.match(sourceMarkdown(sources, helpfulFixture), /## Helpful Checks/);
   assert.deepEqual(extractPrefixes('<a href="ora-index.html">ORA</a><a href="pls-index.html">PLS</a>'), ["ORA", "PLS"]);
   const detected = detectOracleCodes("ORA 942\nORA-06512: at line 1\npls-201", ["ORA", "PLS"]);
   assert.deepEqual(detected.detected.map(({ code }) => code), ["ORA-00942", "ORA-06512", "PLS-00201"]);
@@ -335,9 +387,11 @@ async function liveTest() {
     "26ai",
     prefixText.split(/\r?\n/).filter(Boolean),
     parseSources(sourceText),
+    parseHelpfulChecks(sourceText),
   );
   assert.equal(data.results[0]?.status, "found");
   assert.equal(data.results[0]?.code, "ORA-00942");
+  assert.ok(data.helpfulChecks[0]?.items.length >= 1);
   console.log(`Live test passed: ${data.results[0].code} — ${data.results[0].variants[0].message}`);
 }
 

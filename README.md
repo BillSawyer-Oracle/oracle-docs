@@ -7,12 +7,21 @@ Seriously! No promises!
 
 Anyhow, here is what is here:
 * [Oracle AI Database 26ai Cheat Sheet](https://github.com/BillSawyer-Oracle/oracle-docs/blob/main/Oracle%20AI%20Database%2026ai%20SQL%20Cheat%20Sheet.pdf)
-* [Oracle Error Help](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/oracle-error-help)
+* [Oracle Error Help plugin](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/plugins/oracle-error-help)
 * [Build Oracle Docs Knowledge Base](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/build-oracle-docs-kb)
 * [Oracle SQL Language Reference - FreeSQL Code Review](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/freesql-code-review)
 * [Oracle SQL Language Reference - BNFs](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/sql-language-bnfs)
 * [Grill Me - slightly modified](https://github.com/BillSawyer-Oracle/oracle-docs/tree/main/skills/grill-me)
 * [Oracle Skills by @KrisRice](https://github.com/oracle/skills)
+
+## Install the Oracle Error Help plugin
+
+```text
+codex plugin marketplace add BillSawyer-Oracle/oracle-docs --ref main
+codex plugin add oracle-error-help@oracle-docs
+```
+
+The plugin activates implicitly when an Oracle error appears in a normal LLM session. Its local reference editor runs only when requested.
 
 ** HUGE THANKS to [Matt Pocock](https://github.com/mattpocock/skills/commits?author=mattpocock) who contributed the original [Grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) which literally changed my life.
 

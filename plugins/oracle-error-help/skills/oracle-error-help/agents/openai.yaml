@@ -1,0 +1,7 @@
+interface:
+  display_name: "Oracle Error Help"
+  short_description: "Explain Oracle errors from trusted sources"
+  default_prompt: "Use $oracle-error-help to explain this Oracle error and recommend the next action."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,24 @@
+{
+  "name": "oracle-error-help",
+  "version": "0.1.0",
+  "description": "Explain Oracle errors from official documentation and maintain trusted lookup references locally.",
+  "author": {
+    "name": "DBUAD"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Oracle Error Help",
+    "shortDescription": "Explain and maintain Oracle error references.",
+    "longDescription": "Runs implicitly during LLM sessions to look up recognized Oracle errors in official Error Help. Its dependency-free local reference editor starts only when requested.",
+    "developerName": "DBUAD",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Lookup",
+      "Local reference editor"
+    ],
+    "defaultPrompt": [
+      "Explain this Oracle error and suggest the next action.",
+      "Open the Oracle Error Help reference editor."
+    ]
+  }
+}

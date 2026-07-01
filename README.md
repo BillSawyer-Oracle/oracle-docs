@@ -25,8 +25,8 @@ The plugin activates implicitly when an Oracle error appears in a normal LLM ses
 
 ## THANKS and RECOGNITION
 
-** HUGE THANKS to [Matt Pocock](https://github.com/mattpocock/skills/commits?author=mattpocock) who contributed the original [Grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) which literally changed my life.
+** HUGE THANKS ** to [Matt Pocock](https://github.com/mattpocock/skills/commits?author=mattpocock) who contributed the original [Grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) which literally changed my life.
 
 DISCLAIMER: When Matt released the skill and I learned about it, my life was altered in that I now knew about the skill. It is a profound skill. It is very useful too. Seriously! THANKS MATT!
 
-** HUGE THANKS to [Oracle Skills by @KrisRice](https://github.com/oracle/skills). This is an amazing collection of Oracle skills that continues to grow. It inspired me to think about what doc-related tooling I could add that would improve life for Oracle developers. THANKS KRIS!
+** HUGE THANKS ** to [Oracle Skills by @KrisRice](https://github.com/oracle/skills). This is an amazing collection of Oracle skills that continues to grow. It inspired me to think about what doc-related tooling I could add that would improve life for Oracle developers. THANKS KRIS!
